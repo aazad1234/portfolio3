@@ -1,0 +1,134 @@
+{
+  "intro": "I work with founders, small teams, and studios on digital products and websites that need to feel clear, considered, and genuinely usable.",
+  "items": [
+    {
+      "id": "product-design",
+      "icon": "ri-compass-3-line",
+      "title": "UX & product design",
+      "short": "Turn a fuzzy product idea into a clear, testable interface.",
+      "description": "Discovery, user flows, wireframes, and high-fidelity interfaces for web and mobile products. I focus on the decisions that make a product easier to understand and cheaper to build.",
+      "deliverables": [
+        "Discovery workshops and research synthesis",
+        "User flows and information architecture",
+        "Wireframes and high-fidelity UI",
+        "Interactive prototype and handoff notes"
+      ],
+      "bestFor": "New products, redesigns, and features that need a clearer interaction model.",
+      "engagement": "Project-based",
+      "featured": true
+    },
+    {
+      "id": "web-design",
+      "icon": "ri-code-s-slash-line",
+      "title": "Web design & front-end",
+      "short": "Editorial websites that look considered and load quickly.",
+      "description": "Responsive marketing sites and content platforms designed in the browser. I write semantic HTML, maintainable CSS, and just enough JavaScript to make the experience feel alive.",
+      "deliverables": [
+        "Art direction and responsive layouts",
+        "Accessible component library",
+        "Front-end build with performance budget",
+        "CMS or static-site integration guidance"
+      ],
+      "bestFor": "Portfolios, studio sites, publications, and product marketing pages.",
+      "engagement": "Project-based",
+      "featured": true
+    },
+    {
+      "id": "brand-identity",
+      "icon": "ri-pen-nib-line",
+      "title": "Brand identity",
+      "short": "A visual system with enough flexibility to grow with you.",
+      "description": "Identity work for small businesses and independent studios: a clear strategic idea, a distinctive visual language, and practical guidelines for using it across print and digital.",
+      "deliverables": [
+        "Brand strategy and positioning",
+        "Wordmark, monogram, and lockups",
+        "Colour, type, and image direction",
+        "Guidelines and launch templates"
+      ],
+      "bestFor": "New studios, independent businesses, and products finding their voice.",
+      "engagement": "Project-based",
+      "featured": false
+    },
+    {
+      "id": "design-systems",
+      "icon": "ri-layout-grid-line",
+      "title": "Design systems",
+      "short": "Shared foundations that help teams ship consistent work.",
+      "description": "Token architecture, component libraries, and documentation built around the way a team actually works. The goal is not a perfect system; it is a system people can use and maintain.",
+      "deliverables": [
+        "Design token architecture",
+        "Component inventory and audits",
+        "Figma and code component libraries",
+        "Usage guidance and adoption plan"
+      ],
+      "bestFor": "Growing product teams, multi-brand systems, and design debt clean-up.",
+      "engagement": "Project or retainer",
+      "featured": true
+    },
+    {
+      "id": "audits-consulting",
+      "icon": "ri-search-eye-line",
+      "title": "Audits & consulting",
+      "short": "A second set of eyes before the next big build.",
+      "description": "Focused reviews of an existing site or product, with practical recommendations ranked by impact. Useful before a redesign, a migration, or a new hire starts.",
+      "deliverables": [
+        "UX and interface audit",
+        "Accessibility review",
+        "Performance and front-end review",
+        "Prioritised action plan"
+      ],
+      "bestFor": "Teams that need clarity before investing in a larger project.",
+      "engagement": "Fixed-scope review",
+      "featured": false
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Discover",
+      "description": "We start with the problem, the audience, and the constraints. I ask enough questions to avoid designing the wrong thing beautifully."
+    },
+    {
+      "step": "02",
+      "title": "Define",
+      "description": "Research becomes a clear brief, a content model, and a set of priorities. We agree on what success looks like before visual work begins."
+    },
+    {
+      "step": "03",
+      "title": "Design",
+      "description": "I work from structure to surface: flows, wireframes, then high-fidelity interfaces. Feedback happens in short, focused rounds."
+    },
+    {
+      "step": "04",
+      "title": "Build",
+      "description": "Design and implementation move together. I build responsive, accessible front ends or work closely with your engineering team."
+    },
+    {
+      "step": "05",
+      "title": "Test & launch",
+      "description": "We check the details that matter: keyboard access, performance, edge cases, and real content. Then we ship and document what comes next."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does a typical project take?",
+      "answer": "Most focused projects run between four and twelve weeks. A single-page site is usually faster than a multi-flow product. After a short discovery call I can give you a realistic scope and timeline rather than a guess."
+    },
+    {
+      "question": "Do you work with existing teams?",
+      "answer": "Yes. I can join a product team for a defined piece of work, collaborate with in-house designers, or hand off a system to engineers. Clear communication and documented decisions are part of the engagement."
+    },
+    {
+      "question": "What does a project cost?",
+      "answer": "Every engagement is scoped around the work, not a generic package. After we agree on the outcomes, I provide a fixed project fee or a monthly retainer. I do not publish prices because a useful estimate depends on scope."
+    },
+    {
+      "question": "Can you build what you design?",
+      "answer": "For websites and front-end work, yes. I build semantic, responsive interfaces and can work within your stack. For complex back-end or native mobile work, I collaborate with your engineers or a trusted development partner."
+    },
+    {
+      "question": "What happens after launch?",
+      "answer": "You receive the source files, documentation, and a short handoff session. I also offer a limited post-launch support window for fixes and small refinements. Ongoing retainers are available for teams that need regular design support."
+    }
+  ]
+}

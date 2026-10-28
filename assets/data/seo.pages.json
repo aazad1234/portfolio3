@@ -1,0 +1,2442 @@
+{
+  "index.html": {
+    "title": "Ashley Miller — Creative Designer & Developer",
+    "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+    "keywords": [
+      "Ashley Miller",
+      "portfolio",
+      "creative designer",
+      "front-end developer",
+      "UI/UX design",
+      "web design"
+    ],
+    "canonical": "https://ashleymiller.design/",
+    "robots": "index,follow",
+    "ogTitle": "Ashley Miller — Creative Designer & Developer",
+    "ogDescription": "Thoughtful digital experiences, designed and built with care. Explore selected projects, services, and writing.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "WebPage",
+    "priority": 1,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      }
+    ],
+    "twitterTitle": "Ashley Miller — Creative Designer & Developer",
+    "twitterDescription": "Thoughtful digital experiences, designed and built with care. Explore selected projects, services, and writing.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/#webpage",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller — Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "WebPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://ashleymiller.design/assets/images/og-image.png"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "about.html": {
+    "title": "About Ashley Miller — Designer & Developer",
+    "description": "Meet Ashley Miller, an independent designer and front-end developer focused on accessible products, editorial websites, and design systems.",
+    "keywords": [
+      "about Ashley Miller",
+      "independent designer",
+      "front-end developer",
+      "design philosophy",
+      "accessible design"
+    ],
+    "canonical": "https://ashleymiller.design/about.html",
+    "robots": "index,follow",
+    "ogTitle": "About Ashley Miller — Designer & Developer",
+    "ogDescription": "A designer and developer with a bias for clarity, accessibility, and systems that teams can actually use.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.8,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "About",
+        "href": "about.html"
+      }
+    ],
+    "twitterTitle": "About Ashley Miller — Designer & Developer",
+    "twitterDescription": "A designer and developer with a bias for clarity, accessibility, and systems that teams can actually use.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/about.html#webpage",
+          "url": "https://ashleymiller.design/about.html",
+          "name": "About Ashley Miller — Designer & Developer",
+          "description": "Meet Ashley Miller, an independent designer and front-end developer focused on accessible products, editorial websites, and design systems.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "AboutPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About",
+              "item": "https://ashleymiller.design/about.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services.html": {
+    "title": "Services — Design, Development & Design Systems | Ashley Miller",
+    "description": "Explore design and development services: UX and product design, responsive websites, brand identity, design systems, and focused audits.",
+    "keywords": [
+      "design services",
+      "UX design",
+      "front-end development",
+      "brand identity",
+      "design systems",
+      "accessibility audit"
+    ],
+    "canonical": "https://ashleymiller.design/services.html",
+    "robots": "index,follow",
+    "ogTitle": "Services — Design, Development & Design Systems",
+    "ogDescription": "Product design, editorial websites, brand identity, design systems, and audits for small teams and independent studios.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CollectionPage",
+    "priority": 0.8,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Services",
+        "href": "services.html"
+      }
+    ],
+    "twitterTitle": "Services — Design, Development & Design Systems",
+    "twitterDescription": "Product design, editorial websites, brand identity, design systems, and audits for small teams and independent studios.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/services.html#webpage",
+          "url": "https://ashleymiller.design/services.html",
+          "name": "Services — Design, Development & Design Systems | Ashley Miller",
+          "description": "Explore design and development services: UX and product design, responsive websites, brand identity, design systems, and focused audits.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "name": "Design and development services",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Service",
+                  "name": "UX & product design",
+                  "description": "Turn a fuzzy product idea into a clear, testable interface.",
+                  "serviceType": "UX & product design",
+                  "url": "https://ashleymiller.design/services.html#product-design",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Service",
+                  "name": "Web design & front-end",
+                  "description": "Editorial websites that look considered and load quickly.",
+                  "serviceType": "Web design & front-end",
+                  "url": "https://ashleymiller.design/services.html#web-design",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Service",
+                  "name": "Brand identity",
+                  "description": "A visual system with enough flexibility to grow with you.",
+                  "serviceType": "Brand identity",
+                  "url": "https://ashleymiller.design/services.html#brand-identity",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "Service",
+                  "name": "Design systems",
+                  "description": "Shared foundations that help teams ship consistent work.",
+                  "serviceType": "Design systems",
+                  "url": "https://ashleymiller.design/services.html#design-systems",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "Service",
+                  "name": "Audits & consulting",
+                  "description": "A second set of eyes before the next big build.",
+                  "serviceType": "Audits & consulting",
+                  "url": "https://ashleymiller.design/services.html#audits-consulting",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://ashleymiller.design/services.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects.html": {
+    "title": "Selected Projects — Ashley Miller Portfolio",
+    "description": "A selection of concept projects spanning product design, web design, front-end development, and brand identity.",
+    "keywords": [
+      "design portfolio",
+      "product design projects",
+      "web design projects",
+      "front-end development",
+      "brand identity"
+    ],
+    "canonical": "https://ashleymiller.design/projects.html",
+    "robots": "index,follow",
+    "ogTitle": "Selected Projects — Ashley Miller Portfolio",
+    "ogDescription": "Concept projects in product design, editorial web experiences, front-end development, and brand identity.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CollectionPage",
+    "priority": 0.9,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      }
+    ],
+    "twitterTitle": "Selected Projects — Ashley Miller Portfolio",
+    "twitterDescription": "Concept projects in product design, editorial web experiences, front-end development, and brand identity.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/projects.html#webpage",
+          "url": "https://ashleymiller.design/projects.html",
+          "name": "Selected Projects — Ashley Miller Portfolio",
+          "description": "A selection of concept projects spanning product design, web design, front-end development, and brand identity.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "name": "Selected concept projects",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Aurora Commerce",
+                  "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+                  "url": "https://ashleymiller.design/projects/aurora-commerce.html",
+                  "image": "https://ashleymiller.design/assets/images/project-aurora.jpg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Lumen",
+                  "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+                  "url": "https://ashleymiller.design/projects/lumen.html",
+                  "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Verdant",
+                  "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+                  "url": "https://ashleymiller.design/projects/verdant.html",
+                  "image": "https://ashleymiller.design/assets/images/project-verdant.jpg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Atlas",
+                  "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+                  "url": "https://ashleymiller.design/projects/atlas.html",
+                  "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Pulse",
+                  "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+                  "url": "https://ashleymiller.design/projects/pulse.html",
+                  "image": "https://ashleymiller.design/assets/images/project-pulse.svg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Nomad",
+                  "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+                  "url": "https://ashleymiller.design/projects/nomad.html",
+                  "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
+                  "creator": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "skills.html": {
+    "title": "Skills & Expertise — Ashley Miller",
+    "description": "Design and front-end development skills, tools, and workflow, from accessible interfaces and design systems to semantic HTML and JavaScript.",
+    "keywords": [
+      "design skills",
+      "front-end skills",
+      "design systems",
+      "accessibility",
+      "JavaScript",
+      "Figma"
+    ],
+    "canonical": "https://ashleymiller.design/skills.html",
+    "robots": "index,follow",
+    "ogTitle": "Skills & Expertise — Ashley Miller",
+    "ogDescription": "A practical toolkit for designing and building clear, accessible digital products.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.7,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Skills",
+        "href": "skills.html"
+      }
+    ],
+    "twitterTitle": "Skills & Expertise — Ashley Miller",
+    "twitterDescription": "A practical toolkit for designing and building clear, accessible digital products.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/skills.html#webpage",
+          "url": "https://ashleymiller.design/skills.html",
+          "name": "Skills & Expertise — Ashley Miller",
+          "description": "Design and front-end development skills, tools, and workflow, from accessible interfaces and design systems to semantic HTML and JavaScript.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "AboutPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Skills",
+              "item": "https://ashleymiller.design/skills.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "experience.html": {
+    "title": "Experience & Education — Ashley Miller",
+    "description": "A demonstration timeline of design and development experience, education, and the working principles behind the portfolio.",
+    "keywords": [
+      "design experience",
+      "product designer",
+      "front-end developer",
+      "education",
+      "design principles"
+    ],
+    "canonical": "https://ashleymiller.design/experience.html",
+    "robots": "index,follow",
+    "ogTitle": "Experience & Education — Ashley Miller",
+    "ogDescription": "A demonstration timeline of roles, education, and working principles.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.7,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Experience",
+        "href": "experience.html"
+      }
+    ],
+    "twitterTitle": "Experience & Education — Ashley Miller",
+    "twitterDescription": "A demonstration timeline of roles, education, and working principles.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/experience.html#webpage",
+          "url": "https://ashleymiller.design/experience.html",
+          "name": "Experience & Education — Ashley Miller",
+          "description": "A demonstration timeline of design and development experience, education, and the working principles behind the portfolio.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "AboutPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Experience",
+              "item": "https://ashleymiller.design/experience.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog.html": {
+    "title": "Journal — Design, Development & Process | Ashley Miller",
+    "description": "Notes on interface design, front-end development, creative process, and design systems.",
+    "keywords": [
+      "design blog",
+      "front-end development blog",
+      "design process",
+      "design systems",
+      "accessibility"
+    ],
+    "canonical": "https://ashleymiller.design/blog.html",
+    "robots": "index,follow",
+    "ogTitle": "Journal — Design, Development & Process",
+    "ogDescription": "Notes on interface design, front-end development, creative process, and design systems.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "Blog",
+    "priority": 0.8,
+    "changefreq": "weekly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      }
+    ],
+    "twitterTitle": "Journal — Design, Development & Process",
+    "twitterDescription": "Notes on interface design, front-end development, creative process, and design systems.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/blog.html#blog",
+          "url": "https://ashleymiller.design/blog.html",
+          "name": "Journal — Design, Development & Process | Ashley Miller",
+          "description": "Notes on interface design, front-end development, creative process, and design systems.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "Blog",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "blogPost": [
+            {
+              "@type": "BlogPosting",
+              "headline": "The future of UI design is quieter than you think",
+              "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+              "url": "https://ashleymiller.design/blog/future-of-ui-design.html",
+              "datePublished": "2026-02-18",
+              "image": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
+              "author": {
+                "@id": "https://ashleymiller.design/#person"
+              }
+            },
+            {
+              "@type": "BlogPosting",
+              "headline": "Web development practices I keep coming back to",
+              "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+              "url": "https://ashleymiller.design/blog/web-development-practices.html",
+              "datePublished": "2026-01-27",
+              "image": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+              "author": {
+                "@id": "https://ashleymiller.design/#person"
+              }
+            },
+            {
+              "@type": "BlogPosting",
+              "headline": "Inside the creative process: from messy notes to a clear interface",
+              "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+              "url": "https://ashleymiller.design/blog/creative-process.html",
+              "datePublished": "2025-12-09",
+              "image": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+              "author": {
+                "@id": "https://ashleymiller.design/#person"
+              }
+            },
+            {
+              "@type": "BlogPosting",
+              "headline": "Design systems that scale without slowing teams down",
+              "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+              "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+              "datePublished": "2025-11-14",
+              "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+              "author": {
+                "@id": "https://ashleymiller.design/#person"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contact.html": {
+    "title": "Contact — Start a Project with Ashley Miller",
+    "description": "Get in touch about a product, website, brand, or design system project. Contact details, availability, and a project enquiry form.",
+    "keywords": [
+      "contact Ashley Miller",
+      "hire a designer",
+      "hire a front-end developer",
+      "project enquiry",
+      "freelance designer"
+    ],
+    "canonical": "https://ashleymiller.design/contact.html",
+    "robots": "index,follow",
+    "ogTitle": "Contact — Start a Project with Ashley Miller",
+    "ogDescription": "Have a project in mind? Tell me what you are building and what you need help with.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "ContactPage",
+    "priority": 0.9,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
+      }
+    ],
+    "twitterTitle": "Contact — Start a Project with Ashley Miller",
+    "twitterDescription": "Have a project in mind? Tell me what you are building and what you need help with.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@id": "https://ashleymiller.design/contact.html#webpage",
+          "url": "https://ashleymiller.design/contact.html",
+          "name": "Contact — Start a Project with Ashley Miller",
+          "description": "Get in touch about a product, website, brand, or design system project. Contact details, availability, and a project enquiry form.",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en",
+          "@type": "ContactPage",
+          "about": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntity": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Project enquiries",
+            "email": "hello@ashleymiller.design",
+            "availableLanguage": [
+              "English"
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Contact",
+              "item": "https://ashleymiller.design/contact.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "404.html": {
+    "title": "Page Not Found — Ashley Miller",
+    "description": "The page you are looking for could not be found. Explore the portfolio, projects, or get in touch.",
+    "keywords": [
+      "page not found",
+      "404"
+    ],
+    "canonical": "https://ashleymiller.design/404.html",
+    "robots": "noindex,follow",
+    "ogTitle": "Page Not Found — Ashley Miller",
+    "ogDescription": "That page does not exist. Explore the portfolio instead.",
+    "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "WebPage",
+    "priority": 0.1,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Page not found",
+        "href": "404.html"
+      }
+    ],
+    "twitterTitle": "Page Not Found — Ashley Miller",
+    "twitterDescription": "That page does not exist. Explore the portfolio instead.",
+    "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": null
+  },
+  "projects/aurora-commerce.html": {
+    "title": "Aurora Commerce — Web design Concept | Ashley Miller",
+    "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "keywords": [
+      "Figma",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web design",
+      "Development",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/aurora-commerce.html",
+    "robots": "index,follow",
+    "ogTitle": "Aurora Commerce — Web design Concept",
+    "ogDescription": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-aurora.jpg",
+    "ogImageAlt": "Aurora Commerce storefront concept shown on a warm neutral background",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Aurora Commerce",
+        "href": "/projects/aurora-commerce.html"
+      }
+    ],
+    "twitterTitle": "Aurora Commerce — Web design Concept",
+    "twitterDescription": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-aurora.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/aurora-commerce.html#creativework",
+          "name": "Aurora Commerce",
+          "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+          "url": "https://ashleymiller.design/projects/aurora-commerce.html",
+          "image": "https://ashleymiller.design/assets/images/project-aurora.jpg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Figma, HTML, CSS, JavaScript, Web design, Development",
+          "genre": "Web design",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Aurora Commerce",
+              "item": "https://ashleymiller.design/projects/aurora-commerce.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/lumen.html": {
+    "title": "Lumen — Product design Concept | Ashley Miller",
+    "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+    "keywords": [
+      "Figma",
+      "Protopie",
+      "Design tokens",
+      "Product design",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/lumen.html",
+    "robots": "index,follow",
+    "ogTitle": "Lumen — Product design Concept",
+    "ogDescription": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+    "ogImageAlt": "Lumen sleep and focus app concept with a soft gradient interface",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Lumen",
+        "href": "/projects/lumen.html"
+      }
+    ],
+    "twitterTitle": "Lumen — Product design Concept",
+    "twitterDescription": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/lumen.html#creativework",
+          "name": "Lumen",
+          "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+          "url": "https://ashleymiller.design/projects/lumen.html",
+          "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Figma, Protopie, Design tokens, Product design",
+          "genre": "Product design",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Lumen",
+              "item": "https://ashleymiller.design/projects/lumen.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/verdant.html": {
+    "title": "Verdant — Branding Concept | Ashley Miller",
+    "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+    "keywords": [
+      "Illustrator",
+      "Photoshop",
+      "Figma",
+      "Branding",
+      "Web design",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/verdant.html",
+    "robots": "index,follow",
+    "ogTitle": "Verdant — Branding Concept",
+    "ogDescription": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
+    "ogImageAlt": "Verdant botanical brand identity with green tones and editorial typography",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Verdant",
+        "href": "/projects/verdant.html"
+      }
+    ],
+    "twitterTitle": "Verdant — Branding Concept",
+    "twitterDescription": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/verdant.html#creativework",
+          "name": "Verdant",
+          "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+          "url": "https://ashleymiller.design/projects/verdant.html",
+          "image": "https://ashleymiller.design/assets/images/project-verdant.jpg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Illustrator, Photoshop, Figma, Branding, Web design",
+          "genre": "Branding",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Verdant",
+              "item": "https://ashleymiller.design/projects/verdant.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/atlas.html": {
+    "title": "Atlas — Development Concept | Ashley Miller",
+    "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+    "keywords": [
+      "Figma",
+      "Storybook",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Development",
+      "Product design",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/atlas.html",
+    "robots": "index,follow",
+    "ogTitle": "Atlas — Development Concept",
+    "ogDescription": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
+    "ogImageAlt": "Atlas design system concept with a dark dashboard interface",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Atlas",
+        "href": "/projects/atlas.html"
+      }
+    ],
+    "twitterTitle": "Atlas — Development Concept",
+    "twitterDescription": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/atlas.html#creativework",
+          "name": "Atlas",
+          "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+          "url": "https://ashleymiller.design/projects/atlas.html",
+          "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Figma, Storybook, HTML, CSS, JavaScript, Development, Product design",
+          "genre": "Development",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atlas",
+              "item": "https://ashleymiller.design/projects/atlas.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/pulse.html": {
+    "title": "Pulse — Product design Concept | Ashley Miller",
+    "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "keywords": [
+      "Figma",
+      "Framer",
+      "Maze",
+      "Product design",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/pulse.html",
+    "robots": "index,follow",
+    "ogTitle": "Pulse — Product design Concept",
+    "ogDescription": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-pulse.svg",
+    "ogImageAlt": "Pulse wellness app concept with a coral gradient and mobile interface",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Pulse",
+        "href": "/projects/pulse.html"
+      }
+    ],
+    "twitterTitle": "Pulse — Product design Concept",
+    "twitterDescription": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-pulse.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/pulse.html#creativework",
+          "name": "Pulse",
+          "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+          "url": "https://ashleymiller.design/projects/pulse.html",
+          "image": "https://ashleymiller.design/assets/images/project-pulse.svg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Figma, Framer, Maze, Product design",
+          "genre": "Product design",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Pulse",
+              "item": "https://ashleymiller.design/projects/pulse.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/nomad.html": {
+    "title": "Nomad — Web design Concept | Ashley Miller",
+    "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+    "keywords": [
+      "Figma",
+      "Astro",
+      "CSS",
+      "JavaScript",
+      "Web design",
+      "Development",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/nomad.html",
+    "robots": "index,follow",
+    "ogTitle": "Nomad — Web design Concept",
+    "ogDescription": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
+    "ogImageAlt": "Nomad travel journal concept with a green map-inspired cover",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Nomad",
+        "href": "/projects/nomad.html"
+      }
+    ],
+    "twitterTitle": "Nomad — Web design Concept",
+    "twitterDescription": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/nomad.html#creativework",
+          "name": "Nomad",
+          "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+          "url": "https://ashleymiller.design/projects/nomad.html",
+          "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Figma, Astro, CSS, JavaScript, Web design, Development",
+          "genre": "Web design",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Nomad",
+              "item": "https://ashleymiller.design/projects/nomad.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/future-of-ui-design.html": {
+    "title": "The future of UI design is quieter than you think | Ashley Miller",
+    "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+    "keywords": [
+      "UI design",
+      "Craft",
+      "Trends",
+      "Design",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/future-of-ui-design.html",
+    "robots": "index,follow",
+    "ogTitle": "The future of UI design is quieter than you think",
+    "ogDescription": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
+    "ogImageAlt": "An editorial illustration about the future of user interface design",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2026-02-18",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "The future of UI design is quieter than you think",
+        "href": "/blog/future-of-ui-design.html"
+      }
+    ],
+    "twitterTitle": "The future of UI design is quieter than you think",
+    "twitterDescription": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/future-of-ui-design.html#article",
+          "headline": "The future of UI design is quieter than you think",
+          "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+          "url": "https://ashleymiller.design/blog/future-of-ui-design.html",
+          "image": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
+          "datePublished": "2026-02-18",
+          "dateModified": "2026-02-18",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/future-of-ui-design.html",
+          "keywords": "UI design, Craft, Trends, Design",
+          "articleSection": "Design",
+          "timeRequired": "PT7M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "The future of UI design is quieter than you think",
+              "item": "https://ashleymiller.design/blog/future-of-ui-design.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/web-development-practices.html": {
+    "title": "Web development practices I keep coming back to | Ashley Miller",
+    "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+    "keywords": [
+      "Front-end",
+      "Accessibility",
+      "Performance",
+      "Development",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/web-development-practices.html",
+    "robots": "index,follow",
+    "ogTitle": "Web development practices I keep coming back to",
+    "ogDescription": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+    "ogImageAlt": "A developer workspace illustrating modern web development practices",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2026-01-27",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Web development practices I keep coming back to",
+        "href": "/blog/web-development-practices.html"
+      }
+    ],
+    "twitterTitle": "Web development practices I keep coming back to",
+    "twitterDescription": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/web-development-practices.html#article",
+          "headline": "Web development practices I keep coming back to",
+          "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+          "url": "https://ashleymiller.design/blog/web-development-practices.html",
+          "image": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+          "datePublished": "2026-01-27",
+          "dateModified": "2026-01-27",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/web-development-practices.html",
+          "keywords": "Front-end, Accessibility, Performance, Development",
+          "articleSection": "Development",
+          "timeRequired": "PT9M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Web development practices I keep coming back to",
+              "item": "https://ashleymiller.design/blog/web-development-practices.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/creative-process.html": {
+    "title": "Inside the creative process: from messy notes to a clear interface | Ashley Miller",
+    "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+    "keywords": [
+      "Process",
+      "Creativity",
+      "Design",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/creative-process.html",
+    "robots": "index,follow",
+    "ogTitle": "Inside the creative process: from messy notes to a clear interface",
+    "ogDescription": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+    "ogImageAlt": "A desk with notes and sketches illustrating the creative design process",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2025-12-09",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Inside the creative process: from messy notes to a clear interface",
+        "href": "/blog/creative-process.html"
+      }
+    ],
+    "twitterTitle": "Inside the creative process: from messy notes to a clear interface",
+    "twitterDescription": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/creative-process.html#article",
+          "headline": "Inside the creative process: from messy notes to a clear interface",
+          "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+          "url": "https://ashleymiller.design/blog/creative-process.html",
+          "image": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+          "datePublished": "2025-12-09",
+          "dateModified": "2025-12-09",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/creative-process.html",
+          "keywords": "Process, Creativity, Design",
+          "articleSection": "Process",
+          "timeRequired": "PT6M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Inside the creative process: from messy notes to a clear interface",
+              "item": "https://ashleymiller.design/blog/creative-process.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/design-systems-that-scale.html": {
+    "title": "Design systems that scale without slowing teams down | Ashley Miller",
+    "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+    "keywords": [
+      "Design systems",
+      "Teams",
+      "Documentation",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+    "robots": "index,follow",
+    "ogTitle": "Design systems that scale without slowing teams down",
+    "ogDescription": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+    "ogImageAlt": "An editorial cover showing a grid of design system components",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2025-11-14",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Design systems that scale without slowing teams down",
+        "href": "/blog/design-systems-that-scale.html"
+      }
+    ],
+    "twitterTitle": "Design systems that scale without slowing teams down",
+    "twitterDescription": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#4f46e5",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Creative Designer & Developer",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "UI/UX design",
+            "Interaction design",
+            "Design systems",
+            "Brand identity",
+            "Prototyping",
+            "Visual design",
+            "Semantic HTML & CSS",
+            "JavaScript (ES2023)",
+            "React",
+            "Accessibility",
+            "Performance",
+            "Git & tooling"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/design-systems-that-scale.html#article",
+          "headline": "Design systems that scale without slowing teams down",
+          "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+          "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+          "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+          "datePublished": "2025-11-14",
+          "dateModified": "2025-11-14",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+          "keywords": "Design systems, Teams, Documentation",
+          "articleSection": "Design systems",
+          "timeRequired": "PT8M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Design systems that scale without slowing teams down",
+              "item": "https://ashleymiller.design/blog/design-systems-that-scale.html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

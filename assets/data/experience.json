@@ -1,0 +1,92 @@
+{
+  "note": "This timeline is demonstration content for the portfolio template. Replace the roles, organisations, and dates with your own history before publishing.",
+  "work": [
+    {
+      "period": "2022 — Present",
+      "role": "Independent Designer & Developer",
+      "org": "Self-employed",
+      "location": "Remote",
+      "summary": "Partnering with founders and small teams on product interfaces, editorial websites, and design systems.",
+      "highlights": [
+        "Lead design and front-end delivery for concurrent client projects",
+        "Build responsive, accessible sites with a performance-first workflow",
+        "Create design systems and documentation that teams can maintain",
+        "Facilitate discovery workshops and design reviews"
+      ],
+      "current": true,
+      "demo": true
+    },
+    {
+      "period": "2019 — 2022",
+      "role": "Senior Product Designer",
+      "org": "Northline Studio",
+      "location": "Portland, OR",
+      "summary": "Designed data-heavy product experiences for analytics and operations teams.",
+      "highlights": [
+        "Led the redesign of a core reporting workflow used by operations teams",
+        "Built the first shared component library with engineering",
+        "Introduced accessibility checks into the design review process",
+        "Mentored two junior designers"
+      ],
+      "current": false,
+      "demo": true
+    },
+    {
+      "period": "2017 — 2019",
+      "role": "UI Designer",
+      "org": "Fieldwork Digital",
+      "location": "Seattle, WA",
+      "summary": "Worked across brand, marketing, and product design for early-stage companies.",
+      "highlights": [
+        "Designed responsive marketing sites and campaign pages",
+        "Created visual identities and launch asset kits",
+        "Collaborated with developers on component-based builds",
+        "Ran usability sessions for new product concepts"
+      ],
+      "current": false,
+      "demo": true
+    },
+    {
+      "period": "2016 — 2017",
+      "role": "Junior Designer",
+      "org": "Paper & Pixel",
+      "location": "Seattle, WA",
+      "summary": "Started in a small studio learning the craft of editorial and interface design.",
+      "highlights": [
+        "Produced layouts for print and digital campaigns",
+        "Maintained asset libraries and brand templates",
+        "Assisted with client presentations and production files"
+      ],
+      "current": false,
+      "demo": true
+    }
+  ],
+  "education": [
+    {
+      "period": "2012 — 2016",
+      "qualification": "BFA, Interaction Design",
+      "org": "Cascade School of Design",
+      "location": "Portland, OR",
+      "summary": "Focused on interaction design, typography, and the relationship between physical and digital systems.",
+      "demo": true
+    }
+  ],
+  "principles": [
+    {
+      "title": "Clarity over decoration",
+      "description": "If an element does not help someone understand or act, it has to earn its place."
+    },
+    {
+      "title": "Accessibility is a material",
+      "description": "Contrast, keyboard access, and clear language are part of the design, not a final checklist."
+    },
+    {
+      "title": "Ship the simplest useful thing",
+      "description": "A smaller, well-made release teaches you more than a large speculative one."
+    },
+    {
+      "title": "Document the decisions",
+      "description": "Good documentation turns a one-off design into something a team can carry forward."
+    }
+  ]
+}

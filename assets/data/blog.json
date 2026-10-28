@@ -1,0 +1,260 @@
+{
+  "note": "All articles are sample content for this demo portfolio. They are written for demonstration purposes and are not published editorial work.",
+  "categories": [
+    "All",
+    "Design",
+    "Development",
+    "Process",
+    "Design systems"
+  ],
+  "items": [
+    {
+      "slug": "future-of-ui-design",
+      "title": "The future of UI design is quieter than you think",
+      "category": "Design",
+      "date": "2026-02-18",
+      "dateDisplay": "February 18, 2026",
+      "readingTime": 7,
+      "excerpt": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+      "image": "assets/images/blog-future-ui.jpg",
+      "imageAlt": "An editorial illustration about the future of user interface design",
+      "featured": true,
+      "demo": true,
+      "demoLabel": "Sample article",
+      "tags": [
+        "UI design",
+        "Craft",
+        "Trends"
+      ],
+      "content": [
+        {
+          "heading": "More surface, less noise",
+          "paragraphs": [
+            "For the last decade, interface design has been pulled toward more: more motion, more personalisation, more surfaces, more things asking for attention. Some of that has been useful. A lot of it has simply moved complexity from the product team to the person using the product.",
+            "The next wave is likely to be quieter. Not minimal for the sake of a moodboard, but quieter in the sense that the interface does more of the thinking in the background and asks less of the person in front of it. Fewer choices at the moment of action. Clearer defaults. Language that explains what is happening instead of making the user infer it."
+          ]
+        },
+        {
+          "heading": "The interface becomes context",
+          "paragraphs": [
+            "As products spread across phones, watches, cars, and ambient displays, the idea of a single screen with a single layout starts to break down. A calendar is not a grid everywhere. A message is not a thread everywhere. The same task needs a different level of detail depending on where the person is and what they are doing.",
+            "That does not mean every product needs to be rebuilt for every surface. It means the design system needs to describe intent, not just components. What is the primary action here? What can wait? What information is essential in a glance, and what can be revealed later? Those questions become more important than pixel-perfect parity."
+          ]
+        },
+        {
+          "heading": "Motion with a job",
+          "paragraphs": [
+            "Motion is useful when it explains a change: where a panel came from, what just moved, why the layout shifted. It is less useful when it exists to make a page feel expensive. The distinction matters because motion has a cost. It can delay interaction, trigger discomfort, and make a product feel slower than it is.",
+            "A good test is to turn the motion off. If the interface still makes sense, the motion was decoration. If it does not, the motion is carrying too much meaning and the underlying structure needs work."
+          ]
+        },
+        {
+          "heading": "Personalisation without surveillance",
+          "paragraphs": [
+            "The most valuable personalisation is often local and temporary: remembering a filter, respecting a reduced-motion setting, surfacing the last used project, or adapting to a small screen. None of that requires a profile of a person's life.",
+            "Designers should be suspicious of personalisation that exists mainly to justify data collection. A product can be responsive to context without knowing everything about the person in that context."
+          ]
+        },
+        {
+          "heading": "What this means for designers",
+          "paragraphs": [
+            "The craft is shifting from adding layers to making decisions. That is harder to show in a portfolio screenshot, but it is what people feel when they use a product. It requires writing, systems thinking, accessibility knowledge, and the patience to remove things.",
+            "Quiet interfaces are not boring. They are confident. They trust the content, the user, and the team behind them enough to stop performing."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Design for the moment of action, not every possible moment.",
+        "Let the design system describe intent, not just components.",
+        "Treat motion as an explanation, not an ornament.",
+        "Prefer local, respectful personalisation over broad data collection."
+      ]
+    },
+    {
+      "slug": "web-development-practices",
+      "title": "Web development practices I keep coming back to",
+      "category": "Development",
+      "date": "2026-01-27",
+      "dateDisplay": "January 27, 2026",
+      "readingTime": 9,
+      "excerpt": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+      "image": "assets/images/blog-web-practices.jpg",
+      "imageAlt": "A developer workspace illustrating modern web development practices",
+      "featured": false,
+      "demo": true,
+      "demoLabel": "Sample article",
+      "tags": [
+        "Front-end",
+        "Accessibility",
+        "Performance"
+      ],
+      "content": [
+        {
+          "heading": "Start with semantic HTML",
+          "paragraphs": [
+            "Before the component library, the state manager, or the animation layer, there is a document. Buttons should be buttons. Links should go somewhere. Headings should describe the structure of the page, not the size of the text. Forms should have labels.",
+            "Semantic HTML is not a nostalgic preference. It is the cheapest accessibility win available, and it gives browsers, search engines, and assistive technology a reliable model of the page. A surprising number of complex front-end bugs disappear when the underlying elements are correct."
+          ]
+        },
+        {
+          "heading": "Design the states, not just the screen",
+          "paragraphs": [
+            "A screen is a snapshot. A product is a set of transitions: loading, empty, partial, error, success, offline, and everything in between. The polished mockup is usually the least common state in real use.",
+            "I try to design the loading and error states at the same time as the happy path. What does the page look like before the data arrives? What does a failed request say? Can the person retry without losing their place? These decisions are part of the interface, not an implementation detail."
+          ]
+        },
+        {
+          "heading": "Treat performance as a design constraint",
+          "paragraphs": [
+            "Performance is not only a back-end concern. Image choices, font loading, third-party scripts, and animation decisions all shape how a page feels. A layout that requires a large image to make sense is a fragile layout.",
+            "I set a simple budget early: a target page weight, a maximum number of font families, and a rule that noncritical scripts load after the content. The budget creates useful conversations. It also prevents a small design decision from quietly becoming a large performance problem."
+          ]
+        },
+        {
+          "heading": "Use fewer dependencies",
+          "paragraphs": [
+            "Libraries are not free. Every dependency adds install time, upgrade work, security surface, and a new vocabulary for the next person. Sometimes that trade is worth it. Sometimes a small utility function would have been enough.",
+            "A useful question is: what happens if this dependency disappears? If the answer is a week of work, the abstraction needs to be understood and documented. If the answer is an afternoon, it may still be fine, but it should be a conscious choice."
+          ]
+        },
+        {
+          "heading": "Make accessibility part of done",
+          "paragraphs": [
+            "Accessibility is easiest when it is not a separate phase. Use landmarks and headings from the start. Check keyboard order as you build. Test focus states with the real design. Write error messages that explain how to recover. Run automated checks, then do the manual checks automation cannot do.",
+            "The goal is not a perfect score. The goal is a page that more people can use, including people who are tired, distracted, on a slow connection, or using a keyboard because a trackpad is not available."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Correct elements are cheaper than clever workarounds.",
+        "Design loading, empty, and error states alongside the happy path.",
+        "Set a performance budget before the first component is built.",
+        "Treat accessibility as part of the definition of done."
+      ]
+    },
+    {
+      "slug": "creative-process",
+      "title": "Inside the creative process: from messy notes to a clear interface",
+      "category": "Process",
+      "date": "2025-12-09",
+      "dateDisplay": "December 9, 2025",
+      "readingTime": 6,
+      "excerpt": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+      "image": "assets/images/blog-creative-process.jpg",
+      "imageAlt": "A desk with notes and sketches illustrating the creative design process",
+      "featured": false,
+      "demo": true,
+      "demoLabel": "Sample article",
+      "tags": [
+        "Process",
+        "Creativity",
+        "Design"
+      ],
+      "content": [
+        {
+          "heading": "Collect before you decide",
+          "paragraphs": [
+            "The beginning of a project is usually messy. I collect screenshots, articles, interview notes, competitor observations, half-formed ideas, and questions that may not have answers yet. The point is not to find a reference to copy. It is to build enough context that the problem starts to show its shape.",
+            "I keep this phase deliberately loose. A folder of images, a running document, and a few pages of notes are enough. The temptation to make a beautiful moodboard too early is strong, but premature polish can lock in an idea before the problem is understood."
+          ]
+        },
+        {
+          "heading": "Make the problem visible",
+          "paragraphs": [
+            "At some point the notes need to become a diagram. I map the people involved, the information they need, the decisions they make, and the places where the current experience breaks down. The diagram is not a deliverable. It is a thinking tool.",
+            "This is where a vague request like 'make the dashboard better' turns into a specific question: which decision is the dashboard supposed to support, and what information is missing when someone tries to make it? A clear problem is easier to design for and much easier to explain."
+          ]
+        },
+        {
+          "heading": "Sketch in constraints",
+          "paragraphs": [
+            "I like to sketch with constraints already in place: a small screen, a short attention span, a limited content model, or a single primary action. Constraints make sketches more useful because they force a point of view.",
+            "Most of these sketches are bad. That is the job. A bad sketch is cheap, and it makes the good idea easier to recognise. The goal is to explore enough directions that the final interface is a decision rather than the first thing that looked acceptable."
+          ]
+        },
+        {
+          "heading": "Build the smallest convincing thing",
+          "paragraphs": [
+            "Once a direction feels promising, I build the smallest version that can be tested: a key flow, a real piece of content, a responsive layout, and enough states to see how it behaves. A working fragment teaches more than a complete mockup of a product that does not exist yet.",
+            "This is also where writing becomes part of the design. Labels, empty states, and error messages often reveal gaps in the interaction model that the visuals were hiding."
+          ]
+        },
+        {
+          "heading": "Edit ruthlessly",
+          "paragraphs": [
+            "The final pass is mostly subtraction. Remove the second accent colour. Remove the animation that does not explain anything. Remove the feature that exists because it was easy to draw. What remains should have a reason to be there.",
+            "A clear interface is not the result of a single inspired moment. It is the result of a lot of small decisions, most of which are invisible in the final screenshot. The process is messy, but the outcome does not have to be."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Collect context before committing to a visual direction.",
+        "Turn vague requests into specific design questions.",
+        "Sketch inside constraints to find a point of view.",
+        "Edit the interface until every element has a reason to exist."
+      ]
+    },
+    {
+      "slug": "design-systems-that-scale",
+      "title": "Design systems that scale without slowing teams down",
+      "category": "Design systems",
+      "date": "2025-11-14",
+      "dateDisplay": "November 14, 2025",
+      "readingTime": 8,
+      "excerpt": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+      "image": "assets/images/blog-design-systems.svg",
+      "imageAlt": "An editorial cover showing a grid of design system components",
+      "featured": false,
+      "demo": true,
+      "demoLabel": "Sample article",
+      "tags": [
+        "Design systems",
+        "Teams",
+        "Documentation"
+      ],
+      "content": [
+        {
+          "heading": "A system is a product",
+          "paragraphs": [
+            "A design system has users: designers and engineers who need to ship work. It has a backlog, a support burden, and a lifecycle. Treating it like a one-off library usually leads to a familiar outcome: a beautiful Figma file that slowly drifts away from the code.",
+            "The teams that get value from a system treat it as a product with a clear owner, a contribution model, and a way to measure whether it is actually helping. Coverage is not the goal. Adoption is."
+          ]
+        },
+        {
+          "heading": "Start with foundations",
+          "paragraphs": [
+            "Components are the visible part of a system, but the foundations do most of the work. Colour, type, spacing, radius, elevation, and motion tokens create a shared language before the first button is built. They also make it possible to change the system without rewriting every component.",
+            "Keep the foundation set small. A system with forty colour tokens and no clear usage guidance is not more flexible; it is harder to use. Semantic names, a documented scale, and a few intentional exceptions are usually enough."
+          ]
+        },
+        {
+          "heading": "Document decisions, not just components",
+          "paragraphs": [
+            "A component page that only shows variants is a catalogue, not documentation. The useful parts are the decisions around it: when should this component be used, when should it not, what happens on a small screen, what does the keyboard interaction look like, and what is the accessible name?",
+            "Good documentation reduces support requests. It also gives new team members a way to understand the system without scheduling a meeting with the person who built it."
+          ]
+        },
+        {
+          "heading": "Make contribution easy",
+          "paragraphs": [
+            "If contributing to the system is painful, teams will build around it. A clear contribution path, a small review checklist, and a named owner make it easier to improve the system instead of creating another local variant.",
+            "The review should be opinionated but not territorial. The question is not 'does this match our style?' It is 'is this a shared pattern, and does it belong here?'"
+          ]
+        },
+        {
+          "heading": "Measure adoption, not coverage",
+          "paragraphs": [
+            "A system with one hundred components that nobody uses is not more mature than a system with twelve components that every product depends on. Measure where the system is used, where teams work around it, and where the documentation is missing.",
+            "The best sign of a healthy system is not a perfect library. It is a team that reaches for the shared pattern by default and knows how to improve it when the pattern no longer fits."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Give the system an owner, a backlog, and a support model.",
+        "Invest in a small, semantic foundation set.",
+        "Document usage and decisions, not only variants.",
+        "Measure adoption and workarounds instead of component count."
+      ]
+    }
+  ]
+}

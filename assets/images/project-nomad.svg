@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nomad travel platform concept cover</title>
+  <desc id="desc">A deep green cover with contour lines, a travel route and the word Nomad.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14251f"/>
+      <stop offset="0.55" stop-color="#2f5548"/>
+      <stop offset="1" stop-color="#7c9a7a"/>
+    </linearGradient>
+    <pattern id="contour" width="240" height="240" patternUnits="userSpaceOnUse">
+      <path d="M0 120c40-60 90-80 150-50s70 10 90-20M0 200c60-40 110-40 150-10s60 30 90 0M0 40c50-30 100-20 130 10s70 20 110 0" fill="none" stroke="#f7f5ef" stroke-opacity="0.1" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#contour)"/>
+  <circle cx="980" cy="180" r="280" fill="#d9e4d4" opacity="0.08"/>
+  <g transform="translate(660 150)">
+    <rect width="420" height="580" rx="30" fill="#f7f5ef" opacity="0.08" stroke="#f7f5ef" stroke-opacity="0.18"/>
+    <path d="M70 430c40-90 10-170 80-220s110-60 160-130" fill="none" stroke="#f0a37f" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 14"/>
+    <circle cx="70" cy="430" r="12" fill="#f0a37f"/>
+    <circle cx="310" cy="80" r="12" fill="#f7f5ef"/>
+    <rect x="42" y="46" width="130" height="14" rx="7" fill="#f7f5ef" opacity="0.55"/>
+    <rect x="42" y="76" width="80" height="8" rx="4" fill="#f7f5ef" opacity="0.25"/>
+    <rect x="42" y="490" width="336" height="56" rx="14" fill="#f7f5ef" opacity="0.12"/>
+    <rect x="60" y="510" width="130" height="16" rx="8" fill="#f7f5ef" opacity="0.55"/>
+    <rect x="300" y="506" width="60" height="24" rx="12" fill="#f0a37f"/>
+  </g>
+  <g fill="#f7f5ef">
+    <text x="90" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="96" letter-spacing="-3">Nomad</text>
+    <text x="94" y="352" font-family="'Segoe UI', Arial, sans-serif" font-size="22" letter-spacing="6" opacity="0.65">TRAVEL PLATFORM</text>
+    <text x="94" y="700" font-family="'Segoe UI', Arial, sans-serif" font-size="20" letter-spacing="2" opacity="0.55">Brand · UX · Front-end</text>
+  </g>
+</svg>

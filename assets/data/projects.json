@@ -1,0 +1,426 @@
+{
+  "note": "All projects in this file are demonstration concepts. Replace them with your own work before publishing.",
+  "categories": [
+    "All",
+    "Web design",
+    "Product design",
+    "Branding",
+    "Development"
+  ],
+  "items": [
+    {
+      "slug": "aurora-commerce",
+      "title": "Aurora Commerce",
+      "category": "Web design",
+      "categories": [
+        "Web design",
+        "Development"
+      ],
+      "year": "2025",
+      "role": "Design & front-end",
+      "duration": "8 weeks",
+      "summary": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+      "description": "Aurora is a self-initiated e-commerce concept that treats a product catalogue like a seasonal journal: paced, tactile, and easy to browse without feeling pushed.",
+      "image": "assets/images/project-aurora.jpg",
+      "imageAlt": "Aurora Commerce storefront concept shown on a warm neutral background",
+      "featured": true,
+      "order": 1,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Figma",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "deliverables": [
+        "Discovery and UX audit",
+        "Art direction",
+        "Responsive interface",
+        "Front-end prototype"
+      ],
+      "highlights": [
+        "Editorial content model with reusable story blocks",
+        "Filterable catalogue with keyboard-friendly controls",
+        "Accessible cart drawer and three-step checkout prototype",
+        "A 120KB page weight budget, excluding product photography"
+      ],
+      "sections": [
+        {
+          "heading": "The brief",
+          "paragraphs": [
+            "Most homeware stores ask shoppers to process dozens of products at once. Aurora imagines the opposite: a storefront that unfolds slowly, with room for material stories, maker notes, and the practical details people actually need before buying.",
+            "The concept needed to feel warm without becoming precious. It also had to work as a real storefront: searchable products, clear pricing, saved carts, and a checkout flow that does not lose the calm tone along the way."
+          ]
+        },
+        {
+          "heading": "Starting with content",
+          "paragraphs": [
+            "I began with a content model rather than a layout. Products, collections, maker profiles, and care guides were mapped as reusable blocks so the store could publish a new story without redesigning a page. That model shaped the navigation, the collection template, and the rhythm of the product detail page.",
+            "The visual system uses a warm paper background, a deep ink text colour, and a single indigo accent. Product photography does the loudest work. Type is deliberately quiet, with generous line height and a compact, readable product specification table."
+          ]
+        },
+        {
+          "heading": "Designing the flow",
+          "paragraphs": [
+            "The catalogue can be filtered by room, material, and availability. Filters update in place, preserve keyboard focus, and announce the result count to assistive technology. Product cards expose the essential information without a hover-only interaction.",
+            "The cart is a side drawer with a visible close control, focus management, and a persistent order summary. Checkout is reduced to three steps: contact, delivery, and payment. Each step keeps a short recap of the previous choices so people do not have to hold the whole order in their head."
+          ]
+        },
+        {
+          "heading": "What I learned",
+          "paragraphs": [
+            "Constraints make commerce calmer. Limiting the palette and the type scale made it easier to give product photography a consistent stage. Reusing content blocks also made the interface feel more like a publication and less like an endless grid of tiles.",
+            "The next step for a production build would be real product data, a commerce backend, and usability testing with people who shop for homeware regularly. The prototype is intentionally scoped as a design and front-end concept, not a live store."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    },
+    {
+      "slug": "lumen",
+      "title": "Lumen",
+      "category": "Product design",
+      "categories": [
+        "Product design"
+      ],
+      "year": "2025",
+      "role": "Product design & prototyping",
+      "duration": "6 weeks",
+      "summary": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
+      "description": "Lumen is a mobile product concept for people who want better wind-down habits without another dashboard telling them they are failing at rest.",
+      "image": "assets/images/project-lumen.jpg",
+      "imageAlt": "Lumen sleep and focus app concept with a soft gradient interface",
+      "featured": true,
+      "order": 2,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Figma",
+        "Protopie",
+        "Design tokens"
+      ],
+      "deliverables": [
+        "Product strategy",
+        "Interaction design",
+        "Visual system",
+        "Interactive prototype"
+      ],
+      "highlights": [
+        "Bedtime wind-down flow with optional reminders",
+        "Adaptive soundscapes with a single-thumb control model",
+        "Reduced-motion and low-light modes",
+        "Prototype handoff with states and edge cases"
+      ],
+      "sections": [
+        {
+          "heading": "The brief",
+          "paragraphs": [
+            "Sleep apps often borrow the language of fitness: streaks, scores, and targets. That framing can be useful for training, but it is a poor fit for rest. Lumen explores a softer model where the product notices patterns and offers a small next step instead of grading the night.",
+            "The concept covers two related moments: winding down at the end of the day and finding focus during it. Both needed to feel low-pressure, quick to use, and respectful of attention."
+          ]
+        },
+        {
+          "heading": "Research direction",
+          "paragraphs": [
+            "I reviewed public research on sleep hygiene and digital wind-down routines, then translated the recurring themes into product principles: reduce decisions, avoid bright stimulation, and make the default path short. These principles informed the tone, the colour system, and the number of controls on each screen.",
+            "The interface uses a dark, low-contrast palette for evening sessions and a warmer neutral palette for daytime focus. Motion is restrained and always optional. Nothing autoplays, and every soundscape has a visible stop control."
+          ]
+        },
+        {
+          "heading": "The interaction model",
+          "paragraphs": [
+            "The home screen is a single card with two choices: wind down or focus. Choosing one opens a short session setup with a duration, a sound, and an optional reminder. The controls are sized for one hand, with the primary action anchored near the bottom of the screen.",
+            "A pattern view shows bedtime consistency and focus sessions as a soft timeline rather than a score. Copy is written in plain language, and the app explains what it does and does not infer from the data. Users can delete individual entries or turn off pattern insights entirely."
+          ]
+        },
+        {
+          "heading": "Prototype notes",
+          "paragraphs": [
+            "The prototype covers onboarding, session setup, an active session, and the pattern view. It also includes empty, loading, and permission-denied states, which are often the first thing a real user encounters and the last thing a design file accounts for.",
+            "A production version would need clinical review of any health-related claims, real audio content, and a privacy model that is clear enough to understand without a legal background."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    },
+    {
+      "slug": "verdant",
+      "title": "Verdant",
+      "category": "Branding",
+      "categories": [
+        "Branding",
+        "Web design"
+      ],
+      "year": "2024",
+      "role": "Brand identity & art direction",
+      "duration": "10 weeks",
+      "summary": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+      "description": "Verdant is a brand concept for a small botanical studio offering plant consultations, styling, and seasonal workshops.",
+      "image": "assets/images/project-verdant.jpg",
+      "imageAlt": "Verdant botanical brand identity with green tones and editorial typography",
+      "featured": false,
+      "order": 3,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Illustrator",
+        "Photoshop",
+        "Figma"
+      ],
+      "deliverables": [
+        "Brand strategy",
+        "Wordmark and monogram",
+        "Colour and type system",
+        "Packaging and web applications"
+      ],
+      "highlights": [
+        "Wordmark, monogram, and flexible lockups",
+        "Botanical colour and typography system",
+        "Packaging and label templates",
+        "A concise brand guideline for small teams"
+      ],
+      "sections": [
+        {
+          "heading": "The brief",
+          "paragraphs": [
+            "The studio wanted to sit between two worlds: the precision of horticulture and the ease of a neighbourhood garden shop. The identity needed to feel knowledgeable without becoming clinical, and personal without becoming rustic.",
+            "The brand would appear on plant labels, workshop cards, packaging, and a small website. Each application had different constraints, so the system had to be flexible from the start."
+          ]
+        },
+        {
+          "heading": "Building the identity",
+          "paragraphs": [
+            "The wordmark uses a high-contrast serif with a slightly open aperture, paired with a monogram that reads as both a leaf and a growing mark. A secondary sans-serif handles labels, schedules, and digital interfaces.",
+            "The palette pairs a deep forest green with a chalky sage, a warm paper tone, and a single clay accent. Photography and illustration are treated as equal citizens, which gives the studio room to use found imagery or commissioned botanical drawings."
+          ]
+        },
+        {
+          "heading": "Voice and applications",
+          "paragraphs": [
+            "The voice is knowledgeable, direct, and a little wry. Plant care instructions avoid mystique and focus on the conditions a plant actually needs. Workshop descriptions say what participants will make and take home.",
+            "Applications include a label system, seed packet sleeves, workshop cards, a tote, and a responsive one-page site. The web layout uses the same type scale and colour tokens as the print system, so the brand feels consistent without looking copied and pasted."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    },
+    {
+      "slug": "atlas",
+      "title": "Atlas",
+      "category": "Development",
+      "categories": [
+        "Development",
+        "Product design"
+      ],
+      "year": "2025",
+      "role": "Design systems & front-end",
+      "duration": "12 weeks",
+      "summary": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
+      "description": "Atlas is a design system concept for analytics products: tokens, accessible components, and documentation that a small team can actually maintain.",
+      "image": "assets/images/project-atlas.svg",
+      "imageAlt": "Atlas design system concept with a dark dashboard interface",
+      "featured": true,
+      "order": 4,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Figma",
+        "Storybook",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "deliverables": [
+        "Token architecture",
+        "Component library",
+        "Documentation",
+        "Adoption guidance"
+      ],
+      "highlights": [
+        "Token architecture for colour, type, spacing, and motion",
+        "Twenty accessible components with usage guidance",
+        "Storybook documentation and copy-ready code examples",
+        "An adoption checklist for product teams"
+      ],
+      "sections": [
+        {
+          "heading": "The problem",
+          "paragraphs": [
+            "Small product teams often end up with a design system by accident: a folder of components, a few shared colours, and a lot of undocumented decisions. Atlas starts from the opposite direction. It defines a small set of foundations, then builds only the components that repeated work actually requires.",
+            "The target product was a data-heavy analytics tool with dense tables, filters, charts, and settings screens. The system needed to support that density while remaining legible on smaller screens."
+          ]
+        },
+        {
+          "heading": "Foundations first",
+          "paragraphs": [
+            "Colour, type, spacing, radius, elevation, and motion are defined as tokens with semantic names. Components consume tokens rather than raw values, which makes themes and density modes possible without rewriting every component.",
+            "The type scale is compact but not cramped. Tables use tabular numerals, filters have clear selected states, and charts use a colour sequence that remains distinguishable in grayscale and in dark mode."
+          ]
+        },
+        {
+          "heading": "Components and documentation",
+          "paragraphs": [
+            "The library covers the basics: buttons, inputs, selects, checkboxes, tabs, dialogs, menus, tables, pagination, badges, alerts, and chart containers. Each component has states, keyboard behaviour, and guidance on when not to use it.",
+            "Documentation lives beside the code. A component page includes a short purpose statement, anatomy, variants, accessibility notes, and a copy-ready example. This makes the system useful to designers and engineers without requiring a separate handoff document."
+          ]
+        },
+        {
+          "heading": "Adoption",
+          "paragraphs": [
+            "A design system only works if teams can adopt it gradually. Atlas includes a migration checklist, a contribution guide, and a small set of principles for deciding whether a new pattern belongs in the system or in a product.",
+            "The concept is deliberately scoped to a single product family. A real implementation would need versioning, release notes, visual regression tests, and a named owner."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    },
+    {
+      "slug": "pulse",
+      "title": "Pulse",
+      "category": "Product design",
+      "categories": [
+        "Product design"
+      ],
+      "year": "2024",
+      "role": "UX research & product design",
+      "duration": "7 weeks",
+      "summary": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+      "description": "Pulse is a mobile concept for gentle health tracking: a short daily check-in, a clear pattern view, and privacy controls that are easy to understand.",
+      "image": "assets/images/project-pulse.svg",
+      "imageAlt": "Pulse wellness app concept with a coral gradient and mobile interface",
+      "featured": false,
+      "order": 5,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Figma",
+        "Framer",
+        "Maze"
+      ],
+      "deliverables": [
+        "Research synthesis",
+        "Information architecture",
+        "UI design",
+        "Prototype"
+      ],
+      "highlights": [
+        "A daily check-in that takes under 30 seconds",
+        "Pattern view with plain-language explanations",
+        "Private-by-default data controls",
+        "Prototype-ready onboarding, check-in, and insights flows"
+      ],
+      "sections": [
+        {
+          "heading": "The brief",
+          "paragraphs": [
+            "Health tracking can quickly become another job. Pulse asks what happens if the product only asks for the smallest useful piece of information each day, then shows patterns without implying blame or diagnosis.",
+            "The concept focuses on energy, mood, sleep, and movement. It is not a medical product and does not offer treatment advice. The interface is explicit about that boundary."
+          ]
+        },
+        {
+          "heading": "Research synthesis",
+          "paragraphs": [
+            "I mapped common friction points from public product reviews and wellbeing research: too many inputs, unclear privacy, and dashboards that prioritise trends over meaning. Those themes became three design rules: ask less, explain more, and make the data portable.",
+            "The information architecture is intentionally shallow. Today, Patterns, and Settings are the only top-level destinations. Each check-in can be completed with four taps and an optional note."
+          ]
+        },
+        {
+          "heading": "Designing for trust",
+          "paragraphs": [
+            "The visual language is warm and low-pressure. Data is shown as a short narrative first, with charts available underneath. Copy avoids clinical language and never labels a day as good or bad.",
+            "Privacy controls are written in plain language, with a single switch for pattern insights and a clear explanation of what is stored on the device. Export and delete actions are available from the same screen."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    },
+    {
+      "slug": "nomad",
+      "title": "Nomad",
+      "category": "Web design",
+      "categories": [
+        "Web design",
+        "Development"
+      ],
+      "year": "2024",
+      "role": "Design & front-end",
+      "duration": "9 weeks",
+      "summary": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+      "description": "Nomad is a publishing concept for long-form travel journals, with a map-led structure and a reading experience designed for slow connections.",
+      "image": "assets/images/project-nomad.svg",
+      "imageAlt": "Nomad travel journal concept with a green map-inspired cover",
+      "featured": false,
+      "order": 6,
+      "demo": true,
+      "demoLabel": "Concept project",
+      "tech": [
+        "Figma",
+        "Astro",
+        "CSS",
+        "JavaScript"
+      ],
+      "deliverables": [
+        "Content strategy",
+        "Editorial design",
+        "Responsive interface",
+        "Static-site build"
+      ],
+      "highlights": [
+        "Map-led journal with day-by-day entries",
+        "Offline-friendly reading layout",
+        "Custom route and place components",
+        "Static-site build with minimal client-side JavaScript"
+      ],
+      "sections": [
+        {
+          "heading": "The brief",
+          "paragraphs": [
+            "Travel content often collapses into listicles and itineraries. Nomad starts from the journal: the small observations, wrong turns, and meals that make a trip memorable. The map is an index, not the main event.",
+            "The platform needed to support photo essays, short notes, and route overviews without forcing every entry into the same template. It also needed to load quickly on mobile connections."
+          ]
+        },
+        {
+          "heading": "A content model for memory",
+          "paragraphs": [
+            "Each trip is a collection of entries. An entry can be a place, a day, or a standalone note. Places carry coordinates, a short description, and an optional photo set. Routes connect places in order, but the reading view does not depend on the map.",
+            "This model lets an author publish a single entry before a trip is complete, then gradually build the route. It also makes the archive useful months later, when the map matters less than the writing."
+          ]
+        },
+        {
+          "heading": "Editorial interface",
+          "paragraphs": [
+            "The reading layout uses a generous measure, large captions, and a quiet palette that lets photography lead. A sticky route rail on wide screens shows where the reader is without interrupting the text. On small screens, the rail becomes a collapsible summary.",
+            "Images are lazy-loaded with explicit dimensions. The map is rendered only when a reader asks for it, which keeps the initial page light and avoids loading a heavy mapping library for every visit."
+          ]
+        },
+        {
+          "heading": "Build notes",
+          "paragraphs": [
+            "The front end is a static build with small progressive enhancements: reading progress, route filtering, and a lightbox for photo sets. Everything essential works without JavaScript.",
+            "A production version would need an editorial CMS, image processing, and a moderation workflow. The concept focuses on the reading experience and the content model that would support it."
+          ]
+        }
+      ],
+      "links": {
+        "live": "",
+        "source": ""
+      }
+    }
+  ]
+}

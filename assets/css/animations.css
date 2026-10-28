@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Ashley Miller portfolio — motion and reveal system
+   ========================================================================== */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes nudge-down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes portrait-in {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes soft-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scroll-triggered reveals. The .js class is set by theme-init.js so content
+   remains visible if JavaScript fails or is disabled. */
+
+html.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+html.js [data-reveal].is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
+}
+
+html.js [data-reveal="fade"] {
+  transform: none;
+}
+
+html.js [data-reveal="fade"].is-revealed {
+  transform: none;
+}
+
+/* Hero entrance */
+
+.hero-portrait-wrap {
+  animation: portrait-in 1s var(--ease) both;
+  animation-delay: 0.15s;
+}
+
+.hero-portrait-wrap::before {
+  animation: fade-in 1s var(--ease) both;
+  animation-delay: 0.35s;
+}
+
+.floating-card--availability {
+  animation: soft-float 7s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.floating-card--signature {
+  animation: soft-float 8s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+/* Theme switching — applied briefly by theme.js to avoid a hard colour snap. */
+
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.25s var(--ease), color 0.25s var(--ease),
+    border-color 0.25s var(--ease), fill 0.25s var(--ease),
+    stroke 0.25s var(--ease) !important;
+}
+
+/* Respect reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html.js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero-portrait-wrap,
+  .hero-portrait-wrap::before,
+  .floating-card--availability,
+  .floating-card--signature {
+    animation: none;
+  }
+}

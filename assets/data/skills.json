@@ -1,0 +1,120 @@
+{
+  "note": "Proficiency levels are self-assessed sample content for this demo portfolio. Replace them with your own honest assessment.",
+  "groups": [
+    {
+      "id": "design",
+      "label": "Design",
+      "icon": "ri-pen-nib-line",
+      "description": "The craft of making complex information feel simple, useful, and human.",
+      "skills": [
+        {
+          "name": "UI/UX design",
+          "level": 92,
+          "featured": true
+        },
+        {
+          "name": "Interaction design",
+          "level": 88
+        },
+        {
+          "name": "Design systems",
+          "level": 90,
+          "featured": true
+        },
+        {
+          "name": "Brand identity",
+          "level": 82
+        },
+        {
+          "name": "Prototyping",
+          "level": 86
+        },
+        {
+          "name": "Visual design",
+          "level": 90
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "label": "Development",
+      "icon": "ri-code-s-slash-line",
+      "description": "Front-end implementation with a bias for clarity, accessibility, and speed.",
+      "skills": [
+        {
+          "name": "Semantic HTML & CSS",
+          "level": 94,
+          "featured": true
+        },
+        {
+          "name": "JavaScript (ES2023)",
+          "level": 86
+        },
+        {
+          "name": "React",
+          "level": 80
+        },
+        {
+          "name": "Accessibility",
+          "level": 88,
+          "featured": true
+        },
+        {
+          "name": "Performance",
+          "level": 82
+        },
+        {
+          "name": "Git & tooling",
+          "level": 85
+        }
+      ]
+    }
+  ],
+  "tools": [
+    "Figma",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "After Effects",
+    "Storybook",
+    "VS Code",
+    "Git",
+    "Vite",
+    "Astro",
+    "Notion",
+    "Framer"
+  ],
+  "workflow": [
+    {
+      "step": "01",
+      "title": "Understand",
+      "description": "Talk to the people who use the thing, read the content, and map the constraints."
+    },
+    {
+      "step": "02",
+      "title": "Frame",
+      "description": "Write the brief, define the information architecture, and choose the smallest useful scope."
+    },
+    {
+      "step": "03",
+      "title": "Explore",
+      "description": "Sketch broadly, prototype early, and test the interaction model before polishing pixels."
+    },
+    {
+      "step": "04",
+      "title": "Refine",
+      "description": "Build the system, check the edge cases, and make accessibility part of the definition of done."
+    },
+    {
+      "step": "05",
+      "title": "Ship",
+      "description": "Launch with documentation, a performance check, and a clear plan for what happens next."
+    }
+  ],
+  "focusAreas": [
+    "Accessible interfaces",
+    "Design systems",
+    "Editorial web experiences",
+    "Front-end performance",
+    "Content-first product design"
+  ]
+}

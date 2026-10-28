@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "about.html",
+      "children": [
+        {
+          "id": "about",
+          "label": "About me",
+          "href": "about.html"
+        },
+        {
+          "id": "skills",
+          "label": "Skills & expertise",
+          "href": "skills.html"
+        },
+        {
+          "id": "experience",
+          "label": "Experience",
+          "href": "experience.html"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "href": "projects.html",
+      "children": [
+        {
+          "id": "projects",
+          "label": "Projects",
+          "href": "projects.html"
+        },
+        {
+          "id": "services",
+          "label": "Services",
+          "href": "services.html"
+        }
+      ]
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "href": "blog.html"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "contact.html"
+    }
+  ],
+  "footerQuickLinks": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    },
+    {
+      "label": "Projects",
+      "href": "projects.html"
+    },
+    {
+      "label": "Services",
+      "href": "services.html"
+    },
+    {
+      "label": "Blog",
+      "href": "blog.html"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.html"
+    }
+  ]
+}

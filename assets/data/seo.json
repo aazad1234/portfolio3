@@ -1,0 +1,286 @@
+{
+  "index.html": {
+    "title": "Ashley Miller — Creative Designer & Developer",
+    "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+    "keywords": [
+      "Ashley Miller",
+      "portfolio",
+      "creative designer",
+      "front-end developer",
+      "UI/UX design",
+      "web design"
+    ],
+    "canonical": "/",
+    "robots": "index,follow",
+    "ogTitle": "Ashley Miller — Creative Designer & Developer",
+    "ogDescription": "Thoughtful digital experiences, designed and built with care. Explore selected projects, services, and writing.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "WebPage",
+    "priority": 1.0,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      }
+    ]
+  },
+  "about.html": {
+    "title": "About Ashley Miller — Designer & Developer",
+    "description": "Meet Ashley Miller, an independent designer and front-end developer focused on accessible products, editorial websites, and design systems.",
+    "keywords": [
+      "about Ashley Miller",
+      "independent designer",
+      "front-end developer",
+      "design philosophy",
+      "accessible design"
+    ],
+    "canonical": "/about.html",
+    "robots": "index,follow",
+    "ogTitle": "About Ashley Miller — Designer & Developer",
+    "ogDescription": "A designer and developer with a bias for clarity, accessibility, and systems that teams can actually use.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.8,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "About",
+        "href": "about.html"
+      }
+    ]
+  },
+  "services.html": {
+    "title": "Services — Design, Development & Design Systems | Ashley Miller",
+    "description": "Explore design and development services: UX and product design, responsive websites, brand identity, design systems, and focused audits.",
+    "keywords": [
+      "design services",
+      "UX design",
+      "front-end development",
+      "brand identity",
+      "design systems",
+      "accessibility audit"
+    ],
+    "canonical": "/services.html",
+    "robots": "index,follow",
+    "ogTitle": "Services — Design, Development & Design Systems",
+    "ogDescription": "Product design, editorial websites, brand identity, design systems, and audits for small teams and independent studios.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CollectionPage",
+    "priority": 0.8,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Services",
+        "href": "services.html"
+      }
+    ]
+  },
+  "projects.html": {
+    "title": "Selected Projects — Ashley Miller Portfolio",
+    "description": "A selection of concept projects spanning product design, web design, front-end development, and brand identity.",
+    "keywords": [
+      "design portfolio",
+      "product design projects",
+      "web design projects",
+      "front-end development",
+      "brand identity"
+    ],
+    "canonical": "/projects.html",
+    "robots": "index,follow",
+    "ogTitle": "Selected Projects — Ashley Miller Portfolio",
+    "ogDescription": "Concept projects in product design, editorial web experiences, front-end development, and brand identity.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CollectionPage",
+    "priority": 0.9,
+    "changefreq": "monthly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      }
+    ]
+  },
+  "skills.html": {
+    "title": "Skills & Expertise — Ashley Miller",
+    "description": "Design and front-end development skills, tools, and workflow, from accessible interfaces and design systems to semantic HTML and JavaScript.",
+    "keywords": [
+      "design skills",
+      "front-end skills",
+      "design systems",
+      "accessibility",
+      "JavaScript",
+      "Figma"
+    ],
+    "canonical": "/skills.html",
+    "robots": "index,follow",
+    "ogTitle": "Skills & Expertise — Ashley Miller",
+    "ogDescription": "A practical toolkit for designing and building clear, accessible digital products.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.7,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Skills",
+        "href": "skills.html"
+      }
+    ]
+  },
+  "experience.html": {
+    "title": "Experience & Education — Ashley Miller",
+    "description": "A demonstration timeline of design and development experience, education, and the working principles behind the portfolio.",
+    "keywords": [
+      "design experience",
+      "product designer",
+      "front-end developer",
+      "education",
+      "design principles"
+    ],
+    "canonical": "/experience.html",
+    "robots": "index,follow",
+    "ogTitle": "Experience & Education — Ashley Miller",
+    "ogDescription": "A demonstration timeline of roles, education, and working principles.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "AboutPage",
+    "priority": 0.7,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Experience",
+        "href": "experience.html"
+      }
+    ]
+  },
+  "blog.html": {
+    "title": "Journal — Design, Development & Process | Ashley Miller",
+    "description": "Notes on interface design, front-end development, creative process, and design systems.",
+    "keywords": [
+      "design blog",
+      "front-end development blog",
+      "design process",
+      "design systems",
+      "accessibility"
+    ],
+    "canonical": "/blog.html",
+    "robots": "index,follow",
+    "ogTitle": "Journal — Design, Development & Process",
+    "ogDescription": "Notes on interface design, front-end development, creative process, and design systems.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "Blog",
+    "priority": 0.8,
+    "changefreq": "weekly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      }
+    ]
+  },
+  "contact.html": {
+    "title": "Contact — Start a Project with Ashley Miller",
+    "description": "Get in touch about a product, website, brand, or design system project. Contact details, availability, and a project enquiry form.",
+    "keywords": [
+      "contact Ashley Miller",
+      "hire a designer",
+      "hire a front-end developer",
+      "project enquiry",
+      "freelance designer"
+    ],
+    "canonical": "/contact.html",
+    "robots": "index,follow",
+    "ogTitle": "Contact — Start a Project with Ashley Miller",
+    "ogDescription": "Have a project in mind? Tell me what you are building and what you need help with.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "ContactPage",
+    "priority": 0.9,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
+      }
+    ]
+  },
+  "404.html": {
+    "title": "Page Not Found — Ashley Miller",
+    "description": "The page you are looking for could not be found. Explore the portfolio, projects, or get in touch.",
+    "keywords": [
+      "page not found",
+      "404"
+    ],
+    "canonical": "/404.html",
+    "robots": "noindex,follow",
+    "ogTitle": "Page Not Found — Ashley Miller",
+    "ogDescription": "That page does not exist. Explore the portfolio instead.",
+    "ogImage": "/assets/images/og-image.png",
+    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "schemaType": "WebPage",
+    "priority": 0.1,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Page not found",
+        "href": "404.html"
+      }
+    ]
+  }
+}
