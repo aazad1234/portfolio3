@@ -1,83 +1,99 @@
 {
-  "intro": "I work with founders, small teams, and studios on digital products and websites that need to feel clear, considered, and genuinely usable.",
+  "intro": "I collaborate with engineering leaders, applied science teams, and data organizations to build resilient data platforms and production machine learning systems that run within strict latency and accuracy SLAs.",
   "items": [
     {
-      "id": "product-design",
+      "id": "production-ml",
+      "icon": "ri-cpu-line",
+      "title": "Production ML & Predictive Systems",
+      "short": "High-throughput, calibrated machine learning models designed for real-time inference.",
+      "description": "End-to-end design and deployment of machine learning architectures for fraud detection, ranking, and predictive telemetry. Specializing in probability calibration, loss surface design, and sub-20ms inference pipelines.",
+      "deliverables": [
+        "Problem formulation, loss function alignment & statistical baseline",
+        "Feature engineering pipeline with zero training-serving skew",
+        "Model training, cross-validation & quantization (ONNX / TensorRT)",
+        "Production serving endpoint with automated data drift observability"
+      ],
+      "bestFor": "Teams needing high-reliability ML models running under strict production latency constraints.",
+      "engagement": "Project-based",
+      "featured": true
+    },
+    {
+      "id": "distributed-data",
+      "icon": "ri-database-2-line",
+      "title": "Distributed Data Engines & Streaming",
+      "short": "Real-time event streaming and scalable Lakehouse data platforms.",
+      "description": "Architecting distributed streaming and batch pipelines using Apache Spark, Kafka, and DuckDB. Eliminating data bottlenecks, establishing strict schema contracts, and delivering clean, low-latency features.",
+      "deliverables": [
+        "High-throughput Kafka streaming pipelines (100k+ events/sec)",
+        "PySpark and DuckDB query optimization & partition tuning",
+        "Delta Lake / Iceberg storage tables with ACID guarantees",
+        "dbt data modeling, semantic layers & automated freshness assertions"
+      ],
+      "bestFor": "Enterprises handling large volumes of streaming events that need sub-second freshness.",
+      "engagement": "Project or advisory",
+      "featured": true
+    },
+    {
+      "id": "mlops-platform",
+      "icon": "ri-server-line",
+      "title": "MLOps Infrastructure & Model Serving",
+      "short": "Robust model registries, serving clusters, and automated continuous evaluation.",
+      "description": "Building infrastructure that transitions models from research notebooks to battle-tested microservices with Ray Serve, Triton Inference Server, and Kubernetes.",
+      "deliverables": [
+        "Containerized inference microservices with Ray & Triton",
+        "Automated CI/CD pipelines for model validation & regression gates",
+        "Real-time feature store integration (Feast / Hopsworks)",
+        "Telemetry dashboards tracking latency percentiles & concept drift"
+      ],
+      "bestFor": "Teams scaling machine learning from isolated prototypes to multi-cluster production environments.",
+      "engagement": "Project-based",
+      "featured": true
+    },
+    {
+      "id": "vector-search",
       "icon": "ri-compass-3-line",
-      "title": "UX & product design",
-      "short": "Turn a fuzzy product idea into a clear, testable interface.",
-      "description": "Discovery, user flows, wireframes, and high-fidelity interfaces for web and mobile products. I focus on the decisions that make a product easier to understand and cheaper to build.",
+      "title": "Vector Search & LLM Retrieval Systems",
+      "short": "Domain-specific hybrid retrieval systems and low-latency semantic search.",
+      "description": "Architecting enterprise-grade vector search and RAG platforms that deliver factual, hallucination-resistant retrieval over multi-million document corpora.",
       "deliverables": [
-        "Discovery workshops and research synthesis",
-        "User flows and information architecture",
-        "Wireframes and high-fidelity UI",
-        "Interactive prototype and handoff notes"
+        "Hybrid lexical + dense retrieval pipelines (BM25 + embeddings)",
+        "Chunking strategies and fine-tuned domain embedding models",
+        "Cross-encoder reranking layers and semantic query caching",
+        "Retrieval latency and recall benchmarking suites"
       ],
-      "bestFor": "New products, redesigns, and features that need a clearer interaction model.",
-      "engagement": "Project-based",
-      "featured": true
-    },
-    {
-      "id": "web-design",
-      "icon": "ri-code-s-slash-line",
-      "title": "Web design & front-end",
-      "short": "Editorial websites that look considered and load quickly.",
-      "description": "Responsive marketing sites and content platforms designed in the browser. I write semantic HTML, maintainable CSS, and just enough JavaScript to make the experience feel alive.",
-      "deliverables": [
-        "Art direction and responsive layouts",
-        "Accessible component library",
-        "Front-end build with performance budget",
-        "CMS or static-site integration guidance"
-      ],
-      "bestFor": "Portfolios, studio sites, publications, and product marketing pages.",
-      "engagement": "Project-based",
-      "featured": true
-    },
-    {
-      "id": "brand-identity",
-      "icon": "ri-pen-nib-line",
-      "title": "Brand identity",
-      "short": "A visual system with enough flexibility to grow with you.",
-      "description": "Identity work for small businesses and independent studios: a clear strategic idea, a distinctive visual language, and practical guidelines for using it across print and digital.",
-      "deliverables": [
-        "Brand strategy and positioning",
-        "Wordmark, monogram, and lockups",
-        "Colour, type, and image direction",
-        "Guidelines and launch templates"
-      ],
-      "bestFor": "New studios, independent businesses, and products finding their voice.",
+      "bestFor": "Organizations building intelligent knowledge engines, semantic search, or LLM-powered systems.",
       "engagement": "Project-based",
       "featured": false
     },
     {
-      "id": "design-systems",
-      "icon": "ri-layout-grid-line",
-      "title": "Design systems",
-      "short": "Shared foundations that help teams ship consistent work.",
-      "description": "Token architecture, component libraries, and documentation built around the way a team actually works. The goal is not a perfect system; it is a system people can use and maintain.",
+      "id": "statistical-inference",
+      "icon": "ri-line-chart-line",
+      "title": "Statistical Inference & Experimentation",
+      "short": "Principled hypothesis testing, causal inference, and A/B test analysis.",
+      "description": "Designing experimental frameworks that measure true incremental lift. Moving beyond naive p-values to Bayesian inference, variance reduction, and sequential testing.",
       "deliverables": [
-        "Design token architecture",
-        "Component inventory and audits",
-        "Figma and code component libraries",
-        "Usage guidance and adoption plan"
+        "Experiment design, sample sizing & minimum detectable effect power",
+        "CUPED variance reduction framework implementation",
+        "Causal inference & synthetic control modeling for observational data",
+        "Decision boundary automation and guardrail metric monitors"
       ],
-      "bestFor": "Growing product teams, multi-brand systems, and design debt clean-up.",
-      "engagement": "Project or retainer",
-      "featured": true
+      "bestFor": "Product and growth organizations seeking statistical certainty in core metrics.",
+      "engagement": "Fixed-scope advisory",
+      "featured": false
     },
     {
-      "id": "audits-consulting",
+      "id": "architecture-audits",
       "icon": "ri-search-eye-line",
-      "title": "Audits & consulting",
-      "short": "A second set of eyes before the next big build.",
-      "description": "Focused reviews of an existing site or product, with practical recommendations ranked by impact. Useful before a redesign, a migration, or a new hire starts.",
+      "title": "Data & ML Platform Audits",
+      "short": "Comprehensive technical review of data pipelines and model inference clusters.",
+      "description": "Deep architectural reviews of existing pipelines, database queries, and model serving infrastructure. Identifying latency bottlenecks, training-serving discrepancies, and compute cost inefficiencies.",
       "deliverables": [
-        "UX and interface audit",
-        "Accessibility review",
-        "Performance and front-end review",
-        "Prioritised action plan"
+        "End-to-end pipeline latency profiling and bottleneck analysis",
+        "Cloud compute cost optimization roadmap (typically 25-45% reduction)",
+        "Data contract and schema validation integrity audit",
+        "Prioritized engineering backlog with code benchmarks"
       ],
-      "bestFor": "Teams that need clarity before investing in a larger project.",
+      "bestFor": "Engineering leaders preparing for scale or seeking to reduce cloud compute costs.",
       "engagement": "Fixed-scope review",
       "featured": false
     }
@@ -85,50 +101,50 @@
   "process": [
     {
       "step": "01",
-      "title": "Discover",
-      "description": "We start with the problem, the audience, and the constraints. I ask enough questions to avoid designing the wrong thing beautifully."
+      "title": "Discover & Profile",
+      "description": "We audit the data landscape, inspect schema definitions, and profile system constraints. I align technical objectives with measurable business criteria."
     },
     {
       "step": "02",
-      "title": "Define",
-      "description": "Research becomes a clear brief, a content model, and a set of priorities. We agree on what success looks like before visual work begins."
+      "title": "Architect & Formalize",
+      "description": "We establish strict schema contracts, loss surfaces, and latency targets. Clear benchmarks are agreed upon before building pipelines."
     },
     {
       "step": "03",
-      "title": "Design",
-      "description": "I work from structure to surface: flows, wireframes, then high-fidelity interfaces. Feedback happens in short, focused rounds."
+      "title": "Engineer & Validate",
+      "description": "Pipelines and models are built iteratively with automated unit tests, cross-validation, and integration benchmarks under simulated production load."
     },
     {
       "step": "04",
-      "title": "Build",
-      "description": "Design and implementation move together. I build responsive, accessible front ends or work closely with your engineering team."
+      "title": "Optimize & Harden",
+      "description": "We apply kernel optimizations, weight quantization, connection pooling, and stress-test failover mechanisms."
     },
     {
       "step": "05",
-      "title": "Test & launch",
-      "description": "We check the details that matter: keyboard access, performance, edge cases, and real content. Then we ship and document what comes next."
+      "title": "Deploy & Telemetry",
+      "description": "We release via canary or shadow mode with live drift monitoring, latency dashboards, and full operational runbooks."
     }
   ],
   "faqs": [
     {
-      "question": "How long does a typical project take?",
-      "answer": "Most focused projects run between four and twelve weeks. A single-page site is usually faster than a multi-flow product. After a short discovery call I can give you a realistic scope and timeline rather than a guess."
+      "question": "What does a typical engagement look like?",
+      "answer": "Engagements typically range from six to twelve weeks for platform architecture or model deployment. I integrate closely with your data engineering or platform team, participating in sprints and conducting technical reviews."
     },
     {
-      "question": "Do you work with existing teams?",
-      "answer": "Yes. I can join a product team for a defined piece of work, collaborate with in-house designers, or hand off a system to engineers. Clear communication and documented decisions are part of the engagement."
+      "question": "How do you prevent training-serving skew?",
+      "answer": "I enforce shared feature definitions between offline training jobs and online streaming pipelines using declarative feature stores (e.g., Feast), immutable artifact registries, and strict schema contracts."
     },
     {
-      "question": "What does a project cost?",
-      "answer": "Every engagement is scoped around the work, not a generic package. After we agree on the outcomes, I provide a fixed project fee or a monthly retainer. I do not publish prices because a useful estimate depends on scope."
+      "question": "Can you work with our existing cloud stack?",
+      "answer": "Yes. I have extensive experience across AWS (EMR, Kinesis, S3, SageMaker), GCP (BigQuery, Vertex, Dataflow), and on-premise Kubernetes clusters running Spark, Kafka, and Triton."
     },
     {
-      "question": "Can you build what you design?",
-      "answer": "For websites and front-end work, yes. I build semantic, responsive interfaces and can work within your stack. For complex back-end or native mobile work, I collaborate with your engineers or a trusted development partner."
+      "question": "Do you provide code, infrastructure, or advisory?",
+      "answer": "All three. Engagements yield production-ready, thoroughly tested Python/SQL/C++ code, declarative Terraform/Helm infrastructure recipes, and comprehensive architectural documentation."
     },
     {
-      "question": "What happens after launch?",
-      "answer": "You receive the source files, documentation, and a short handoff session. I also offer a limited post-launch support window for fixes and small refinements. Ongoing retainers are available for teams that need regular design support."
+      "question": "How do you evaluate model performance beyond offline metrics?",
+      "answer": "Offline AUC/F1 is only the first checkpoint. I design comprehensive evaluation suites including calibration plots, slicing analysis across subgroups, stress tests with synthetic outliers, and online A/B experimentation frameworks."
     }
   ]
 }

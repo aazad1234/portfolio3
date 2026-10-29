@@ -2,64 +2,64 @@
   "name": "Ashley Miller",
   "shortName": "Ashley",
   "logo": "Ashley",
-  "role": "Creative Designer & Developer",
-  "tagline": "I design and build thoughtful digital experiences.",
-  "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+  "role": "Data Science Engineer",
+  "tagline": "Building scalable data engines and production ML systems that solve high-stakes problems.",
+  "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
   "url": "https://ashleymiller.design",
   "locale": "en_US",
   "language": "en",
   "email": "hello@ashleymiller.design",
   "location": "Remote, working worldwide",
-  "availability": "Available for select projects",
+  "availability": "Available for Staff & Lead ML Engagements",
   "timezone": "Pacific Time (UTC-08:00)",
   "socials": [
     {
       "label": "LinkedIn",
       "icon": "ri-linkedin-line",
       "url": "",
-      "handle": "in/ashleymiller",
-      "demo": true
-    },
-    {
-      "label": "Dribbble",
-      "icon": "ri-dribbble-line",
-      "url": "",
-      "handle": "@ashleymiller",
-      "demo": true
-    },
-    {
-      "label": "Instagram",
-      "icon": "ri-instagram-line",
-      "url": "",
-      "handle": "@ashleymiller",
+      "handle": "in/ashleymiller-ds",
       "demo": true
     },
     {
       "label": "GitHub",
       "icon": "ri-github-line",
       "url": "",
+      "handle": "@ashleymiller-ml",
+      "demo": true
+    },
+    {
+      "label": "Twitter",
+      "icon": "ri-twitter-x-line",
+      "url": "",
+      "handle": "@ashleymiller_ds",
+      "demo": true
+    },
+    {
+      "label": "Kaggle",
+      "icon": "ri-line-chart-line",
+      "url": "",
       "handle": "@ashleymiller",
       "demo": true
     }
   ],
   "navCta": {
-    "label": "Start a project",
+    "label": "Initiate engagement",
     "href": "contact.html"
   },
   "footer": {
-    "blurb": "Independent designer and developer creating calm, useful digital products for people and teams.",
-    "demoNotice": "Demo portfolio: projects, articles, experience, and contact details are illustrative."
+    "blurb": "Data Science Engineer designing distributed data platforms, streaming pipelines, and production machine learning models.",
+    "demoNotice": "Demo portfolio: case studies, benchmarks, articles, and contact details are illustrative."
   },
   "forms": {
     "contactEndpoint": "",
     "method": "POST",
-    "successMessage": "Thanks for reaching out. Your message has been sent, and I will reply within two business days.",
+    "successMessage": "Thanks for reaching out. Your message has been received, and I will reply within two business days.",
     "demoMessage": "This demo form is not connected to an email service. Add a form endpoint in assets/data/site-config.json, or email hello@ashleymiller.design directly.",
     "errorMessage": "Something went wrong while sending your message. Please try again, or email hello@ashleymiller.design."
   },
   "seo": {
     "defaultImage": "/assets/images/og-image.png",
     "twitterHandle": "",
-    "themeColor": "#4f46e5"
+    "themeColor": "#FCF0DA"
   }
 }

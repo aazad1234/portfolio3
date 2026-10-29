@@ -1,6 +1,6 @@
 const STORAGE_KEY = 'am-theme';
-const DARK_THEME_COLOR = '#0c0e15';
-let lightThemeColor = '#4f46e5';
+const DARK_THEME_COLOR = '#790D16';
+let lightThemeColor = '#FCF0DA';
 let lightThemeColorCaptured = false;
 
 function updateMetaThemeColor(theme) {

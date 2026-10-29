@@ -1,426 +1,349 @@
 {
-  "note": "All projects in this file are demonstration concepts. Replace them with your own work before publishing.",
+  "note": "Case studies demonstrate production architectures, data pipeline engineering, and applied machine learning systems.",
   "categories": [
     "All",
-    "Web design",
-    "Product design",
-    "Branding",
-    "Development"
+    "Machine Learning",
+    "Distributed Systems",
+    "Data Engineering",
+    "MLOps"
   ],
   "items": [
     {
       "slug": "aurora-commerce",
-      "title": "Aurora Commerce",
-      "category": "Web design",
+      "title": "Aurora: Real-Time Fraud & Anomaly Detection",
+      "category": "Machine Learning",
       "categories": [
-        "Web design",
-        "Development"
+        "Machine Learning",
+        "MLOps"
       ],
       "year": "2025",
-      "role": "Design & front-end",
-      "duration": "8 weeks",
-      "summary": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
-      "description": "Aurora is a self-initiated e-commerce concept that treats a product catalogue like a seasonal journal: paced, tactile, and easy to browse without feeling pushed.",
+      "role": "Lead Data Science Engineer",
+      "duration": "12 weeks",
+      "summary": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
+      "description": "Aurora is a real-time risk scoring engine engineered to process high-throughput transaction streams with rigorous calibration and ultra-low latency bounds.",
       "image": "assets/images/project-aurora.jpg",
-      "imageAlt": "Aurora Commerce storefront concept shown on a warm neutral background",
+      "imageAlt": "Aurora real-time fraud detection architecture showing latency and precision telemetry",
       "featured": true,
       "order": 1,
       "demo": true,
-      "demoLabel": "Concept project",
+      "demoLabel": "Production Architecture",
       "tech": [
-        "Figma",
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "PyTorch",
+        "Apache Kafka",
+        "Redis",
+        "Triton Server",
+        "Docker"
       ],
       "deliverables": [
-        "Discovery and UX audit",
-        "Art direction",
-        "Responsive interface",
-        "Front-end prototype"
+        "Streaming feature extraction pipeline",
+        "Calibrated gradient boosted + deep neural ensemble",
+        "Triton C++ inference integration",
+        "Automated shadow-mode deployment harness"
       ],
       "highlights": [
-        "Editorial content model with reusable story blocks",
-        "Filterable catalogue with keyboard-friendly controls",
-        "Accessible cart drawer and three-step checkout prototype",
-        "A 120KB page weight budget, excluding product photography"
+        "Sub-15ms p99 inference latency at 25,000 events/sec",
+        "44% reduction in fraudulent chargebacks within 60 days",
+        "Zero training-serving skew through shared feature definitions",
+        "Continuous Kolmogorov-Smirnov drift detection on live transaction streams"
       ],
       "sections": [
         {
-          "heading": "The brief",
+          "heading": "The Challenge",
           "paragraphs": [
-            "Most homeware stores ask shoppers to process dozens of products at once. Aurora imagines the opposite: a storefront that unfolds slowly, with room for material stories, maker notes, and the practical details people actually need before buying.",
-            "The concept needed to feel warm without becoming precious. It also had to work as a real storefront: searchable products, clear pricing, saved carts, and a checkout flow that does not lose the calm tone along the way."
+            "Modern payment systems face adversarial fraud rings that adapt their patterns within hours. Existing batch-scoring mechanisms had a 20-minute latency window, allowing fraudulent spikes to clear before risk flags were raised.",
+            "The engineering imperative was twofold: compute real-time velocity features across sliding 5-minute and 1-hour windows, and execute an ensemble inference model within a strict 15-millisecond SLA without blocking payment checkout."
           ]
         },
         {
-          "heading": "Starting with content",
+          "heading": "Streaming Feature Architecture",
           "paragraphs": [
-            "I began with a content model rather than a layout. Products, collections, maker profiles, and care guides were mapped as reusable blocks so the store could publish a new story without redesigning a page. That model shaped the navigation, the collection template, and the rhythm of the product detail page.",
-            "The visual system uses a warm paper background, a deep ink text colour, and a single indigo accent. Product photography does the loudest work. Type is deliberately quiet, with generous line height and a compact, readable product specification table."
+            "We deployed a decoupled Kafka cluster ingesting raw transaction telemetry, feeding a low-latency Redis feature store with dual-write semantics. In-memory sliding window counters compute card velocity, IP entropy, and geographic displacement in under 3 milliseconds.",
+            "By formalizing schema contracts via Protocol Buffers and employing automated regression tests, we eliminated the classic divergence between offline training features and online inference features."
           ]
         },
         {
-          "heading": "Designing the flow",
+          "heading": "Model Architecture & Calibration",
           "paragraphs": [
-            "The catalogue can be filtered by room, material, and availability. Filters update in place, preserve keyboard focus, and announce the result count to assistive technology. Product cards expose the essential information without a hover-only interaction.",
-            "The cart is a side drawer with a visible close control, focus management, and a persistent order summary. Checkout is reduced to three steps: contact, delivery, and payment. Each step keeps a short recap of the previous choices so people do not have to hold the whole order in their head."
-          ]
-        },
-        {
-          "heading": "What I learned",
-          "paragraphs": [
-            "Constraints make commerce calmer. Limiting the palette and the type scale made it easier to give product photography a consistent stage. Reusing content blocks also made the interface feel more like a publication and less like an endless grid of tiles.",
-            "The next step for a production build would be real product data, a commerce backend, and usability testing with people who shop for homeware regularly. The prototype is intentionally scoped as a design and front-end concept, not a live store."
+            "The scoring engine blends a LightGBM tree ensemble for tabular feature interactions with a PyTorch temporal attention network capturing transaction sequence dynamics. Model outputs are calibrated using isotonic regression to ensure predicted risk probabilities directly correspond to empirical default rates.",
+            "Inference was optimized using NVIDIA Triton Inference Server with dynamic batching and INT8 quantization, slashing GPU memory footprint by 65% and stabilizing p99 latency at 11.8ms."
           ]
         }
-      ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
-    },
-    {
-      "slug": "lumen",
-      "title": "Lumen",
-      "category": "Product design",
-      "categories": [
-        "Product design"
-      ],
-      "year": "2025",
-      "role": "Product design & prototyping",
-      "duration": "6 weeks",
-      "summary": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-      "description": "Lumen is a mobile product concept for people who want better wind-down habits without another dashboard telling them they are failing at rest.",
-      "image": "assets/images/project-lumen.jpg",
-      "imageAlt": "Lumen sleep and focus app concept with a soft gradient interface",
-      "featured": true,
-      "order": 2,
-      "demo": true,
-      "demoLabel": "Concept project",
-      "tech": [
-        "Figma",
-        "Protopie",
-        "Design tokens"
-      ],
-      "deliverables": [
-        "Product strategy",
-        "Interaction design",
-        "Visual system",
-        "Interactive prototype"
-      ],
-      "highlights": [
-        "Bedtime wind-down flow with optional reminders",
-        "Adaptive soundscapes with a single-thumb control model",
-        "Reduced-motion and low-light modes",
-        "Prototype handoff with states and edge cases"
-      ],
-      "sections": [
-        {
-          "heading": "The brief",
-          "paragraphs": [
-            "Sleep apps often borrow the language of fitness: streaks, scores, and targets. That framing can be useful for training, but it is a poor fit for rest. Lumen explores a softer model where the product notices patterns and offers a small next step instead of grading the night.",
-            "The concept covers two related moments: winding down at the end of the day and finding focus during it. Both needed to feel low-pressure, quick to use, and respectful of attention."
-          ]
-        },
-        {
-          "heading": "Research direction",
-          "paragraphs": [
-            "I reviewed public research on sleep hygiene and digital wind-down routines, then translated the recurring themes into product principles: reduce decisions, avoid bright stimulation, and make the default path short. These principles informed the tone, the colour system, and the number of controls on each screen.",
-            "The interface uses a dark, low-contrast palette for evening sessions and a warmer neutral palette for daytime focus. Motion is restrained and always optional. Nothing autoplays, and every soundscape has a visible stop control."
-          ]
-        },
-        {
-          "heading": "The interaction model",
-          "paragraphs": [
-            "The home screen is a single card with two choices: wind down or focus. Choosing one opens a short session setup with a duration, a sound, and an optional reminder. The controls are sized for one hand, with the primary action anchored near the bottom of the screen.",
-            "A pattern view shows bedtime consistency and focus sessions as a soft timeline rather than a score. Copy is written in plain language, and the app explains what it does and does not infer from the data. Users can delete individual entries or turn off pattern insights entirely."
-          ]
-        },
-        {
-          "heading": "Prototype notes",
-          "paragraphs": [
-            "The prototype covers onboarding, session setup, an active session, and the pattern view. It also includes empty, loading, and permission-denied states, which are often the first thing a real user encounters and the last thing a design file accounts for.",
-            "A production version would need clinical review of any health-related claims, real audio content, and a privacy model that is clear enough to understand without a legal background."
-          ]
-        }
-      ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
-    },
-    {
-      "slug": "verdant",
-      "title": "Verdant",
-      "category": "Branding",
-      "categories": [
-        "Branding",
-        "Web design"
-      ],
-      "year": "2024",
-      "role": "Brand identity & art direction",
-      "duration": "10 weeks",
-      "summary": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
-      "description": "Verdant is a brand concept for a small botanical studio offering plant consultations, styling, and seasonal workshops.",
-      "image": "assets/images/project-verdant.jpg",
-      "imageAlt": "Verdant botanical brand identity with green tones and editorial typography",
-      "featured": false,
-      "order": 3,
-      "demo": true,
-      "demoLabel": "Concept project",
-      "tech": [
-        "Illustrator",
-        "Photoshop",
-        "Figma"
-      ],
-      "deliverables": [
-        "Brand strategy",
-        "Wordmark and monogram",
-        "Colour and type system",
-        "Packaging and web applications"
-      ],
-      "highlights": [
-        "Wordmark, monogram, and flexible lockups",
-        "Botanical colour and typography system",
-        "Packaging and label templates",
-        "A concise brand guideline for small teams"
-      ],
-      "sections": [
-        {
-          "heading": "The brief",
-          "paragraphs": [
-            "The studio wanted to sit between two worlds: the precision of horticulture and the ease of a neighbourhood garden shop. The identity needed to feel knowledgeable without becoming clinical, and personal without becoming rustic.",
-            "The brand would appear on plant labels, workshop cards, packaging, and a small website. Each application had different constraints, so the system had to be flexible from the start."
-          ]
-        },
-        {
-          "heading": "Building the identity",
-          "paragraphs": [
-            "The wordmark uses a high-contrast serif with a slightly open aperture, paired with a monogram that reads as both a leaf and a growing mark. A secondary sans-serif handles labels, schedules, and digital interfaces.",
-            "The palette pairs a deep forest green with a chalky sage, a warm paper tone, and a single clay accent. Photography and illustration are treated as equal citizens, which gives the studio room to use found imagery or commissioned botanical drawings."
-          ]
-        },
-        {
-          "heading": "Voice and applications",
-          "paragraphs": [
-            "The voice is knowledgeable, direct, and a little wry. Plant care instructions avoid mystique and focus on the conditions a plant actually needs. Workshop descriptions say what participants will make and take home.",
-            "Applications include a label system, seed packet sleeves, workshop cards, a tote, and a responsive one-page site. The web layout uses the same type scale and colour tokens as the print system, so the brand feels consistent without looking copied and pasted."
-          ]
-        }
-      ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
-    },
-    {
-      "slug": "atlas",
-      "title": "Atlas",
-      "category": "Development",
-      "categories": [
-        "Development",
-        "Product design"
-      ],
-      "year": "2025",
-      "role": "Design systems & front-end",
-      "duration": "12 weeks",
-      "summary": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-      "description": "Atlas is a design system concept for analytics products: tokens, accessible components, and documentation that a small team can actually maintain.",
-      "image": "assets/images/project-atlas.svg",
-      "imageAlt": "Atlas design system concept with a dark dashboard interface",
-      "featured": true,
-      "order": 4,
-      "demo": true,
-      "demoLabel": "Concept project",
-      "tech": [
-        "Figma",
-        "Storybook",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "deliverables": [
-        "Token architecture",
-        "Component library",
-        "Documentation",
-        "Adoption guidance"
-      ],
-      "highlights": [
-        "Token architecture for colour, type, spacing, and motion",
-        "Twenty accessible components with usage guidance",
-        "Storybook documentation and copy-ready code examples",
-        "An adoption checklist for product teams"
-      ],
-      "sections": [
-        {
-          "heading": "The problem",
-          "paragraphs": [
-            "Small product teams often end up with a design system by accident: a folder of components, a few shared colours, and a lot of undocumented decisions. Atlas starts from the opposite direction. It defines a small set of foundations, then builds only the components that repeated work actually requires.",
-            "The target product was a data-heavy analytics tool with dense tables, filters, charts, and settings screens. The system needed to support that density while remaining legible on smaller screens."
-          ]
-        },
-        {
-          "heading": "Foundations first",
-          "paragraphs": [
-            "Colour, type, spacing, radius, elevation, and motion are defined as tokens with semantic names. Components consume tokens rather than raw values, which makes themes and density modes possible without rewriting every component.",
-            "The type scale is compact but not cramped. Tables use tabular numerals, filters have clear selected states, and charts use a colour sequence that remains distinguishable in grayscale and in dark mode."
-          ]
-        },
-        {
-          "heading": "Components and documentation",
-          "paragraphs": [
-            "The library covers the basics: buttons, inputs, selects, checkboxes, tabs, dialogs, menus, tables, pagination, badges, alerts, and chart containers. Each component has states, keyboard behaviour, and guidance on when not to use it.",
-            "Documentation lives beside the code. A component page includes a short purpose statement, anatomy, variants, accessibility notes, and a copy-ready example. This makes the system useful to designers and engineers without requiring a separate handoff document."
-          ]
-        },
-        {
-          "heading": "Adoption",
-          "paragraphs": [
-            "A design system only works if teams can adopt it gradually. Atlas includes a migration checklist, a contribution guide, and a small set of principles for deciding whether a new pattern belongs in the system or in a product.",
-            "The concept is deliberately scoped to a single product family. A real implementation would need versioning, release notes, visual regression tests, and a named owner."
-          ]
-        }
-      ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
+      ]
     },
     {
       "slug": "pulse",
-      "title": "Pulse",
-      "category": "Product design",
+      "title": "Pulse: High-Throughput Streaming Feature Store",
+      "category": "Distributed Systems",
       "categories": [
-        "Product design"
+        "Distributed Systems",
+        "Data Engineering"
       ],
-      "year": "2024",
-      "role": "UX research & product design",
-      "duration": "7 weeks",
-      "summary": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
-      "description": "Pulse is a mobile concept for gentle health tracking: a short daily check-in, a clear pattern view, and privacy controls that are easy to understand.",
+      "year": "2025",
+      "role": "Principal Data Engineer",
+      "duration": "10 weeks",
+      "summary": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
+      "description": "Pulse provides unified feature engineering and point-in-time correct retrieval for both batch model training and sub-second online inference.",
       "image": "assets/images/project-pulse.svg",
-      "imageAlt": "Pulse wellness app concept with a coral gradient and mobile interface",
-      "featured": false,
-      "order": 5,
+      "imageAlt": "Pulse distributed feature store architecture diagram with Spark and Kafka pipelines",
+      "featured": true,
+      "order": 2,
       "demo": true,
-      "demoLabel": "Concept project",
+      "demoLabel": "Data Engine",
       "tech": [
-        "Figma",
-        "Framer",
-        "Maze"
+        "Apache Spark",
+        "Apache Kafka",
+        "DuckDB",
+        "PostgreSQL",
+        "dbt"
       ],
       "deliverables": [
-        "Research synthesis",
-        "Information architecture",
-        "UI design",
-        "Prototype"
+        "Distributed PySpark aggregation pipelines",
+        "Low-latency dual-tier caching layer",
+        "Point-in-time join engine for backfills",
+        "dbt data quality assertions & metadata catalog"
       ],
       "highlights": [
-        "A daily check-in that takes under 30 seconds",
-        "Pattern view with plain-language explanations",
-        "Private-by-default data controls",
-        "Prototype-ready onboarding, check-in, and insights flows"
+        "1.8 billion streaming events ingested and processed daily",
+        "p99 feature retrieval latency reduced to 3.8ms",
+        "Automated data contracts preventing schema drift downstream",
+        "Historical point-in-time feature extraction without data leakage"
       ],
       "sections": [
         {
-          "heading": "The brief",
+          "heading": "Unified Feature Ingestion",
           "paragraphs": [
-            "Health tracking can quickly become another job. Pulse asks what happens if the product only asks for the smallest useful piece of information each day, then shows patterns without implying blame or diagnosis.",
-            "The concept focuses on energy, mood, sleep, and movement. It is not a medical product and does not offer treatment advice. The interface is explicit about that boundary."
+            "Data science teams frequently re-implement the same features in both SQL for offline training and Python microservices for online serving. Pulse provides a unified declarative feature repository where transforms are defined once and compiled into both streaming Kafka jobs and batch Spark pipelines.",
+            "The architecture ingests over 1.8 billion daily interactions, materializing real-time aggregates into an in-memory key-value tier while streaming raw Parquet files into a partitioned lakehouse."
           ]
         },
         {
-          "heading": "Research synthesis",
+          "heading": "Point-in-Time Correctness",
           "paragraphs": [
-            "I mapped common friction points from public product reviews and wellbeing research: too many inputs, unclear privacy, and dashboards that prioritise trends over meaning. Those themes became three design rules: ask less, explain more, and make the data portable.",
-            "The information architecture is intentionally shallow. Today, Patterns, and Settings are the only top-level destinations. Each check-in can be completed with four taps and an optional note."
-          ]
-        },
-        {
-          "heading": "Designing for trust",
-          "paragraphs": [
-            "The visual language is warm and low-pressure. Data is shown as a short narrative first, with charts available underneath. Copy avoids clinical language and never labels a day as good or bad.",
-            "Privacy controls are written in plain language, with a single switch for pattern insights and a clear explanation of what is stored on the device. Export and delete actions are available from the same screen."
+            "Feature leakage is the most pervasive cause of failed ML deployments. Pulse implements an as-of join engine in PySpark that reconstructs the exact state of entity features at any historical timestamp.",
+            "Data scientists can run training dataset generation across terabytes of historical logs without risking future information contamination."
           ]
         }
+      ]
+    },
+    {
+      "slug": "verdant",
+      "title": "Verdant: Clinical NLP & Entity Extraction Engine",
+      "category": "Machine Learning",
+      "categories": [
+        "Machine Learning",
+        "Data Engineering"
       ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
+      "year": "2024",
+      "role": "Staff Applied Scientist",
+      "duration": "14 weeks",
+      "summary": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
+      "description": "Verdant parses unstructured clinical records into structured ontologies (SNOMED-CT and RxNorm) with calibrated confidence intervals.",
+      "image": "assets/images/project-verdant.jpg",
+      "imageAlt": "Verdant clinical entity extraction visualization with token confidence metrics",
+      "featured": false,
+      "order": 4,
+      "demo": true,
+      "demoLabel": "Applied Research",
+      "tech": [
+        "PyTorch",
+        "Hugging Face",
+        "Ray",
+        "Docker",
+        "FastAPI"
+      ],
+      "deliverables": [
+        "Fine-tuned clinical domain Transformer model",
+        "Distributed Ray inference cluster",
+        "Ontology mapping and disambiguation graph",
+        "Automated human-in-the-loop review workflow"
+      ],
+      "highlights": [
+        "96.8% macro F1 score across 42 biomedical entity classes",
+        "Distributed Ray pipeline parsing 8,000 records/minute",
+        "Exact confidence calibration for medical audit compliance",
+        "Seamless integration with FHIR healthcare standards"
+      ],
+      "sections": [
+        {
+          "heading": "Clinical Document Parsing",
+          "paragraphs": [
+            "Healthcare data is predominantly stored in messy, unstructured clinical notes laden with shorthand, inconsistent formatting, and complex medical syntax. Verdant fine-tunes domain-specific Transformers to extract symptoms, medication dosages, and anatomical sites.",
+            "Extracted mentions are linked to standardized SNOMED-CT concepts through a dense vector retrieval index, disambiguating complex clinical terminology."
+          ]
+        },
+        {
+          "heading": "Distributed Inference at Scale",
+          "paragraphs": [
+            "To backfill 12 million historical clinical records, we scaled the model across an elastic Ray cluster. Dynamic batching and mixed-precision inference allowed the system to process over 8,000 notes per minute.",
+            "Prediction uncertainties were calibrated using temperature scaling, routing low-confidence decisions to clinical reviewers while auto-approving 91% of extractions."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lumen",
+      "title": "Lumen: Low-Latency Enterprise Vector Search & RAG",
+      "category": "Distributed Systems",
+      "categories": [
+        "Distributed Systems",
+        "MLOps"
+      ],
+      "year": "2025",
+      "role": "Machine Learning Architect",
+      "duration": "8 weeks",
+      "summary": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+      "description": "Lumen combines dense vector embeddings with sparse BM25 indices to deliver accurate, hallucination-resistant retrieval for enterprise intelligence systems.",
+      "image": "assets/images/project-lumen.jpg",
+      "imageAlt": "Lumen enterprise retrieval architecture and semantic vector indexing dashboard",
+      "featured": true,
+      "order": 3,
+      "demo": true,
+      "demoLabel": "Production Architecture",
+      "tech": [
+        "Python",
+        "Milvus",
+        "ONNX Runtime",
+        "FastAPI",
+        "Ray Serve"
+      ],
+      "deliverables": [
+        "Hybrid sparse-dense retrieval pipeline",
+        "Cross-encoder reranking model with ONNX optimization",
+        "Semantic vector cache reducing LLM calls by 38%",
+        "Ground-truth evaluation harness with automated recall scoring"
+      ],
+      "highlights": [
+        "p95 retrieval latency under 28ms across 40M documents",
+        "92.4% Recall@10 on domain-specific technical queries",
+        "Semantic query caching saving $14,000/mo in inference compute",
+        "Zero-downtime rolling index updates via partitioned collections"
+      ],
+      "sections": [
+        {
+          "heading": "Hybrid Retrieval Architecture",
+          "paragraphs": [
+            "Pure vector retrieval frequently fails on exact keyword matches, code symbols, and alphanumeric model codes. Lumen deploys a hybrid retrieval architecture combining BM25 inverted indexes with dense vector embeddings.",
+            "Reciprocal Rank Fusion (RRF) harmonizes sparse and dense results, passing top candidates to a lightweight cross-encoder reranker compiled with ONNX Runtime."
+          ]
+        },
+        {
+          "heading": "Performance & Semantic Caching",
+          "paragraphs": [
+            "By implementing a semantic vector cache that matches incoming queries within a tight cosine similarity threshold, the architecture eliminates redundant retrieval queries for frequent topics.",
+            "Ray Serve manages request batching and model concurrency, maintaining stable sub-30ms latencies even during high peak query spikes."
+          ]
+        }
+      ]
     },
     {
       "slug": "nomad",
-      "title": "Nomad",
-      "category": "Web design",
+      "title": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting",
+      "category": "Data Engineering",
       "categories": [
-        "Web design",
-        "Development"
+        "Data Engineering",
+        "Machine Learning"
       ],
       "year": "2024",
-      "role": "Design & front-end",
-      "duration": "9 weeks",
-      "summary": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
-      "description": "Nomad is a publishing concept for long-form travel journals, with a map-led structure and a reading experience designed for slow connections.",
+      "role": "Quantitative Data Engineer",
+      "duration": "10 weeks",
+      "summary": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+      "description": "Nomad models multi-scale demand fluctuations, promotional spikes, and weather anomalies across hundreds of regional distribution centers.",
       "image": "assets/images/project-nomad.svg",
-      "imageAlt": "Nomad travel journal concept with a green map-inspired cover",
+      "imageAlt": "Nomad supply chain spatio-temporal forecasting pipeline visualization",
       "featured": false,
-      "order": 6,
+      "order": 5,
       "demo": true,
-      "demoLabel": "Concept project",
+      "demoLabel": "Data Platform",
       "tech": [
-        "Figma",
-        "Astro",
-        "CSS",
-        "JavaScript"
+        "PySpark",
+        "LightGBM",
+        "Delta Lake",
+        "Airflow",
+        "dbt"
       ],
       "deliverables": [
-        "Content strategy",
-        "Editorial design",
-        "Responsive interface",
-        "Static-site build"
+        "Automated Airflow DAG orchestrating daily forecasts",
+        "Hierarchical reconciliation pipeline (Bottom-Up & MinT)",
+        "Delta Lake time-series feature store",
+        "Interactive forecast anomaly inspection dashboard"
       ],
       "highlights": [
-        "Map-led journal with day-by-day entries",
-        "Offline-friendly reading layout",
-        "Custom route and place components",
-        "Static-site build with minimal client-side JavaScript"
+        "28% reduction in inventory stockout events across 450 hubs",
+        "Daily batch pipeline processing 15M SKU-location combinations in 35 mins",
+        "Probabilistic forecasts with calibrated quantile intervals (p10, p50, p90)",
+        "Automated backtesting framework running rolling cross-validation"
       ],
       "sections": [
         {
-          "heading": "The brief",
+          "heading": "Hierarchical Time Series Forecasting",
           "paragraphs": [
-            "Travel content often collapses into listicles and itineraries. Nomad starts from the journal: the small observations, wrong turns, and meals that make a trip memorable. The map is an index, not the main event.",
-            "The platform needed to support photo essays, short notes, and route overviews without forcing every entry into the same template. It also needed to load quickly on mobile connections."
+            "Forecasting SKU-level demand requires reconciling aggregate national forecasts with volatile local hub fluctuations. Nomad implements a hierarchical reconciliation framework (MinT) that guarantees mathematical consistency across all regional levels.",
+            "Models produce probabilistic quantile forecasts (p10, p50, p90), enabling inventory planners to make risk-weighted procurement decisions."
           ]
         },
         {
-          "heading": "A content model for memory",
+          "heading": "Scalable Spark Execution",
           "paragraphs": [
-            "Each trip is a collection of entries. An entry can be a place, a day, or a standalone note. Places carry coordinates, a short description, and an optional photo set. Routes connect places in order, but the reading view does not depend on the map.",
-            "This model lets an author publish a single entry before a trip is complete, then gradually build the route. It also makes the archive useful months later, when the map matters less than the writing."
-          ]
-        },
-        {
-          "heading": "Editorial interface",
-          "paragraphs": [
-            "The reading layout uses a generous measure, large captions, and a quiet palette that lets photography lead. A sticky route rail on wide screens shows where the reader is without interrupting the text. On small screens, the rail becomes a collapsible summary.",
-            "Images are lazy-loaded with explicit dimensions. The map is rendered only when a reader asks for it, which keeps the initial page light and avoids loading a heavy mapping library for every visit."
-          ]
-        },
-        {
-          "heading": "Build notes",
-          "paragraphs": [
-            "The front end is a static build with small progressive enhancements: reading progress, route filtering, and a lightbox for photo sets. Everything essential works without JavaScript.",
-            "A production version would need an editorial CMS, image processing, and a moderation workflow. The concept focuses on the reading experience and the content model that would support it."
+            "Running daily forecasts across 15 million time-series combinations required fine-grained partition management in PySpark. We optimized Delta Lake z-ordering on SKU and location keys, reducing read I/O by 78%.",
+            "The batch pipeline completes in 35 minutes, providing refreshed forecasts before morning logistics shifts commence."
           ]
         }
+      ]
+    },
+    {
+      "slug": "atlas",
+      "title": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer",
+      "category": "Data Engineering",
+      "categories": [
+        "Data Engineering",
+        "Distributed Systems"
       ],
-      "links": {
-        "live": "",
-        "source": ""
-      }
+      "year": "2024",
+      "role": "Staff Data Platform Engineer",
+      "duration": "16 weeks",
+      "summary": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
+      "description": "Atlas modernized enterprise data infrastructure into an open Lakehouse architecture with ACID transactions, automated compaction, and governance.",
+      "image": "assets/images/project-atlas.svg",
+      "imageAlt": "Atlas Lakehouse storage architecture and distributed query benchmarks",
+      "featured": false,
+      "order": 6,
+      "demo": true,
+      "demoLabel": "Platform Architecture",
+      "tech": [
+        "Delta Lake",
+        "Trino",
+        "Apache Spark",
+        "DuckDB",
+        "Terraform"
+      ],
+      "deliverables": [
+        "Lakehouse migration roadmap and automated migration scripts",
+        "Partitioning strategy and auto-compaction jobs",
+        "Federated query engine deployment with Trino",
+        "Comprehensive data observability and cost governance dashboards"
+      ],
+      "highlights": [
+        "52% reduction in annual cloud compute infrastructure spend",
+        "4.2x faster average analytical query runtimes",
+        "Zero downtime migration across 3.4 Petabytes of enterprise data",
+        "ACID transactional guarantees eliminating concurrent write corruption"
+      ],
+      "sections": [
+        {
+          "heading": "The Lakehouse Modernization",
+          "paragraphs": [
+            "Legacy Hive and Hadoop clusters struggled under growing analytical workloads, causing table lock contention, silent read corruption, and massive compute costs. Atlas migrated 3.4PB of historical data to an open Delta Lake architecture.",
+            "We introduced automated file compaction, metadata vacuuming, and bloom filters that drastically reduced small-file problems and enhanced storage efficiency."
+          ]
+        },
+        {
+          "heading": "Query Acceleration & Cost Governance",
+          "paragraphs": [
+            "We deployed Trino as the unified query engine, enabling quantitative analysts and data scientists to query petabyte-scale datasets in seconds using standard SQL. DuckDB was integrated for fast in-memory prototyping on developer laptops.",
+            "Through compute rightsizing and intelligent partition pruning, monthly infrastructure costs dropped by 52% while user query satisfaction hit all-time highs."
+          ]
+        }
+      ]
     }
   ]
 }

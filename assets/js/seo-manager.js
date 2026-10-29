@@ -82,6 +82,10 @@ function applyEntry(entry) {
 }
 
 export async function initSEO() {
+  if (document.head.querySelector('script[data-seo-jsonld]')) {
+    return;
+  }
+
   const key = getPageKey();
 
   try {

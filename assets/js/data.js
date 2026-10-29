@@ -17,7 +17,7 @@ export async function loadJSON(path) {
     return jsonCache.get(url);
   }
 
-  const request = fetch(url, { cache: 'no-cache' })
+  const request = fetch(url)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`Unable to load ${path} (${response.status})`);

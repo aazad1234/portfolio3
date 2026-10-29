@@ -4,10 +4,10 @@
 
 @keyframes marquee {
   from {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -71,16 +71,14 @@
 
 html.js [data-reveal] {
   opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transform: translateY(8px);
+  transition: opacity 0.22s ease-out, transform 0.22s ease-out;
   transition-delay: var(--reveal-delay, 0ms);
-  will-change: opacity, transform;
 }
 
 html.js [data-reveal].is-revealed {
   opacity: 1;
   transform: translateY(0);
-  will-change: auto;
 }
 
 html.js [data-reveal="fade"] {
@@ -94,34 +92,19 @@ html.js [data-reveal="fade"].is-revealed {
 /* Hero entrance */
 
 .hero-portrait-wrap {
-  animation: portrait-in 1s var(--ease) both;
-  animation-delay: 0.15s;
+  animation: portrait-in 0.4s var(--ease) both;
+  animation-delay: 0.05s;
 }
 
 .hero-portrait-wrap::before {
-  animation: fade-in 1s var(--ease) both;
-  animation-delay: 0.35s;
+  animation: fade-in 0.4s var(--ease) both;
+  animation-delay: 0.1s;
 }
 
-.floating-card--availability {
-  animation: soft-float 7s ease-in-out infinite;
-  animation-delay: 1.2s;
-}
+/* Theme switching */
 
-.floating-card--signature {
-  animation: soft-float 8s ease-in-out infinite;
-  animation-delay: 1.6s;
-}
-
-/* Theme switching — applied briefly by theme.js to avoid a hard colour snap. */
-
-html.theme-transition,
-html.theme-transition *,
-html.theme-transition *::before,
-html.theme-transition *::after {
-  transition: background-color 0.25s var(--ease), color 0.25s var(--ease),
-    border-color 0.25s var(--ease), fill 0.25s var(--ease),
-    stroke 0.25s var(--ease) !important;
+html.theme-transition {
+  transition: background-color 0.2s var(--ease), color 0.2s var(--ease) !important;
 }
 
 /* Respect reduced motion */

@@ -1,14 +1,20 @@
 import { getRoot, sitePath } from './data.js';
 
 const loadedTargets = new WeakSet();
+const componentCache = new Map();
 
 async function fetchComponent(name) {
-  const response = await fetch(sitePath(`components/${name}.html`), { cache: 'no-cache' });
+  if (componentCache.has(name)) {
+    return componentCache.get(name);
+  }
+  const response = await fetch(sitePath(`components/${name}.html`));
   if (!response.ok) {
     throw new Error(`Component "${name}" returned ${response.status}`);
   }
   const html = await response.text();
-  return html.replaceAll('{{root}}', getRoot());
+  const processed = html.replaceAll('{{root}}', getRoot());
+  componentCache.set(name, processed);
+  return processed;
 }
 
 function fallbackHeader() {

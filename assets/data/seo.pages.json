@@ -1,21 +1,23 @@
 {
   "index.html": {
-    "title": "Ashley Miller — Creative Designer & Developer",
-    "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+    "title": "Ashley Miller — Data Science Engineer & Machine Learning Architect",
+    "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and production machine learning…",
     "keywords": [
       "Ashley Miller",
-      "portfolio",
-      "creative designer",
-      "front-end developer",
-      "UI/UX design",
-      "web design"
+      "Data Science Engineer",
+      "Machine Learning",
+      "MLOps",
+      "Distributed Systems",
+      "Apache Spark",
+      "PyTorch",
+      "Feature Stores"
     ],
     "canonical": "https://ashleymiller.design/",
     "robots": "index,follow",
-    "ogTitle": "Ashley Miller — Creative Designer & Developer",
-    "ogDescription": "Thoughtful digital experiences, designed and built with care. Explore selected projects, services, and writing.",
+    "ogTitle": "Ashley Miller — Data Science Engineer & ML Architect",
+    "ogDescription": "High-throughput data platforms, streaming pipelines, and production machine learning architectures built for scale.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "WebPage",
@@ -27,14 +29,14 @@
         "href": "index.html"
       }
     ],
-    "twitterTitle": "Ashley Miller — Creative Designer & Developer",
-    "twitterDescription": "Thoughtful digital experiences, designed and built with care. Explore selected projects, services, and writing.",
+    "twitterTitle": "Ashley Miller — Data Science Engineer & ML Architect",
+    "twitterDescription": "High-throughput data platforms, streaming pipelines, and production machine learning architectures built for scale.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -44,22 +46,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -67,7 +71,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -76,8 +80,8 @@
         {
           "@id": "https://ashleymiller.design/#webpage",
           "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller — Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "name": "Ashley Miller — Data Science Engineer & Machine Learning Architect",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and production machine learning…",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -106,21 +110,21 @@
     }
   },
   "about.html": {
-    "title": "About Ashley Miller — Designer & Developer",
-    "description": "Meet Ashley Miller, an independent designer and front-end developer focused on accessible products, editorial websites, and design systems.",
+    "title": "About Ashley Miller — Data Science Engineer",
+    "description": "Meet Ashley Miller, a Data Science Engineer dedicated to statistical rigor, zero training-serving skew, and low-latency machine learning systems.",
     "keywords": [
       "about Ashley Miller",
-      "independent designer",
-      "front-end developer",
-      "design philosophy",
-      "accessible design"
+      "Data Science Engineer",
+      "Machine Learning Architect",
+      "Distributed Systems",
+      "Applied Science"
     ],
     "canonical": "https://ashleymiller.design/about.html",
     "robots": "index,follow",
-    "ogTitle": "About Ashley Miller — Designer & Developer",
-    "ogDescription": "A designer and developer with a bias for clarity, accessibility, and systems that teams can actually use.",
+    "ogTitle": "About Ashley Miller — Data Science Engineer",
+    "ogDescription": "Bridging statistical theory and distributed production infrastructure with high-performance ML pipelines.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "AboutPage",
@@ -136,14 +140,14 @@
         "href": "about.html"
       }
     ],
-    "twitterTitle": "About Ashley Miller — Designer & Developer",
-    "twitterDescription": "A designer and developer with a bias for clarity, accessibility, and systems that teams can actually use.",
+    "twitterTitle": "About Ashley Miller — Data Science Engineer",
+    "twitterDescription": "Bridging statistical theory and distributed production infrastructure with high-performance ML pipelines.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -153,22 +157,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -176,7 +182,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -185,8 +191,8 @@
         {
           "@id": "https://ashleymiller.design/about.html#webpage",
           "url": "https://ashleymiller.design/about.html",
-          "name": "About Ashley Miller — Designer & Developer",
-          "description": "Meet Ashley Miller, an independent designer and front-end developer focused on accessible products, editorial websites, and design systems.",
+          "name": "About Ashley Miller — Data Science Engineer",
+          "description": "Meet Ashley Miller, a Data Science Engineer dedicated to statistical rigor, zero training-serving skew, and low-latency machine learning systems.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -220,22 +226,22 @@
     }
   },
   "services.html": {
-    "title": "Services — Design, Development & Design Systems | Ashley Miller",
-    "description": "Explore design and development services: UX and product design, responsive websites, brand identity, design systems, and focused audits.",
+    "title": "Services — Data Science, MLOps & Distributed Systems | Ashley Miller",
+    "description": "Consulting and technical delivery in production ML systems, distributed streaming pipelines, feature stores, MLOps infrastructure, and architecture audits.",
     "keywords": [
-      "design services",
-      "UX design",
-      "front-end development",
-      "brand identity",
-      "design systems",
-      "accessibility audit"
+      "data science services",
+      "machine learning consulting",
+      "MLOps engineering",
+      "distributed systems architecture",
+      "feature store design",
+      "pipeline optimization"
     ],
     "canonical": "https://ashleymiller.design/services.html",
     "robots": "index,follow",
-    "ogTitle": "Services — Design, Development & Design Systems",
-    "ogDescription": "Product design, editorial websites, brand identity, design systems, and audits for small teams and independent studios.",
+    "ogTitle": "Services — Production ML, Streaming & Distributed Platforms",
+    "ogDescription": "End-to-end machine learning engineering, streaming data pipelines, and low-latency serving infrastructure.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "CollectionPage",
@@ -251,14 +257,14 @@
         "href": "services.html"
       }
     ],
-    "twitterTitle": "Services — Design, Development & Design Systems",
-    "twitterDescription": "Product design, editorial websites, brand identity, design systems, and audits for small teams and independent studios.",
+    "twitterTitle": "Services — Production ML, Streaming & Distributed Platforms",
+    "twitterDescription": "End-to-end machine learning engineering, streaming data pipelines, and low-latency serving infrastructure.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -268,22 +274,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -291,7 +299,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -300,8 +308,8 @@
         {
           "@id": "https://ashleymiller.design/services.html#webpage",
           "url": "https://ashleymiller.design/services.html",
-          "name": "Services — Design, Development & Design Systems | Ashley Miller",
-          "description": "Explore design and development services: UX and product design, responsive websites, brand identity, design systems, and focused audits.",
+          "name": "Services — Data Science, MLOps & Distributed Systems | Ashley Miller",
+          "description": "Consulting and technical delivery in production ML systems, distributed streaming pipelines, feature stores, MLOps infrastructure, and architecture audits.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -319,10 +327,10 @@
                 "position": 1,
                 "item": {
                   "@type": "Service",
-                  "name": "UX & product design",
-                  "description": "Turn a fuzzy product idea into a clear, testable interface.",
-                  "serviceType": "UX & product design",
-                  "url": "https://ashleymiller.design/services.html#product-design",
+                  "name": "Production ML & Predictive Systems",
+                  "description": "High-throughput, calibrated machine learning models designed for real-time inference.",
+                  "serviceType": "Production ML & Predictive Systems",
+                  "url": "https://ashleymiller.design/services.html#production-ml",
                   "provider": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -333,10 +341,10 @@
                 "position": 2,
                 "item": {
                   "@type": "Service",
-                  "name": "Web design & front-end",
-                  "description": "Editorial websites that look considered and load quickly.",
-                  "serviceType": "Web design & front-end",
-                  "url": "https://ashleymiller.design/services.html#web-design",
+                  "name": "Distributed Data Engines & Streaming",
+                  "description": "Real-time event streaming and scalable Lakehouse data platforms.",
+                  "serviceType": "Distributed Data Engines & Streaming",
+                  "url": "https://ashleymiller.design/services.html#distributed-data",
                   "provider": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -347,10 +355,10 @@
                 "position": 3,
                 "item": {
                   "@type": "Service",
-                  "name": "Brand identity",
-                  "description": "A visual system with enough flexibility to grow with you.",
-                  "serviceType": "Brand identity",
-                  "url": "https://ashleymiller.design/services.html#brand-identity",
+                  "name": "MLOps Infrastructure & Model Serving",
+                  "description": "Robust model registries, serving clusters, and automated continuous evaluation.",
+                  "serviceType": "MLOps Infrastructure & Model Serving",
+                  "url": "https://ashleymiller.design/services.html#mlops-platform",
                   "provider": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -361,10 +369,10 @@
                 "position": 4,
                 "item": {
                   "@type": "Service",
-                  "name": "Design systems",
-                  "description": "Shared foundations that help teams ship consistent work.",
-                  "serviceType": "Design systems",
-                  "url": "https://ashleymiller.design/services.html#design-systems",
+                  "name": "Vector Search & LLM Retrieval Systems",
+                  "description": "Domain-specific hybrid retrieval systems and low-latency semantic search.",
+                  "serviceType": "Vector Search & LLM Retrieval Systems",
+                  "url": "https://ashleymiller.design/services.html#vector-search",
                   "provider": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -375,10 +383,24 @@
                 "position": 5,
                 "item": {
                   "@type": "Service",
-                  "name": "Audits & consulting",
-                  "description": "A second set of eyes before the next big build.",
-                  "serviceType": "Audits & consulting",
-                  "url": "https://ashleymiller.design/services.html#audits-consulting",
+                  "name": "Statistical Inference & Experimentation",
+                  "description": "Principled hypothesis testing, causal inference, and A/B test analysis.",
+                  "serviceType": "Statistical Inference & Experimentation",
+                  "url": "https://ashleymiller.design/services.html#statistical-inference",
+                  "provider": {
+                    "@id": "https://ashleymiller.design/#person"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "Service",
+                  "name": "Data & ML Platform Audits",
+                  "description": "Comprehensive technical review of data pipelines and model inference clusters.",
+                  "serviceType": "Data & ML Platform Audits",
+                  "url": "https://ashleymiller.design/services.html#architecture-audits",
                   "provider": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -408,21 +430,21 @@
     }
   },
   "projects.html": {
-    "title": "Selected Projects — Ashley Miller Portfolio",
-    "description": "A selection of concept projects spanning product design, web design, front-end development, and brand identity.",
+    "title": "Selected Case Studies — Ashley Miller Portfolio",
+    "description": "Production machine learning case studies spanning real-time fraud detection, distributed streaming feature stores, clinical NLP, and Lakehouse query optimiza…",
     "keywords": [
-      "design portfolio",
-      "product design projects",
-      "web design projects",
-      "front-end development",
-      "brand identity"
+      "machine learning portfolio",
+      "data engineering projects",
+      "feature store case studies",
+      "MLOps architectures",
+      "distributed systems"
     ],
     "canonical": "https://ashleymiller.design/projects.html",
     "robots": "index,follow",
-    "ogTitle": "Selected Projects — Ashley Miller Portfolio",
-    "ogDescription": "Concept projects in product design, editorial web experiences, front-end development, and brand identity.",
+    "ogTitle": "Selected Case Studies — Ashley Miller Portfolio",
+    "ogDescription": "Real-time fraud scoring, streaming feature stores, clinical entity extraction, and multi-petabyte Lakehouse architectures.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "CollectionPage",
@@ -438,14 +460,14 @@
         "href": "projects.html"
       }
     ],
-    "twitterTitle": "Selected Projects — Ashley Miller Portfolio",
-    "twitterDescription": "Concept projects in product design, editorial web experiences, front-end development, and brand identity.",
+    "twitterTitle": "Selected Case Studies — Ashley Miller Portfolio",
+    "twitterDescription": "Real-time fraud scoring, streaming feature stores, clinical entity extraction, and multi-petabyte Lakehouse architectures.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -455,22 +477,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -478,7 +502,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -487,8 +511,8 @@
         {
           "@id": "https://ashleymiller.design/projects.html#webpage",
           "url": "https://ashleymiller.design/projects.html",
-          "name": "Selected Projects — Ashley Miller Portfolio",
-          "description": "A selection of concept projects spanning product design, web design, front-end development, and brand identity.",
+          "name": "Selected Case Studies — Ashley Miller Portfolio",
+          "description": "Production machine learning case studies spanning real-time fraud detection, distributed streaming feature stores, clinical NLP, and Lakehouse query optimiza…",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -506,8 +530,8 @@
                 "position": 1,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Aurora Commerce",
-                  "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+                  "name": "Aurora: Real-Time Fraud & Anomaly Detection",
+                  "description": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
                   "url": "https://ashleymiller.design/projects/aurora-commerce.html",
                   "image": "https://ashleymiller.design/assets/images/project-aurora.jpg",
                   "creator": {
@@ -520,10 +544,10 @@
                 "position": 2,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Lumen",
-                  "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-                  "url": "https://ashleymiller.design/projects/lumen.html",
-                  "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+                  "name": "Pulse: High-Throughput Streaming Feature Store",
+                  "description": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
+                  "url": "https://ashleymiller.design/projects/pulse.html",
+                  "image": "https://ashleymiller.design/assets/images/project-pulse.svg",
                   "creator": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -534,8 +558,8 @@
                 "position": 3,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Verdant",
-                  "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
+                  "name": "Verdant: Clinical NLP & Entity Extraction Engine",
+                  "description": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
                   "url": "https://ashleymiller.design/projects/verdant.html",
                   "image": "https://ashleymiller.design/assets/images/project-verdant.jpg",
                   "creator": {
@@ -548,10 +572,10 @@
                 "position": 4,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Atlas",
-                  "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-                  "url": "https://ashleymiller.design/projects/atlas.html",
-                  "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
+                  "name": "Lumen: Low-Latency Enterprise Vector Search & RAG",
+                  "description": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+                  "url": "https://ashleymiller.design/projects/lumen.html",
+                  "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
                   "creator": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -562,10 +586,10 @@
                 "position": 5,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Pulse",
-                  "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
-                  "url": "https://ashleymiller.design/projects/pulse.html",
-                  "image": "https://ashleymiller.design/assets/images/project-pulse.svg",
+                  "name": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting",
+                  "description": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+                  "url": "https://ashleymiller.design/projects/nomad.html",
+                  "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
                   "creator": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -576,10 +600,10 @@
                 "position": 6,
                 "item": {
                   "@type": "CreativeWork",
-                  "name": "Nomad",
-                  "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
-                  "url": "https://ashleymiller.design/projects/nomad.html",
-                  "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
+                  "name": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer",
+                  "description": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
+                  "url": "https://ashleymiller.design/projects/atlas.html",
+                  "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
                   "creator": {
                     "@id": "https://ashleymiller.design/#person"
                   }
@@ -609,22 +633,23 @@
     }
   },
   "skills.html": {
-    "title": "Skills & Expertise — Ashley Miller",
-    "description": "Design and front-end development skills, tools, and workflow, from accessible interfaces and design systems to semantic HTML and JavaScript.",
+    "title": "Technical Skills & Architecture — Ashley Miller",
+    "description": "Technical stack, distributed compute tools, and engineering workflows across PyTorch, Apache Spark, Kafka, DuckDB, Triton, and Docker.",
     "keywords": [
-      "design skills",
-      "front-end skills",
-      "design systems",
-      "accessibility",
-      "JavaScript",
-      "Figma"
+      "data science skills",
+      "MLOps tooling",
+      "PyTorch",
+      "Apache Spark",
+      "DuckDB",
+      "Triton",
+      "Kafka"
     ],
     "canonical": "https://ashleymiller.design/skills.html",
     "robots": "index,follow",
-    "ogTitle": "Skills & Expertise — Ashley Miller",
-    "ogDescription": "A practical toolkit for designing and building clear, accessible digital products.",
+    "ogTitle": "Technical Skills & Architecture — Ashley Miller",
+    "ogDescription": "Production technical stack for distributed data systems, calibrated modeling, and model serving.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "AboutPage",
@@ -640,14 +665,14 @@
         "href": "skills.html"
       }
     ],
-    "twitterTitle": "Skills & Expertise — Ashley Miller",
-    "twitterDescription": "A practical toolkit for designing and building clear, accessible digital products.",
+    "twitterTitle": "Technical Skills & Architecture — Ashley Miller",
+    "twitterDescription": "Production technical stack for distributed data systems, calibrated modeling, and model serving.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -657,22 +682,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -680,7 +707,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -689,8 +716,8 @@
         {
           "@id": "https://ashleymiller.design/skills.html#webpage",
           "url": "https://ashleymiller.design/skills.html",
-          "name": "Skills & Expertise — Ashley Miller",
-          "description": "Design and front-end development skills, tools, and workflow, from accessible interfaces and design systems to semantic HTML and JavaScript.",
+          "name": "Technical Skills & Architecture — Ashley Miller",
+          "description": "Technical stack, distributed compute tools, and engineering workflows across PyTorch, Apache Spark, Kafka, DuckDB, Triton, and Docker.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -724,21 +751,21 @@
     }
   },
   "experience.html": {
-    "title": "Experience & Education — Ashley Miller",
-    "description": "A demonstration timeline of design and development experience, education, and the working principles behind the portfolio.",
+    "title": "Experience & Principles — Ashley Miller",
+    "description": "Professional engineering history, graduate research, and core operational principles across production data systems and machine learning platforms.",
     "keywords": [
-      "design experience",
-      "product designer",
-      "front-end developer",
-      "education",
-      "design principles"
+      "data science experience",
+      "staff ML engineer",
+      "data engineer career",
+      "computer science MS",
+      "engineering principles"
     ],
     "canonical": "https://ashleymiller.design/experience.html",
     "robots": "index,follow",
-    "ogTitle": "Experience & Education — Ashley Miller",
-    "ogDescription": "A demonstration timeline of roles, education, and working principles.",
+    "ogTitle": "Experience & Principles — Ashley Miller",
+    "ogDescription": "Career timeline, academic background, and engineering principles behind high-reliability data platforms.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "AboutPage",
@@ -754,14 +781,14 @@
         "href": "experience.html"
       }
     ],
-    "twitterTitle": "Experience & Education — Ashley Miller",
-    "twitterDescription": "A demonstration timeline of roles, education, and working principles.",
+    "twitterTitle": "Experience & Principles — Ashley Miller",
+    "twitterDescription": "Career timeline, academic background, and engineering principles behind high-reliability data platforms.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -771,22 +798,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -794,7 +823,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -803,8 +832,8 @@
         {
           "@id": "https://ashleymiller.design/experience.html#webpage",
           "url": "https://ashleymiller.design/experience.html",
-          "name": "Experience & Education — Ashley Miller",
-          "description": "A demonstration timeline of design and development experience, education, and the working principles behind the portfolio.",
+          "name": "Experience & Principles — Ashley Miller",
+          "description": "Professional engineering history, graduate research, and core operational principles across production data systems and machine learning platforms.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -838,21 +867,21 @@
     }
   },
   "blog.html": {
-    "title": "Journal — Design, Development & Process | Ashley Miller",
-    "description": "Notes on interface design, front-end development, creative process, and design systems.",
+    "title": "Technical Journal — Data Systems & Production ML | Ashley Miller",
+    "description": "Engineering articles on sub-millisecond feature stores, classifier calibration, low-latency Triton serving, and embedded analytics with DuckDB.",
     "keywords": [
-      "design blog",
-      "front-end development blog",
-      "design process",
-      "design systems",
-      "accessibility"
+      "machine learning blog",
+      "data engineering articles",
+      "feature store architecture",
+      "Triton inference",
+      "DuckDB analytics"
     ],
     "canonical": "https://ashleymiller.design/blog.html",
     "robots": "index,follow",
-    "ogTitle": "Journal — Design, Development & Process",
-    "ogDescription": "Notes on interface design, front-end development, creative process, and design systems.",
+    "ogTitle": "Technical Journal — Data Systems & Production ML",
+    "ogDescription": "Applied engineering notes on distributed systems, latency bounds, and machine learning architectures.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "Blog",
@@ -868,14 +897,14 @@
         "href": "blog.html"
       }
     ],
-    "twitterTitle": "Journal — Design, Development & Process",
-    "twitterDescription": "Notes on interface design, front-end development, creative process, and design systems.",
+    "twitterTitle": "Technical Journal — Data Systems & Production ML",
+    "twitterDescription": "Applied engineering notes on distributed systems, latency bounds, and machine learning architectures.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -885,22 +914,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -908,7 +939,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -917,8 +948,8 @@
         {
           "@id": "https://ashleymiller.design/blog.html#blog",
           "url": "https://ashleymiller.design/blog.html",
-          "name": "Journal — Design, Development & Process | Ashley Miller",
-          "description": "Notes on interface design, front-end development, creative process, and design systems.",
+          "name": "Technical Journal — Data Systems & Production ML | Ashley Miller",
+          "description": "Engineering articles on sub-millisecond feature stores, classifier calibration, low-latency Triton serving, and embedded analytics with DuckDB.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -930,8 +961,8 @@
           "blogPost": [
             {
               "@type": "BlogPosting",
-              "headline": "The future of UI design is quieter than you think",
-              "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+              "headline": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+              "description": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
               "url": "https://ashleymiller.design/blog/future-of-ui-design.html",
               "datePublished": "2026-02-18",
               "image": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
@@ -941,10 +972,21 @@
             },
             {
               "@type": "BlogPosting",
-              "headline": "Web development practices I keep coming back to",
-              "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
+              "headline": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+              "description": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
+              "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+              "datePublished": "2026-01-14",
+              "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+              "author": {
+                "@id": "https://ashleymiller.design/#person"
+              }
+            },
+            {
+              "@type": "BlogPosting",
+              "headline": "Scaling Low-Latency Inference with Triton and Ray Serve",
+              "description": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
               "url": "https://ashleymiller.design/blog/web-development-practices.html",
-              "datePublished": "2026-01-27",
+              "datePublished": "2025-11-20",
               "image": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
               "author": {
                 "@id": "https://ashleymiller.design/#person"
@@ -952,22 +994,11 @@
             },
             {
               "@type": "BlogPosting",
-              "headline": "Inside the creative process: from messy notes to a clear interface",
-              "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
+              "headline": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+              "description": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
               "url": "https://ashleymiller.design/blog/creative-process.html",
-              "datePublished": "2025-12-09",
+              "datePublished": "2025-09-08",
               "image": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
-              "author": {
-                "@id": "https://ashleymiller.design/#person"
-              }
-            },
-            {
-              "@type": "BlogPosting",
-              "headline": "Design systems that scale without slowing teams down",
-              "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
-              "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
-              "datePublished": "2025-11-14",
-              "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
               "author": {
                 "@id": "https://ashleymiller.design/#person"
               }
@@ -995,21 +1026,21 @@
     }
   },
   "contact.html": {
-    "title": "Contact — Start a Project with Ashley Miller",
-    "description": "Get in touch about a product, website, brand, or design system project. Contact details, availability, and a project enquiry form.",
+    "title": "Contact — Initiate Engagement with Ashley Miller",
+    "description": "Connect regarding data platform architecture, real-time ML systems, or technical advisory engagements. Direct contact information and enquiry form.",
     "keywords": [
-      "contact Ashley Miller",
-      "hire a designer",
-      "hire a front-end developer",
-      "project enquiry",
-      "freelance designer"
+      "hire Data Science Engineer",
+      "ML consultant",
+      "data engineering contractor",
+      "technical advisory",
+      "contact Ashley Miller"
     ],
     "canonical": "https://ashleymiller.design/contact.html",
     "robots": "index,follow",
-    "ogTitle": "Contact — Start a Project with Ashley Miller",
-    "ogDescription": "Have a project in mind? Tell me what you are building and what you need help with.",
+    "ogTitle": "Contact — Initiate Engagement with Ashley Miller",
+    "ogDescription": "Have a streaming data or machine learning challenge? Get in touch to discuss architectures and SLAs.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "ContactPage",
@@ -1025,14 +1056,14 @@
         "href": "contact.html"
       }
     ],
-    "twitterTitle": "Contact — Start a Project with Ashley Miller",
-    "twitterDescription": "Have a project in mind? Tell me what you are building and what you need help with.",
+    "twitterTitle": "Contact — Initiate Engagement with Ashley Miller",
+    "twitterDescription": "Have a streaming data or machine learning challenge? Get in touch to discuss architectures and SLAs.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -1042,22 +1073,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -1065,7 +1098,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -1074,8 +1107,8 @@
         {
           "@id": "https://ashleymiller.design/contact.html#webpage",
           "url": "https://ashleymiller.design/contact.html",
-          "name": "Contact — Start a Project with Ashley Miller",
-          "description": "Get in touch about a product, website, brand, or design system project. Contact details, availability, and a project enquiry form.",
+          "name": "Contact — Initiate Engagement with Ashley Miller",
+          "description": "Connect regarding data platform architecture, real-time ML systems, or technical advisory engagements. Direct contact information and enquiry form.",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -1118,7 +1151,7 @@
   },
   "404.html": {
     "title": "Page Not Found — Ashley Miller",
-    "description": "The page you are looking for could not be found. Explore the portfolio, projects, or get in touch.",
+    "description": "The requested resource could not be found. Explore case studies, engineering notes, or return home.",
     "keywords": [
       "page not found",
       "404"
@@ -1126,9 +1159,9 @@
     "canonical": "https://ashleymiller.design/404.html",
     "robots": "noindex,follow",
     "ogTitle": "Page Not Found — Ashley Miller",
-    "ogDescription": "That page does not exist. Explore the portfolio instead.",
+    "ogDescription": "Requested resource not found. Explore case studies or return to the main dashboard.",
     "ogImage": "https://ashleymiller.design/assets/images/og-image.png",
-    "ogImageAlt": "Ashley Miller — Creative Designer & Developer",
+    "ogImageAlt": "Ashley Miller — Data Science Engineer",
     "ogType": "website",
     "twitterCard": "summary_large_image",
     "schemaType": "WebPage",
@@ -1145,35 +1178,36 @@
       }
     ],
     "twitterTitle": "Page Not Found — Ashley Miller",
-    "twitterDescription": "That page does not exist. Explore the portfolio instead.",
+    "twitterDescription": "Requested resource not found. Explore case studies or return to the main dashboard.",
     "twitterImage": "https://ashleymiller.design/assets/images/og-image.png",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": null
   },
   "projects/aurora-commerce.html": {
-    "title": "Aurora Commerce — Web design Concept | Ashley Miller",
-    "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "title": "Aurora: Real-Time Fraud & Anomaly Detection — Machine Learning Concept | Ashley Miller",
+    "description": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
     "keywords": [
-      "Figma",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Web design",
-      "Development",
+      "PyTorch",
+      "Apache Kafka",
+      "Redis",
+      "Triton Server",
+      "Docker",
+      "Machine Learning",
+      "MLOps",
       "concept project",
       "portfolio"
     ],
     "canonical": "https://ashleymiller.design/projects/aurora-commerce.html",
     "robots": "index,follow",
-    "ogTitle": "Aurora Commerce — Web design Concept",
-    "ogDescription": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "ogTitle": "Aurora: Real-Time Fraud & Anomaly Detection — Machine Learning Concept",
+    "ogDescription": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
     "ogImage": "https://ashleymiller.design/assets/images/project-aurora.jpg",
-    "ogImageAlt": "Aurora Commerce storefront concept shown on a warm neutral background",
+    "ogImageAlt": "Aurora real-time fraud detection architecture showing latency and precision telemetry",
     "ogType": "article",
     "twitterCard": "summary_large_image",
     "schemaType": "CreativeWork",
@@ -1189,18 +1223,18 @@
         "href": "projects.html"
       },
       {
-        "label": "Aurora Commerce",
+        "label": "Aurora: Real-Time Fraud & Anomaly Detection",
         "href": "/projects/aurora-commerce.html"
       }
     ],
-    "twitterTitle": "Aurora Commerce — Web design Concept",
-    "twitterDescription": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+    "twitterTitle": "Aurora: Real-Time Fraud & Anomaly Detection — Machine Learning Concept",
+    "twitterDescription": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
     "twitterImage": "https://ashleymiller.design/assets/images/project-aurora.jpg",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -1210,22 +1244,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -1233,7 +1269,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -1242,15 +1278,15 @@
         {
           "@type": "CreativeWork",
           "@id": "https://ashleymiller.design/projects/aurora-commerce.html#creativework",
-          "name": "Aurora Commerce",
-          "description": "A quieter storefront concept for a slow-living homeware label, built around editorial storytelling and a frictionless path to checkout.",
+          "name": "Aurora: Real-Time Fraud & Anomaly Detection",
+          "description": "A sub-15ms fraud detection pipeline processing 25,000 transactions/sec with a calibrated ensemble model, cutting chargebacks by 44%.",
           "url": "https://ashleymiller.design/projects/aurora-commerce.html",
           "image": "https://ashleymiller.design/assets/images/project-aurora.jpg",
           "creator": {
             "@id": "https://ashleymiller.design/#person"
           },
-          "keywords": "Figma, HTML, CSS, JavaScript, Web design, Development",
-          "genre": "Web design",
+          "keywords": "PyTorch, Apache Kafka, Redis, Triton Server, Docker, Machine Learning, MLOps",
+          "genre": "Machine Learning",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -1274,7 +1310,7 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Aurora Commerce",
+              "name": "Aurora: Real-Time Fraud & Anomaly Detection",
               "item": "https://ashleymiller.design/projects/aurora-commerce.html"
             }
           ]
@@ -1282,402 +1318,26 @@
       ]
     }
   },
-  "projects/lumen.html": {
-    "title": "Lumen — Product design Concept | Ashley Miller",
-    "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-    "keywords": [
-      "Figma",
-      "Protopie",
-      "Design tokens",
-      "Product design",
-      "concept project",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/projects/lumen.html",
-    "robots": "index,follow",
-    "ogTitle": "Lumen — Product design Concept",
-    "ogDescription": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-    "ogImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
-    "ogImageAlt": "Lumen sleep and focus app concept with a soft gradient interface",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "CreativeWork",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Projects",
-        "href": "projects.html"
-      },
-      {
-        "label": "Lumen",
-        "href": "/projects/lumen.html"
-      }
-    ],
-    "twitterTitle": "Lumen — Product design Concept",
-    "twitterDescription": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-    "twitterImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "publishedTime": "",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "CreativeWork",
-          "@id": "https://ashleymiller.design/projects/lumen.html#creativework",
-          "name": "Lumen",
-          "description": "A sleep and focus companion that replaces streaks and scores with gentle, evidence-informed routines.",
-          "url": "https://ashleymiller.design/projects/lumen.html",
-          "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
-          "creator": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "keywords": "Figma, Protopie, Design tokens, Product design",
-          "genre": "Product design",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://ashleymiller.design/projects.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Lumen",
-              "item": "https://ashleymiller.design/projects/lumen.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "projects/verdant.html": {
-    "title": "Verdant — Branding Concept | Ashley Miller",
-    "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
-    "keywords": [
-      "Illustrator",
-      "Photoshop",
-      "Figma",
-      "Branding",
-      "Web design",
-      "concept project",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/projects/verdant.html",
-    "robots": "index,follow",
-    "ogTitle": "Verdant — Branding Concept",
-    "ogDescription": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
-    "ogImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
-    "ogImageAlt": "Verdant botanical brand identity with green tones and editorial typography",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "CreativeWork",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Projects",
-        "href": "projects.html"
-      },
-      {
-        "label": "Verdant",
-        "href": "/projects/verdant.html"
-      }
-    ],
-    "twitterTitle": "Verdant — Branding Concept",
-    "twitterDescription": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
-    "twitterImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "publishedTime": "",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "CreativeWork",
-          "@id": "https://ashleymiller.design/projects/verdant.html#creativework",
-          "name": "Verdant",
-          "description": "A botanical studio identity that balances scientific precision with the warmth of a hand-tended garden.",
-          "url": "https://ashleymiller.design/projects/verdant.html",
-          "image": "https://ashleymiller.design/assets/images/project-verdant.jpg",
-          "creator": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "keywords": "Illustrator, Photoshop, Figma, Branding, Web design",
-          "genre": "Branding",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://ashleymiller.design/projects.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Verdant",
-              "item": "https://ashleymiller.design/projects/verdant.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "projects/atlas.html": {
-    "title": "Atlas — Development Concept | Ashley Miller",
-    "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-    "keywords": [
-      "Figma",
-      "Storybook",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Development",
-      "Product design",
-      "concept project",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/projects/atlas.html",
-    "robots": "index,follow",
-    "ogTitle": "Atlas — Development Concept",
-    "ogDescription": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-    "ogImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
-    "ogImageAlt": "Atlas design system concept with a dark dashboard interface",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "CreativeWork",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Projects",
-        "href": "projects.html"
-      },
-      {
-        "label": "Atlas",
-        "href": "/projects/atlas.html"
-      }
-    ],
-    "twitterTitle": "Atlas — Development Concept",
-    "twitterDescription": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-    "twitterImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "publishedTime": "",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "CreativeWork",
-          "@id": "https://ashleymiller.design/projects/atlas.html#creativework",
-          "name": "Atlas",
-          "description": "A design system for data-heavy products, built to help small teams ship consistent interfaces without a dedicated platform squad.",
-          "url": "https://ashleymiller.design/projects/atlas.html",
-          "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
-          "creator": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "keywords": "Figma, Storybook, HTML, CSS, JavaScript, Development, Product design",
-          "genre": "Development",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://ashleymiller.design/projects.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Atlas",
-              "item": "https://ashleymiller.design/projects/atlas.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
   "projects/pulse.html": {
-    "title": "Pulse — Product design Concept | Ashley Miller",
-    "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "title": "Pulse: High-Throughput Streaming Feature Store — Distributed Systems Concept | Ashley Miller",
+    "description": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
     "keywords": [
-      "Figma",
-      "Framer",
-      "Maze",
-      "Product design",
+      "Apache Spark",
+      "Apache Kafka",
+      "DuckDB",
+      "PostgreSQL",
+      "dbt",
+      "Distributed Systems",
+      "Data Engineering",
       "concept project",
       "portfolio"
     ],
     "canonical": "https://ashleymiller.design/projects/pulse.html",
     "robots": "index,follow",
-    "ogTitle": "Pulse — Product design Concept",
-    "ogDescription": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "ogTitle": "Pulse: High-Throughput Streaming Feature Store — Distributed Systems Concept",
+    "ogDescription": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
     "ogImage": "https://ashleymiller.design/assets/images/project-pulse.svg",
-    "ogImageAlt": "Pulse wellness app concept with a coral gradient and mobile interface",
+    "ogImageAlt": "Pulse distributed feature store architecture diagram with Spark and Kafka pipelines",
     "ogType": "article",
     "twitterCard": "summary_large_image",
     "schemaType": "CreativeWork",
@@ -1693,18 +1353,18 @@
         "href": "projects.html"
       },
       {
-        "label": "Pulse",
+        "label": "Pulse: High-Throughput Streaming Feature Store",
         "href": "/projects/pulse.html"
       }
     ],
-    "twitterTitle": "Pulse — Product design Concept",
-    "twitterDescription": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+    "twitterTitle": "Pulse: High-Throughput Streaming Feature Store — Distributed Systems Concept",
+    "twitterDescription": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
     "twitterImage": "https://ashleymiller.design/assets/images/project-pulse.svg",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -1714,22 +1374,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -1737,7 +1399,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -1746,15 +1408,15 @@
         {
           "@type": "CreativeWork",
           "@id": "https://ashleymiller.design/projects/pulse.html#creativework",
-          "name": "Pulse",
-          "description": "A wellness tracking app that helps people notice patterns without turning their health into a performance score.",
+          "name": "Pulse: High-Throughput Streaming Feature Store",
+          "description": "A distributed streaming feature store ingesting 1.8B events/day with Apache Spark & Kafka, achieving p99 retrieval latency under 4ms.",
           "url": "https://ashleymiller.design/projects/pulse.html",
           "image": "https://ashleymiller.design/assets/images/project-pulse.svg",
           "creator": {
             "@id": "https://ashleymiller.design/#person"
           },
-          "keywords": "Figma, Framer, Maze, Product design",
-          "genre": "Product design",
+          "keywords": "Apache Spark, Apache Kafka, DuckDB, PostgreSQL, dbt, Distributed Systems, Data Engineering",
+          "genre": "Distributed Systems",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -1778,7 +1440,7 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Pulse",
+              "name": "Pulse: High-Throughput Streaming Feature Store",
               "item": "https://ashleymiller.design/projects/pulse.html"
             }
           ]
@@ -1786,25 +1448,26 @@
       ]
     }
   },
-  "projects/nomad.html": {
-    "title": "Nomad — Web design Concept | Ashley Miller",
-    "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
+  "projects/verdant.html": {
+    "title": "Verdant: Clinical NLP & Entity Extraction Engine — Machine Learning Concept | Ashley Miller",
+    "description": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
     "keywords": [
-      "Figma",
-      "Astro",
-      "CSS",
-      "JavaScript",
-      "Web design",
-      "Development",
+      "PyTorch",
+      "Hugging Face",
+      "Ray",
+      "Docker",
+      "FastAPI",
+      "Machine Learning",
+      "Data Engineering",
       "concept project",
       "portfolio"
     ],
-    "canonical": "https://ashleymiller.design/projects/nomad.html",
+    "canonical": "https://ashleymiller.design/projects/verdant.html",
     "robots": "index,follow",
-    "ogTitle": "Nomad — Web design Concept",
-    "ogDescription": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
-    "ogImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
-    "ogImageAlt": "Nomad travel journal concept with a green map-inspired cover",
+    "ogTitle": "Verdant: Clinical NLP & Entity Extraction Engine — Machine Learning Concept",
+    "ogDescription": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
+    "ogImageAlt": "Verdant clinical entity extraction visualization with token confidence metrics",
     "ogType": "article",
     "twitterCard": "summary_large_image",
     "schemaType": "CreativeWork",
@@ -1820,18 +1483,18 @@
         "href": "projects.html"
       },
       {
-        "label": "Nomad",
-        "href": "/projects/nomad.html"
+        "label": "Verdant: Clinical NLP & Entity Extraction Engine",
+        "href": "/projects/verdant.html"
       }
     ],
-    "twitterTitle": "Nomad — Web design Concept",
-    "twitterDescription": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
-    "twitterImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
+    "twitterTitle": "Verdant: Clinical NLP & Entity Extraction Engine — Machine Learning Concept",
+    "twitterDescription": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-verdant.jpg",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "publishedTime": "",
     "jsonLd": {
       "@context": "https://schema.org",
@@ -1841,22 +1504,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -1864,7 +1529,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -1872,16 +1537,16 @@
         },
         {
           "@type": "CreativeWork",
-          "@id": "https://ashleymiller.design/projects/nomad.html#creativework",
-          "name": "Nomad",
-          "description": "A travel journal platform for people who want to remember the texture of a trip, not just the itinerary.",
-          "url": "https://ashleymiller.design/projects/nomad.html",
-          "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
+          "@id": "https://ashleymiller.design/projects/verdant.html#creativework",
+          "name": "Verdant: Clinical NLP & Entity Extraction Engine",
+          "description": "Transformer-based token classification and entity linking across 12M+ biomedical records, achieving 96.8% macro F1 score.",
+          "url": "https://ashleymiller.design/projects/verdant.html",
+          "image": "https://ashleymiller.design/assets/images/project-verdant.jpg",
           "creator": {
             "@id": "https://ashleymiller.design/#person"
           },
-          "keywords": "Figma, Astro, CSS, JavaScript, Web design, Development",
-          "genre": "Web design",
+          "keywords": "PyTorch, Hugging Face, Ray, Docker, FastAPI, Machine Learning, Data Engineering",
+          "genre": "Machine Learning",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
           },
@@ -1905,7 +1570,267 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Nomad",
+              "name": "Verdant: Clinical NLP & Entity Extraction Engine",
+              "item": "https://ashleymiller.design/projects/verdant.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/lumen.html": {
+    "title": "Lumen: Low-Latency Enterprise Vector Search & RAG — Distributed Systems Concept | Ashley Miller",
+    "description": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+    "keywords": [
+      "Python",
+      "Milvus",
+      "ONNX Runtime",
+      "FastAPI",
+      "Ray Serve",
+      "Distributed Systems",
+      "MLOps",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/lumen.html",
+    "robots": "index,follow",
+    "ogTitle": "Lumen: Low-Latency Enterprise Vector Search & RAG — Distributed Systems Concept",
+    "ogDescription": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+    "ogImageAlt": "Lumen enterprise retrieval architecture and semantic vector indexing dashboard",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Lumen: Low-Latency Enterprise Vector Search & RAG",
+        "href": "/projects/lumen.html"
+      }
+    ],
+    "twitterTitle": "Lumen: Low-Latency Enterprise Vector Search & RAG — Distributed Systems Concept",
+    "twitterDescription": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/lumen.html#creativework",
+          "name": "Lumen: Low-Latency Enterprise Vector Search & RAG",
+          "description": "Sub-30ms hybrid lexical-vector retrieval architecture over 40M enterprise documents with semantic caching and cross-encoder reranking.",
+          "url": "https://ashleymiller.design/projects/lumen.html",
+          "image": "https://ashleymiller.design/assets/images/project-lumen.jpg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Python, Milvus, ONNX Runtime, FastAPI, Ray Serve, Distributed Systems, MLOps",
+          "genre": "Distributed Systems",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Lumen: Low-Latency Enterprise Vector Search & RAG",
+              "item": "https://ashleymiller.design/projects/lumen.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "projects/nomad.html": {
+    "title": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting — Data Engineering Concept | Ashley Miller",
+    "description": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+    "keywords": [
+      "PySpark",
+      "LightGBM",
+      "Delta Lake",
+      "Airflow",
+      "dbt",
+      "Data Engineering",
+      "Machine Learning",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/nomad.html",
+    "robots": "index,follow",
+    "ogTitle": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting — Data Engineering Concept",
+    "ogDescription": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
+    "ogImageAlt": "Nomad supply chain spatio-temporal forecasting pipeline visualization",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting",
+        "href": "/projects/nomad.html"
+      }
+    ],
+    "twitterTitle": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting — Data Engineering Concept",
+    "twitterDescription": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-nomad.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/nomad.html#creativework",
+          "name": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting",
+          "description": "Hierarchical Bayesian forecasting model coupled with distributed PySpark aggregations, predicting inventory requirements across 450 regional hubs.",
+          "url": "https://ashleymiller.design/projects/nomad.html",
+          "image": "https://ashleymiller.design/assets/images/project-nomad.svg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "PySpark, LightGBM, Delta Lake, Airflow, dbt, Data Engineering, Machine Learning",
+          "genre": "Data Engineering",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Nomad: Supply Chain Spatio-Temporal Demand Forecasting",
               "item": "https://ashleymiller.design/projects/nomad.html"
             }
           ]
@@ -1913,23 +1838,154 @@
       ]
     }
   },
-  "blog/future-of-ui-design.html": {
-    "title": "The future of UI design is quieter than you think | Ashley Miller",
-    "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+  "projects/atlas.html": {
+    "title": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer — Data Engineering Concept | Ashley Miller",
+    "description": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
     "keywords": [
-      "UI design",
-      "Craft",
-      "Trends",
-      "Design",
+      "Delta Lake",
+      "Trino",
+      "Apache Spark",
+      "DuckDB",
+      "Terraform",
+      "Data Engineering",
+      "Distributed Systems",
+      "concept project",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/projects/atlas.html",
+    "robots": "index,follow",
+    "ogTitle": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer — Data Engineering Concept",
+    "ogDescription": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
+    "ogImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
+    "ogImageAlt": "Atlas Lakehouse storage architecture and distributed query benchmarks",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "CreativeWork",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Projects",
+        "href": "projects.html"
+      },
+      {
+        "label": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer",
+        "href": "/projects/atlas.html"
+      }
+    ],
+    "twitterTitle": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer — Data Engineering Concept",
+    "twitterDescription": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
+    "twitterImage": "https://ashleymiller.design/assets/images/project-atlas.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "publishedTime": "",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://ashleymiller.design/projects/atlas.html#creativework",
+          "name": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer",
+          "description": "Architected a modern Delta Lake storage foundation replacing legacy Hadoop clusters, reducing compute expenditure by 52% and query runtimes by 4.2x.",
+          "url": "https://ashleymiller.design/projects/atlas.html",
+          "image": "https://ashleymiller.design/assets/images/project-atlas.svg",
+          "creator": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "keywords": "Delta Lake, Trino, Apache Spark, DuckDB, Terraform, Data Engineering, Distributed Systems",
+          "genre": "Data Engineering",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://ashleymiller.design/projects.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Atlas: Multi-Petabyte Lakehouse Migration & Query Optimizer",
+              "item": "https://ashleymiller.design/projects/atlas.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/future-of-ui-design.html": {
+    "title": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds | Ashley Miller",
+    "description": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
+    "keywords": [
+      "Distributed Systems",
+      "Feature Store",
+      "Kafka",
+      "Latency",
+      "Data Engineering",
       "design journal",
       "portfolio"
     ],
     "canonical": "https://ashleymiller.design/blog/future-of-ui-design.html",
     "robots": "index,follow",
-    "ogTitle": "The future of UI design is quieter than you think",
-    "ogDescription": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+    "ogTitle": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+    "ogDescription": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
     "ogImage": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
-    "ogImageAlt": "An editorial illustration about the future of user interface design",
+    "ogImageAlt": "Technical architectural diagram illustrating real-time feature streaming and caching tiers",
     "ogType": "article",
     "twitterCard": "summary_large_image",
     "schemaType": "BlogPosting",
@@ -1946,18 +2002,18 @@
         "href": "blog.html"
       },
       {
-        "label": "The future of UI design is quieter than you think",
+        "label": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
         "href": "/blog/future-of-ui-design.html"
       }
     ],
-    "twitterTitle": "The future of UI design is quieter than you think",
-    "twitterDescription": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+    "twitterTitle": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+    "twitterDescription": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
     "twitterImage": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
     "twitterHandle": "",
     "author": "Ashley Miller",
     "siteName": "Ashley Miller",
     "locale": "en_US",
-    "themeColor": "#4f46e5",
+    "themeColor": "#FCF0DA",
     "jsonLd": {
       "@context": "https://schema.org",
       "@graph": [
@@ -1966,22 +2022,24 @@
           "@id": "https://ashleymiller.design/#person",
           "name": "Ashley Miller",
           "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
           "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
           ]
         },
         {
@@ -1989,7 +2047,7 @@
           "@id": "https://ashleymiller.design/#website",
           "url": "https://ashleymiller.design/",
           "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
           "inLanguage": "en",
           "publisher": {
             "@id": "https://ashleymiller.design/#person"
@@ -1998,8 +2056,8 @@
         {
           "@type": "BlogPosting",
           "@id": "https://ashleymiller.design/blog/future-of-ui-design.html#article",
-          "headline": "The future of UI design is quieter than you think",
-          "description": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+          "headline": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+          "description": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
           "url": "https://ashleymiller.design/blog/future-of-ui-design.html",
           "image": "https://ashleymiller.design/assets/images/blog-future-ui.jpg",
           "datePublished": "2026-02-18",
@@ -2011,402 +2069,8 @@
             "@id": "https://ashleymiller.design/#person"
           },
           "mainEntityOfPage": "https://ashleymiller.design/blog/future-of-ui-design.html",
-          "keywords": "UI design, Craft, Trends, Design",
-          "articleSection": "Design",
-          "timeRequired": "PT7M",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Journal",
-              "item": "https://ashleymiller.design/blog.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "The future of UI design is quieter than you think",
-              "item": "https://ashleymiller.design/blog/future-of-ui-design.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "blog/web-development-practices.html": {
-    "title": "Web development practices I keep coming back to | Ashley Miller",
-    "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
-    "keywords": [
-      "Front-end",
-      "Accessibility",
-      "Performance",
-      "Development",
-      "design journal",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/blog/web-development-practices.html",
-    "robots": "index,follow",
-    "ogTitle": "Web development practices I keep coming back to",
-    "ogDescription": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
-    "ogImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
-    "ogImageAlt": "A developer workspace illustrating modern web development practices",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "BlogPosting",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "publishedTime": "2026-01-27",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Journal",
-        "href": "blog.html"
-      },
-      {
-        "label": "Web development practices I keep coming back to",
-        "href": "/blog/web-development-practices.html"
-      }
-    ],
-    "twitterTitle": "Web development practices I keep coming back to",
-    "twitterDescription": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
-    "twitterImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "BlogPosting",
-          "@id": "https://ashleymiller.design/blog/web-development-practices.html#article",
-          "headline": "Web development practices I keep coming back to",
-          "description": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
-          "url": "https://ashleymiller.design/blog/web-development-practices.html",
-          "image": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
-          "datePublished": "2026-01-27",
-          "dateModified": "2026-01-27",
-          "author": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "mainEntityOfPage": "https://ashleymiller.design/blog/web-development-practices.html",
-          "keywords": "Front-end, Accessibility, Performance, Development",
-          "articleSection": "Development",
-          "timeRequired": "PT9M",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Journal",
-              "item": "https://ashleymiller.design/blog.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Web development practices I keep coming back to",
-              "item": "https://ashleymiller.design/blog/web-development-practices.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "blog/creative-process.html": {
-    "title": "Inside the creative process: from messy notes to a clear interface | Ashley Miller",
-    "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
-    "keywords": [
-      "Process",
-      "Creativity",
-      "Design",
-      "design journal",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/blog/creative-process.html",
-    "robots": "index,follow",
-    "ogTitle": "Inside the creative process: from messy notes to a clear interface",
-    "ogDescription": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
-    "ogImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
-    "ogImageAlt": "A desk with notes and sketches illustrating the creative design process",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "BlogPosting",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "publishedTime": "2025-12-09",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Journal",
-        "href": "blog.html"
-      },
-      {
-        "label": "Inside the creative process: from messy notes to a clear interface",
-        "href": "/blog/creative-process.html"
-      }
-    ],
-    "twitterTitle": "Inside the creative process: from messy notes to a clear interface",
-    "twitterDescription": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
-    "twitterImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "BlogPosting",
-          "@id": "https://ashleymiller.design/blog/creative-process.html#article",
-          "headline": "Inside the creative process: from messy notes to a clear interface",
-          "description": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
-          "url": "https://ashleymiller.design/blog/creative-process.html",
-          "image": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
-          "datePublished": "2025-12-09",
-          "dateModified": "2025-12-09",
-          "author": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "mainEntityOfPage": "https://ashleymiller.design/blog/creative-process.html",
-          "keywords": "Process, Creativity, Design",
-          "articleSection": "Process",
-          "timeRequired": "PT6M",
-          "isPartOf": {
-            "@id": "https://ashleymiller.design/#website"
-          },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://ashleymiller.design/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Journal",
-              "item": "https://ashleymiller.design/blog.html"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Inside the creative process: from messy notes to a clear interface",
-              "item": "https://ashleymiller.design/blog/creative-process.html"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "blog/design-systems-that-scale.html": {
-    "title": "Design systems that scale without slowing teams down | Ashley Miller",
-    "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
-    "keywords": [
-      "Design systems",
-      "Teams",
-      "Documentation",
-      "design journal",
-      "portfolio"
-    ],
-    "canonical": "https://ashleymiller.design/blog/design-systems-that-scale.html",
-    "robots": "index,follow",
-    "ogTitle": "Design systems that scale without slowing teams down",
-    "ogDescription": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
-    "ogImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
-    "ogImageAlt": "An editorial cover showing a grid of design system components",
-    "ogType": "article",
-    "twitterCard": "summary_large_image",
-    "schemaType": "BlogPosting",
-    "priority": 0.6,
-    "changefreq": "yearly",
-    "publishedTime": "2025-11-14",
-    "breadcrumb": [
-      {
-        "label": "Home",
-        "href": "index.html"
-      },
-      {
-        "label": "Journal",
-        "href": "blog.html"
-      },
-      {
-        "label": "Design systems that scale without slowing teams down",
-        "href": "/blog/design-systems-that-scale.html"
-      }
-    ],
-    "twitterTitle": "Design systems that scale without slowing teams down",
-    "twitterDescription": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
-    "twitterImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
-    "twitterHandle": "",
-    "author": "Ashley Miller",
-    "siteName": "Ashley Miller",
-    "locale": "en_US",
-    "themeColor": "#4f46e5",
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://ashleymiller.design/#person",
-          "name": "Ashley Miller",
-          "url": "https://ashleymiller.design/",
-          "jobTitle": "Creative Designer & Developer",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
-          "knowsAbout": [
-            "UI/UX design",
-            "Interaction design",
-            "Design systems",
-            "Brand identity",
-            "Prototyping",
-            "Visual design",
-            "Semantic HTML & CSS",
-            "JavaScript (ES2023)",
-            "React",
-            "Accessibility",
-            "Performance",
-            "Git & tooling"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ashleymiller.design/#website",
-          "url": "https://ashleymiller.design/",
-          "name": "Ashley Miller",
-          "description": "Ashley Miller is a creative designer and front-end developer crafting calm, accessible digital products, editorial websites, and brand systems.",
-          "inLanguage": "en",
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          }
-        },
-        {
-          "@type": "BlogPosting",
-          "@id": "https://ashleymiller.design/blog/design-systems-that-scale.html#article",
-          "headline": "Design systems that scale without slowing teams down",
-          "description": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
-          "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
-          "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
-          "datePublished": "2025-11-14",
-          "dateModified": "2025-11-14",
-          "author": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "publisher": {
-            "@id": "https://ashleymiller.design/#person"
-          },
-          "mainEntityOfPage": "https://ashleymiller.design/blog/design-systems-that-scale.html",
-          "keywords": "Design systems, Teams, Documentation",
-          "articleSection": "Design systems",
+          "keywords": "Distributed Systems, Feature Store, Kafka, Latency, Data Engineering",
+          "articleSection": "Data Engineering",
           "timeRequired": "PT8M",
           "isPartOf": {
             "@id": "https://ashleymiller.design/#website"
@@ -2431,8 +2095,410 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Design systems that scale without slowing teams down",
+              "name": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+              "item": "https://ashleymiller.design/blog/future-of-ui-design.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/design-systems-that-scale.html": {
+    "title": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities | Ashley Miller",
+    "description": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
+    "keywords": [
+      "Machine Learning",
+      "Probability Calibration",
+      "PyTorch",
+      "Production ML",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+    "robots": "index,follow",
+    "ogTitle": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+    "ogDescription": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+    "ogImageAlt": "Calibration reliability diagram showing confidence curves versus empirical probabilities",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2026-01-14",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+        "href": "/blog/design-systems-that-scale.html"
+      }
+    ],
+    "twitterTitle": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+    "twitterDescription": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/design-systems-that-scale.html#article",
+          "headline": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+          "description": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
+          "url": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+          "image": "https://ashleymiller.design/assets/images/blog-design-systems.svg",
+          "datePublished": "2026-01-14",
+          "dateModified": "2026-01-14",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/design-systems-that-scale.html",
+          "keywords": "Machine Learning, Probability Calibration, PyTorch, Production ML",
+          "articleSection": "Machine Learning",
+          "timeRequired": "PT9M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
               "item": "https://ashleymiller.design/blog/design-systems-that-scale.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/web-development-practices.html": {
+    "title": "Scaling Low-Latency Inference with Triton and Ray Serve | Ashley Miller",
+    "description": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
+    "keywords": [
+      "MLOps",
+      "Triton",
+      "Ray Serve",
+      "Low Latency",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/web-development-practices.html",
+    "robots": "index,follow",
+    "ogTitle": "Scaling Low-Latency Inference with Triton and Ray Serve",
+    "ogDescription": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+    "ogImageAlt": "Distributed inference serving cluster architecture featuring Ray Serve and Triton",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2025-11-20",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Scaling Low-Latency Inference with Triton and Ray Serve",
+        "href": "/blog/web-development-practices.html"
+      }
+    ],
+    "twitterTitle": "Scaling Low-Latency Inference with Triton and Ray Serve",
+    "twitterDescription": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/web-development-practices.html#article",
+          "headline": "Scaling Low-Latency Inference with Triton and Ray Serve",
+          "description": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
+          "url": "https://ashleymiller.design/blog/web-development-practices.html",
+          "image": "https://ashleymiller.design/assets/images/blog-web-practices.jpg",
+          "datePublished": "2025-11-20",
+          "dateModified": "2025-11-20",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/web-development-practices.html",
+          "keywords": "MLOps, Triton, Ray Serve, Low Latency",
+          "articleSection": "MLOps",
+          "timeRequired": "PT10M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scaling Low-Latency Inference with Triton and Ray Serve",
+              "item": "https://ashleymiller.design/blog/web-development-practices.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "blog/creative-process.html": {
+    "title": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters | Ashley Miller",
+    "description": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
+    "keywords": [
+      "Data Engineering",
+      "DuckDB",
+      "SQL",
+      "Analytics",
+      "design journal",
+      "portfolio"
+    ],
+    "canonical": "https://ashleymiller.design/blog/creative-process.html",
+    "robots": "index,follow",
+    "ogTitle": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+    "ogDescription": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
+    "ogImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+    "ogImageAlt": "Benchmark comparison graph contrasting Spark cluster latency with DuckDB in-process execution",
+    "ogType": "article",
+    "twitterCard": "summary_large_image",
+    "schemaType": "BlogPosting",
+    "priority": 0.6,
+    "changefreq": "yearly",
+    "publishedTime": "2025-09-08",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Journal",
+        "href": "blog.html"
+      },
+      {
+        "label": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+        "href": "/blog/creative-process.html"
+      }
+    ],
+    "twitterTitle": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+    "twitterDescription": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
+    "twitterImage": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+    "twitterHandle": "",
+    "author": "Ashley Miller",
+    "siteName": "Ashley Miller",
+    "locale": "en_US",
+    "themeColor": "#FCF0DA",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ashleymiller.design/#person",
+          "name": "Ashley Miller",
+          "url": "https://ashleymiller.design/",
+          "jobTitle": "Data Science Engineer",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "image": "https://ashleymiller.design/assets/images/ashley-miller.jpg",
+          "knowsAbout": [
+            "Machine Learning & PyTorch",
+            "Statistical Inference & A/B",
+            "Gradient Boosted Trees (XGBoost/LightGBM)",
+            "Feature Engineering & Drift Calibration",
+            "Vector Search & Retrieval (RAG)",
+            "Scikit-Learn & Predictive Modeling",
+            "Distributed Systems & Spark",
+            "Kafka & Streaming Pipelines",
+            "SQL & Query Optimization",
+            "DuckDB & In-Process Analytics",
+            "dbt & Semantic Data Modeling",
+            "Delta Lake & Iceberg Tables",
+            "MLOps & Triton Serving",
+            "Docker & Kubernetes Orchestration"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ashleymiller.design/#website",
+          "url": "https://ashleymiller.design/",
+          "name": "Ashley Miller",
+          "description": "Ashley Miller is a Data Science Engineer specializing in distributed streaming architectures, sub-millisecond feature stores, and calibrated production ML systems.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "@id": "https://ashleymiller.design/blog/creative-process.html#article",
+          "headline": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+          "description": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
+          "url": "https://ashleymiller.design/blog/creative-process.html",
+          "image": "https://ashleymiller.design/assets/images/blog-creative-process.jpg",
+          "datePublished": "2025-09-08",
+          "dateModified": "2025-09-08",
+          "author": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "publisher": {
+            "@id": "https://ashleymiller.design/#person"
+          },
+          "mainEntityOfPage": "https://ashleymiller.design/blog/creative-process.html",
+          "keywords": "Data Engineering, DuckDB, SQL, Analytics",
+          "articleSection": "Data Engineering",
+          "timeRequired": "PT6M",
+          "isPartOf": {
+            "@id": "https://ashleymiller.design/#website"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://ashleymiller.design/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Journal",
+              "item": "https://ashleymiller.design/blog.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+              "item": "https://ashleymiller.design/blog/creative-process.html"
             }
           ]
         }

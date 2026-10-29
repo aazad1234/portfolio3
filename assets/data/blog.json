@@ -1,259 +1,214 @@
 {
-  "note": "All articles are sample content for this demo portfolio. They are written for demonstration purposes and are not published editorial work.",
+  "note": "Technical publications and applied engineering notes on distributed systems, machine learning architectures, and statistical inference.",
   "categories": [
     "All",
-    "Design",
-    "Development",
-    "Process",
-    "Design systems"
+    "Machine Learning",
+    "Data Engineering",
+    "MLOps",
+    "Distributed Systems"
   ],
   "items": [
     {
       "slug": "future-of-ui-design",
-      "title": "The future of UI design is quieter than you think",
-      "category": "Design",
+      "title": "Sub-Millisecond Feature Stores: Architecture & Latency Bounds",
+      "category": "Data Engineering",
       "date": "2026-02-18",
       "dateDisplay": "February 18, 2026",
-      "readingTime": 7,
-      "excerpt": "The next wave of interface design is less about spectacle and more about reducing the number of decisions a person has to make.",
+      "readingTime": 8,
+      "excerpt": "How to design unified streaming feature ingestion with Kafka and Redis that satisfies sub-5ms p99 SLAs while eliminating training-serving skew.",
       "image": "assets/images/blog-future-ui.jpg",
-      "imageAlt": "An editorial illustration about the future of user interface design",
+      "imageAlt": "Technical architectural diagram illustrating real-time feature streaming and caching tiers",
       "featured": true,
       "demo": true,
-      "demoLabel": "Sample article",
+      "demoLabel": "Engineering Note",
       "tags": [
-        "UI design",
-        "Craft",
-        "Trends"
+        "Distributed Systems",
+        "Feature Store",
+        "Kafka",
+        "Latency"
       ],
       "content": [
         {
-          "heading": "More surface, less noise",
+          "heading": "The Real-Time Feature Bottleneck",
           "paragraphs": [
-            "For the last decade, interface design has been pulled toward more: more motion, more personalisation, more surfaces, more things asking for attention. Some of that has been useful. A lot of it has simply moved complexity from the product team to the person using the product.",
-            "The next wave is likely to be quieter. Not minimal for the sake of a moodboard, but quieter in the sense that the interface does more of the thinking in the background and asks less of the person in front of it. Fewer choices at the moment of action. Clearer defaults. Language that explains what is happening instead of making the user infer it."
+            "Modern machine learning architectures are fundamentally bounded by feature freshness and network retrieval latencies. While model inference itself can often be quantized and compiled down to sub-10ms durations on modern accelerators, assembling 150+ input features across distributed data sources frequently consumes 80% of the total request budget.",
+            "When serving latency SLAs are pegged at 25ms, spending 20ms simply executing database lookups leaves zero headroom for model ensembles or network jitter. Addressing this requires rethinking feature storage from the physical memory layout upward."
           ]
         },
         {
-          "heading": "The interface becomes context",
+          "heading": "Dual-Tier Ingestion & Schema Contracts",
           "paragraphs": [
-            "As products spread across phones, watches, cars, and ambient displays, the idea of a single screen with a single layout starts to break down. A calendar is not a grid everywhere. A message is not a thread everywhere. The same task needs a different level of detail depending on where the person is and what they are doing.",
-            "That does not mean every product needs to be rebuilt for every surface. It means the design system needs to describe intent, not just components. What is the primary action here? What can wait? What information is essential in a glance, and what can be revealed later? Those questions become more important than pixel-perfect parity."
+            "We structure the feature ingestion pipeline into two distinct synchronization loops: an asynchronous streaming loop driven by Kafka and in-memory key-value stores for real-time velocity aggregates, and an immutable Parquet batch tier in Delta Lake for historical as-of backfills.",
+            "By compiling declarative feature definitions into both stream transforms and analytical SQL views, the offline training dataset and online serving responses share exact byte-level parity, permanently solving training-serving drift."
           ]
         },
         {
-          "heading": "Motion with a job",
+          "heading": "Zero-Copy Deserialization with FlatBuffers",
           "paragraphs": [
-            "Motion is useful when it explains a change: where a panel came from, what just moved, why the layout shifted. It is less useful when it exists to make a page feel expensive. The distinction matters because motion has a cost. It can delay interaction, trigger discomfort, and make a product feel slower than it is.",
-            "A good test is to turn the motion off. If the interface still makes sense, the motion was decoration. If it does not, the motion is carrying too much meaning and the underlying structure needs work."
+            "JSON parsing in production microservices incurs substantial CPU overhead and memory allocations. Switching our feature store serialization format to FlatBuffers allowed our inference containers to read numerical and embedding vectors directly from memory without parsing.",
+            "This optimization alone reduced feature fetch CPU cycles by 48% and shaved 2.4ms off our p99 latency curve at 40,000 requests/sec."
           ]
         },
         {
-          "heading": "Personalisation without surveillance",
+          "heading": "Guarding Against Cache Invalidation Cascades",
           "paragraphs": [
-            "The most valuable personalisation is often local and temporary: remembering a filter, respecting a reduced-motion setting, surfacing the last used project, or adapting to a small screen. None of that requires a profile of a person's life.",
-            "Designers should be suspicious of personalisation that exists mainly to justify data collection. A product can be responsive to context without knowing everything about the person in that context."
-          ]
-        },
-        {
-          "heading": "What this means for designers",
-          "paragraphs": [
-            "The craft is shifting from adding layers to making decisions. That is harder to show in a portfolio screenshot, but it is what people feel when they use a product. It requires writing, systems thinking, accessibility knowledge, and the patience to remove things.",
-            "Quiet interfaces are not boring. They are confident. They trust the content, the user, and the team behind them enough to stop performing."
+            "In high-throughput environments, hot-key contention and cache stampedes can quickly saturate in-memory replicas. We deploy client-side probabilistic early-expiration (XFetch) and local thread-safe L1 caches that prevent thousands of concurrent threads from hitting the primary store simultaneously.",
+            "The result is a resilient feature pipeline that remains steadfastly under 3.8ms at p99 even during unpredictable traffic surges."
           ]
         }
       ],
       "takeaways": [
-        "Design for the moment of action, not every possible moment.",
-        "Let the design system describe intent, not just components.",
-        "Treat motion as an explanation, not an ornament.",
-        "Prefer local, respectful personalisation over broad data collection."
-      ]
-    },
-    {
-      "slug": "web-development-practices",
-      "title": "Web development practices I keep coming back to",
-      "category": "Development",
-      "date": "2026-01-27",
-      "dateDisplay": "January 27, 2026",
-      "readingTime": 9,
-      "excerpt": "A short list of habits that make front-end work more resilient: semantic HTML, honest states, fewer dependencies, and accessibility as a definition of done.",
-      "image": "assets/images/blog-web-practices.jpg",
-      "imageAlt": "A developer workspace illustrating modern web development practices",
-      "featured": false,
-      "demo": true,
-      "demoLabel": "Sample article",
-      "tags": [
-        "Front-end",
-        "Accessibility",
-        "Performance"
-      ],
-      "content": [
-        {
-          "heading": "Start with semantic HTML",
-          "paragraphs": [
-            "Before the component library, the state manager, or the animation layer, there is a document. Buttons should be buttons. Links should go somewhere. Headings should describe the structure of the page, not the size of the text. Forms should have labels.",
-            "Semantic HTML is not a nostalgic preference. It is the cheapest accessibility win available, and it gives browsers, search engines, and assistive technology a reliable model of the page. A surprising number of complex front-end bugs disappear when the underlying elements are correct."
-          ]
-        },
-        {
-          "heading": "Design the states, not just the screen",
-          "paragraphs": [
-            "A screen is a snapshot. A product is a set of transitions: loading, empty, partial, error, success, offline, and everything in between. The polished mockup is usually the least common state in real use.",
-            "I try to design the loading and error states at the same time as the happy path. What does the page look like before the data arrives? What does a failed request say? Can the person retry without losing their place? These decisions are part of the interface, not an implementation detail."
-          ]
-        },
-        {
-          "heading": "Treat performance as a design constraint",
-          "paragraphs": [
-            "Performance is not only a back-end concern. Image choices, font loading, third-party scripts, and animation decisions all shape how a page feels. A layout that requires a large image to make sense is a fragile layout.",
-            "I set a simple budget early: a target page weight, a maximum number of font families, and a rule that noncritical scripts load after the content. The budget creates useful conversations. It also prevents a small design decision from quietly becoming a large performance problem."
-          ]
-        },
-        {
-          "heading": "Use fewer dependencies",
-          "paragraphs": [
-            "Libraries are not free. Every dependency adds install time, upgrade work, security surface, and a new vocabulary for the next person. Sometimes that trade is worth it. Sometimes a small utility function would have been enough.",
-            "A useful question is: what happens if this dependency disappears? If the answer is a week of work, the abstraction needs to be understood and documented. If the answer is an afternoon, it may still be fine, but it should be a conscious choice."
-          ]
-        },
-        {
-          "heading": "Make accessibility part of done",
-          "paragraphs": [
-            "Accessibility is easiest when it is not a separate phase. Use landmarks and headings from the start. Check keyboard order as you build. Test focus states with the real design. Write error messages that explain how to recover. Run automated checks, then do the manual checks automation cannot do.",
-            "The goal is not a perfect score. The goal is a page that more people can use, including people who are tired, distracted, on a slow connection, or using a keyboard because a trackpad is not available."
-          ]
-        }
-      ],
-      "takeaways": [
-        "Correct elements are cheaper than clever workarounds.",
-        "Design loading, empty, and error states alongside the happy path.",
-        "Set a performance budget before the first component is built.",
-        "Treat accessibility as part of the definition of done."
-      ]
-    },
-    {
-      "slug": "creative-process",
-      "title": "Inside the creative process: from messy notes to a clear interface",
-      "category": "Process",
-      "date": "2025-12-09",
-      "dateDisplay": "December 9, 2025",
-      "readingTime": 6,
-      "excerpt": "A look at the unglamorous middle of design work: collecting too much, finding the problem, and editing until the interface has a point of view.",
-      "image": "assets/images/blog-creative-process.jpg",
-      "imageAlt": "A desk with notes and sketches illustrating the creative design process",
-      "featured": false,
-      "demo": true,
-      "demoLabel": "Sample article",
-      "tags": [
-        "Process",
-        "Creativity",
-        "Design"
-      ],
-      "content": [
-        {
-          "heading": "Collect before you decide",
-          "paragraphs": [
-            "The beginning of a project is usually messy. I collect screenshots, articles, interview notes, competitor observations, half-formed ideas, and questions that may not have answers yet. The point is not to find a reference to copy. It is to build enough context that the problem starts to show its shape.",
-            "I keep this phase deliberately loose. A folder of images, a running document, and a few pages of notes are enough. The temptation to make a beautiful moodboard too early is strong, but premature polish can lock in an idea before the problem is understood."
-          ]
-        },
-        {
-          "heading": "Make the problem visible",
-          "paragraphs": [
-            "At some point the notes need to become a diagram. I map the people involved, the information they need, the decisions they make, and the places where the current experience breaks down. The diagram is not a deliverable. It is a thinking tool.",
-            "This is where a vague request like 'make the dashboard better' turns into a specific question: which decision is the dashboard supposed to support, and what information is missing when someone tries to make it? A clear problem is easier to design for and much easier to explain."
-          ]
-        },
-        {
-          "heading": "Sketch in constraints",
-          "paragraphs": [
-            "I like to sketch with constraints already in place: a small screen, a short attention span, a limited content model, or a single primary action. Constraints make sketches more useful because they force a point of view.",
-            "Most of these sketches are bad. That is the job. A bad sketch is cheap, and it makes the good idea easier to recognise. The goal is to explore enough directions that the final interface is a decision rather than the first thing that looked acceptable."
-          ]
-        },
-        {
-          "heading": "Build the smallest convincing thing",
-          "paragraphs": [
-            "Once a direction feels promising, I build the smallest version that can be tested: a key flow, a real piece of content, a responsive layout, and enough states to see how it behaves. A working fragment teaches more than a complete mockup of a product that does not exist yet.",
-            "This is also where writing becomes part of the design. Labels, empty states, and error messages often reveal gaps in the interaction model that the visuals were hiding."
-          ]
-        },
-        {
-          "heading": "Edit ruthlessly",
-          "paragraphs": [
-            "The final pass is mostly subtraction. Remove the second accent colour. Remove the animation that does not explain anything. Remove the feature that exists because it was easy to draw. What remains should have a reason to be there.",
-            "A clear interface is not the result of a single inspired moment. It is the result of a lot of small decisions, most of which are invisible in the final screenshot. The process is messy, but the outcome does not have to be."
-          ]
-        }
-      ],
-      "takeaways": [
-        "Collect context before committing to a visual direction.",
-        "Turn vague requests into specific design questions.",
-        "Sketch inside constraints to find a point of view.",
-        "Edit the interface until every element has a reason to exist."
+        "Eliminate training-serving skew by compiling feature definitions into both streaming and batch targets.",
+        "Use zero-copy serialization formats (FlatBuffers/Arrow) rather than JSON for feature payloads.",
+        "Deploy client-side probabilistic early expiration to prevent hot-key cache stampedes.",
+        "Benchmark feature retrieval latency percentiles (p95/p99) under simulated concurrent cluster load."
       ]
     },
     {
       "slug": "design-systems-that-scale",
-      "title": "Design systems that scale without slowing teams down",
-      "category": "Design systems",
-      "date": "2025-11-14",
-      "dateDisplay": "November 14, 2025",
-      "readingTime": 8,
-      "excerpt": "A design system is a product for a team, not a museum of components. The difference shows up in adoption, documentation, and the ability to say no.",
+      "title": "Calibrating Production Classifiers: Beyond Naive Softmax Probabilities",
+      "category": "Machine Learning",
+      "date": "2026-01-14",
+      "dateDisplay": "January 14, 2026",
+      "readingTime": 9,
+      "excerpt": "Why modern deep neural networks produce overconfident probabilities, and how temperature scaling and isotonic regression prevent catastrophic errors.",
       "image": "assets/images/blog-design-systems.svg",
-      "imageAlt": "An editorial cover showing a grid of design system components",
+      "imageAlt": "Calibration reliability diagram showing confidence curves versus empirical probabilities",
       "featured": false,
       "demo": true,
-      "demoLabel": "Sample article",
+      "demoLabel": "Applied Science",
       "tags": [
-        "Design systems",
-        "Teams",
-        "Documentation"
+        "Machine Learning",
+        "Probability Calibration",
+        "PyTorch",
+        "Production ML"
       ],
       "content": [
         {
-          "heading": "A system is a product",
+          "heading": "The Illusion of Softmax Confidence",
           "paragraphs": [
-            "A design system has users: designers and engineers who need to ship work. It has a backlog, a support burden, and a lifecycle. Treating it like a one-off library usually leads to a familiar outcome: a beautiful Figma file that slowly drifts away from the code.",
-            "The teams that get value from a system treat it as a product with a clear owner, a contribution model, and a way to measure whether it is actually helping. Coverage is not the goal. Adoption is."
+            "When deploying deep classifiers into risk-sensitive applications like fraud detection or clinical diagnosis, business logic depends heavily on the output probability threshold. A common misconception among engineers is assuming that a softmax output of 0.98 signifies a 98% empirical likelihood of positive classification.",
+            "In reality, modern deep networks with millions of parameters and Batch Normalization layers are notoriously overconfident. They achieve high raw accuracy at the cost of severely degraded probability calibration, making downstream threshold decisions highly brittle."
           ]
         },
         {
-          "heading": "Start with foundations",
+          "heading": "Reliability Curves & Expected Calibration Error (ECE)",
           "paragraphs": [
-            "Components are the visible part of a system, but the foundations do most of the work. Colour, type, spacing, radius, elevation, and motion tokens create a shared language before the first button is built. They also make it possible to change the system without rewriting every component.",
-            "Keep the foundation set small. A system with forty colour tokens and no clear usage guidance is not more flexible; it is harder to use. Semantic names, a documented scale, and a few intentional exceptions are usually enough."
+            "To diagnose calibration fidelity, we partition prediction probabilities into discrete bins and plot confidence against observed empirical accuracy in a reliability diagram. The Expected Calibration Error (ECE) formalizes the weighted discrepancy between predicted probability and actual frequency.",
+            "Prior to calibration, our baseline payment classification model exhibited an ECE of 0.142—meaning that predictions claiming 90% confidence were only correct 76% of the time in live traffic."
           ]
         },
         {
-          "heading": "Document decisions, not just components",
+          "heading": "Post-Hoc Calibration: Temperature Scaling & Isotonic Regression",
           "paragraphs": [
-            "A component page that only shows variants is a catalogue, not documentation. The useful parts are the decisions around it: when should this component be used, when should it not, what happens on a small screen, what does the keyboard interaction look like, and what is the accessible name?",
-            "Good documentation reduces support requests. It also gives new team members a way to understand the system without scheduling a meeting with the person who built it."
-          ]
-        },
-        {
-          "heading": "Make contribution easy",
-          "paragraphs": [
-            "If contributing to the system is painful, teams will build around it. A clear contribution path, a small review checklist, and a named owner make it easier to improve the system instead of creating another local variant.",
-            "The review should be opinionated but not territorial. The question is not 'does this match our style?' It is 'is this a shared pattern, and does it belong here?'"
-          ]
-        },
-        {
-          "heading": "Measure adoption, not coverage",
-          "paragraphs": [
-            "A system with one hundred components that nobody uses is not more mature than a system with twelve components that every product depends on. Measure where the system is used, where teams work around it, and where the documentation is missing.",
-            "The best sign of a healthy system is not a perfect library. It is a team that reaches for the shared pattern by default and knows how to improve it when the pattern no longer fits."
+            "Post-hoc calibration techniques adjust model logit outputs without altering classification boundaries or requiring full retraining. For neural models, Temperature Scaling introduces a single scalar parameter learned on a holdout calibration set that rescales logits before the final softmax activation.",
+            "For tabular gradient-boosted ensembles, Isotonic Regression fits a non-parametric piecewise monotonic function that maps raw scores to true posterior probabilities.",
+            "Applying these techniques dropped our live ECE from 0.142 to 0.016, enabling automated risk cutoff rules that preserved 99.4% precision."
           ]
         }
       ],
       "takeaways": [
-        "Give the system an owner, a backlog, and a support model.",
-        "Invest in a small, semantic foundation set.",
-        "Document usage and decisions, not only variants.",
-        "Measure adoption and workarounds instead of component count."
+        "Never interpret raw softmax probabilities as true empirical likelihoods in high-stakes systems.",
+        "Compute Expected Calibration Error (ECE) and inspect reliability curves on holdout evaluation data.",
+        "Implement Temperature Scaling for deep architectures and Isotonic Regression for tree ensembles.",
+        "Monitor calibration stability over time to detect early concept drift before accuracy drops."
+      ]
+    },
+    {
+      "slug": "web-development-practices",
+      "title": "Scaling Low-Latency Inference with Triton and Ray Serve",
+      "category": "MLOps",
+      "date": "2025-11-20",
+      "dateDisplay": "November 20, 2025",
+      "readingTime": 10,
+      "excerpt": "A hands-on guide to containerizing complex ML ensembles with NVIDIA Triton, dynamic batching, and Ray Serve concurrency controls.",
+      "image": "assets/images/blog-web-practices.jpg",
+      "imageAlt": "Distributed inference serving cluster architecture featuring Ray Serve and Triton",
+      "featured": false,
+      "demo": true,
+      "demoLabel": "Architecture Guide",
+      "tags": [
+        "MLOps",
+        "Triton",
+        "Ray Serve",
+        "Low Latency"
+      ],
+      "content": [
+        {
+          "heading": "The Notebook to Production Abyss",
+          "paragraphs": [
+            "Data science research typically concludes with a Jupyter notebook that loads a 4GB model checkpoint into GPU memory and runs sequential inference on batch arrays. When deploying that model into a high-concurrency microservice, naive Python HTTP servers (like Flask or synchronous FastAPI) collapse under concurrent thread contention.",
+            "Production model serving requires dedicated inference engines that manage GPU memory transfers, concurrent model instances, dynamic request batching, and hardware-accelerated kernels."
+          ]
+        },
+        {
+          "heading": "Dynamic Request Batching with NVIDIA Triton",
+          "paragraphs": [
+            "NVIDIA Triton Inference Server sits directly between your network edge and the physical GPUs. Its dynamic batcher aggregates individual incoming HTTP/gRPC requests within a configurable time window (e.g., 2ms) and passes a consolidated tensor into the accelerator.",
+            "This achieves the throughput advantages of batch processing while preserving strict sub-15ms single-request latency guarantees."
+          ]
+        },
+        {
+          "heading": "Orchestrating Complex Pipelines with Ray Serve",
+          "paragraphs": [
+            "Real-world workflows rarely consist of a single isolated model. They require preprocessing text, tokenization, vector search retrieval, neural scoring, and post-inference business rule filters.",
+            "Ray Serve excels as the orchestration fabric, managing heterogeneous deployments where CPU-heavy feature transforms scale independently from GPU-bound Triton inference containers."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Decouple CPU-heavy feature preprocessing from GPU-bound neural inference layers.",
+        "Leverage Triton's dynamic request batching to maximize accelerator saturation without latency degradation.",
+        "Compile model weights to TensorRT and ONNX formats to unlock hardware-specific kernel optimizations.",
+        "Expose granular Prometheus metrics for model queue latency, inference duration, and GPU memory utilization."
+      ]
+    },
+    {
+      "slug": "creative-process",
+      "title": "Why Embedded Analytics with DuckDB is Replacing Bulky Spark Clusters",
+      "category": "Data Engineering",
+      "date": "2025-09-08",
+      "dateDisplay": "September 8, 2025",
+      "readingTime": 6,
+      "excerpt": "For datasets under 500GB, spinning up multi-node Spark clusters introduces massive operational friction. How DuckDB enables ultra-fast in-process analytics.",
+      "image": "assets/images/blog-creative-process.jpg",
+      "imageAlt": "Benchmark comparison graph contrasting Spark cluster latency with DuckDB in-process execution",
+      "featured": false,
+      "demo": true,
+      "demoLabel": "Engineering Analysis",
+      "tags": [
+        "Data Engineering",
+        "DuckDB",
+        "SQL",
+        "Analytics"
+      ],
+      "content": [
+        {
+          "heading": "The Spark Cluster Tax",
+          "paragraphs": [
+            "For the past decade, Apache Spark has been the default recommendation for big data engineering. However, for 90% of data science workloads where data volumes range between 5GB and 300GB, spinning up a distributed JVM cluster is often an architectural antipattern.",
+            "Between cluster spin-up delays, network serialization overhead, driver-executor memory configuration battles, and cloud infrastructure costs, data teams pay a heavy operational tax for distributed compute they don't actually need."
+          ]
+        },
+        {
+          "heading": "Vectorized In-Process Execution with DuckDB",
+          "paragraphs": [
+            "DuckDB provides columnar, vectorized analytical execution directly within the host process memory space. Because it operates within the Python runtime, it interfaces with Arrow buffers and Pandas DataFrames with zero serialization overhead.",
+            "On complex multi-table aggregations across 80M rows of Parquet data, a single 16-core laptop running DuckDB consistently outperforms an 8-node EMR Spark cluster by 3.5x while completing in seconds rather than minutes."
+          ]
+        },
+        {
+          "heading": "Right-Sizing Data Architectures",
+          "paragraphs": [
+            "Distributing compute is only necessary when data cannot fit on a single modern server with 128GB+ of RAM. By adopting DuckDB for local exploration, feature prototyping, and medium-scale transformations, teams ship faster and dramatically lower their monthly cloud compute bills."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Evaluate data volume realistically: most analytical workloads fit comfortably in single-node memory.",
+        "Leverage DuckDB and Apache Arrow for zero-copy data interchange in Python analytical workflows.",
+        "Eliminate cluster provisioning latency and JVM overhead for datasets under 500GB.",
+        "Reserve distributed compute frameworks like Spark for true petabyte-scale streaming and batch architectures."
       ]
     }
   ]

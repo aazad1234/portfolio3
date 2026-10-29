@@ -15,8 +15,7 @@ async function boot() {
   initToast();
   initDemoLinks();
   initCopyButtons();
-
-  const seoReady = initSEO();
+  initSEO();
 
   await loadComponents();
 
@@ -28,10 +27,8 @@ async function boot() {
   initAnimations();
   initListings();
   initHomePage();
-  await initContactPage();
+  initContactPage();
   initArticlePage();
-
-  await seoReady;
 }
 
 boot().catch((error) => {

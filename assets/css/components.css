@@ -51,16 +51,110 @@
   z-index: 100;
   width: 100%;
   border-bottom: 1px solid transparent;
-  background: color-mix(in srgb, var(--bg) 84%, transparent);
-  backdrop-filter: blur(18px);
+  background: transparent;
   transition: background-color 0.3s var(--ease), border-color 0.3s var(--ease),
     box-shadow 0.3s var(--ease);
 }
 
+.site-header:not(.is-scrolled) .brand-name,
+.site-header:not(.is-scrolled) .brand-role,
+.site-header:not(.is-scrolled) .nav-link {
+  color: #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .brand-dot {
+  color: #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .brand-mark {
+  background: #FCF0DA;
+  color: #790D16;
+  border: 1px solid #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .nav-link:hover {
+  background: rgba(252, 240, 218, 0.15);
+  color: #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .nav-link.is-active {
+  color: #FCF0DA;
+  font-weight: 700;
+}
+
+.site-header:not(.is-scrolled) .icon-btn {
+  border-color: rgba(252, 240, 218, 0.35);
+  background: rgba(252, 240, 218, 0.12);
+  color: #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .icon-btn:hover {
+  border-color: #FCF0DA;
+  background: #FCF0DA;
+  color: #790D16;
+}
+
+.site-header:not(.is-scrolled) .header-cta {
+  background: #FCF0DA;
+  color: #790D16;
+  border: 1px solid #FCF0DA;
+}
+
+.site-header:not(.is-scrolled) .header-cta:hover {
+  background: #ffffff;
+  color: #790D16;
+}
+
 .site-header.is-scrolled {
-  border-color: var(--line);
-  background: color-mix(in srgb, var(--bg) 96%, transparent);
+  border-color: rgba(121, 13, 22, 0.2);
+  background: rgba(252, 240, 218, 0.98);
   box-shadow: var(--shadow-sm);
+}
+
+.site-header.is-scrolled .brand-name,
+.site-header.is-scrolled .brand-role,
+.site-header.is-scrolled .nav-link {
+  color: #790D16;
+}
+
+.site-header.is-scrolled .brand-dot {
+  color: #790D16;
+}
+
+.site-header.is-scrolled .brand-mark {
+  background: #790D16;
+  color: #FCF0DA;
+}
+
+.site-header.is-scrolled .icon-btn {
+  border-color: #790D16;
+  background: #FCF0DA;
+  color: #790D16;
+}
+
+.site-header.is-scrolled .header-cta {
+  background: #790D16;
+  color: #FCF0DA;
+  border: 1px solid #790D16;
+}
+
+body.menu-open .site-header,
+body.menu-open .site-header:not(.is-scrolled) {
+  border-color: #790D16;
+  background: #FCF0DA;
+  box-shadow: var(--shadow-sm);
+}
+
+body.menu-open .site-header .brand-name,
+body.menu-open .site-header .brand-role,
+body.menu-open .site-header .nav-link,
+body.menu-open .site-header .icon-btn {
+  color: #790D16;
+}
+
+body.menu-open .site-header .icon-btn {
+  border-color: #790D16;
+  background: #FCF0DA;
 }
 
 .header-inner {
@@ -317,10 +411,11 @@
   position: absolute;
   bottom: -1px;
   left: 0;
-  width: 0;
+  width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
-  transition: width 0.1s linear;
+  background: var(--primary);
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
 /* Mobile menu */
@@ -503,34 +598,25 @@
 }
 
 /* --------------------------------------------------------------------------
-   Footer
+   Footer (#FCF0DA bg, #790D16 text/elements)
    -------------------------------------------------------------------------- */
 
 .site-footer {
   position: relative;
   padding-block: clamp(3.5rem, 7vw, 6rem) 1.5rem;
   overflow: hidden;
-  background: var(--night-2);
-  color: var(--night-ink);
+  background: #FCF0DA;
+  color: #790D16;
+  border-top: 2px solid #790D16;
 }
 
 .site-footer::before {
-  position: absolute;
-  top: -40%;
-  right: -10%;
-  width: 55%;
-  height: 120%;
-  background: radial-gradient(
-    circle,
-    color-mix(in srgb, var(--primary-2) 18%, transparent),
-    transparent 62%
-  );
-  content: "";
-  pointer-events: none;
+  display: none;
 }
 
 [data-theme="dark"] .site-footer {
-  background: var(--night);
+  background: #FCF0DA;
+  color: #790D16;
 }
 
 .site-footer .container {
@@ -543,18 +629,27 @@
   grid-template-columns: 1.4fr 0.7fr 0.7fr 1fr;
   gap: 2rem;
   padding-bottom: 3rem;
-  border-bottom: 1px solid var(--night-line);
+  border-bottom: 1.5px solid rgba(121, 13, 22, 0.2);
 }
 
 .footer-brand .brand-name {
-  color: var(--night-ink);
+  color: #790D16;
   font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.footer-brand .brand-role {
+  color: rgba(121, 13, 22, 0.82);
+}
+
+.footer-brand .brand-dot {
+  color: #790D16;
 }
 
 .footer-brand p {
   max-width: 34ch;
   margin-top: 1rem;
-  color: var(--night-muted);
+  color: rgba(121, 13, 22, 0.88);
   font-size: 0.86rem;
   line-height: 1.65;
 }
@@ -564,16 +659,20 @@
   align-items: center;
   gap: 0.5rem;
   margin-top: 1.25rem;
-  color: var(--night-muted);
+  color: rgba(121, 13, 22, 0.88);
   font-size: 0.74rem;
+}
+
+.footer-availability .status-dot {
+  background: #790D16;
 }
 
 .footer-heading {
   margin-bottom: 1rem;
-  color: color-mix(in srgb, var(--night-ink) 46%, transparent);
+  color: #790D16;
   font-family: var(--font-sans);
-  font-size: 0.66rem;
-  font-weight: 600;
+  font-size: 0.68rem;
+  font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -586,14 +685,15 @@
 
 .footer-links a,
 .footer-links span {
-  color: color-mix(in srgb, var(--night-ink) 76%, transparent);
+  color: rgba(121, 13, 22, 0.85);
   font-size: 0.84rem;
   line-height: 1.5;
   text-decoration: none;
 }
 
 .footer-links a:hover {
-  color: var(--night-ink);
+  color: #790D16;
+  text-decoration: underline;
 }
 
 .footer-contact li {
@@ -604,7 +704,7 @@
 
 .footer-contact i {
   margin-top: 0.2rem;
-  color: var(--primary-2);
+  color: #790D16;
   font-size: 0.95rem;
 }
 
@@ -624,9 +724,10 @@
   justify-content: center;
   width: 38px;
   height: 38px;
-  border: 1px solid var(--night-line);
+  border: 1.5px solid #790D16;
   border-radius: 50%;
-  color: color-mix(in srgb, var(--night-ink) 76%, transparent);
+  color: #790D16;
+  background: transparent;
   font-size: 1rem;
   line-height: 1;
   text-decoration: none;
@@ -635,9 +736,9 @@
 }
 
 .social-link:hover {
-  border-color: var(--night-ink);
-  background: var(--night-ink);
-  color: var(--night-2);
+  border-color: #790D16;
+  background: #790D16;
+  color: #FCF0DA;
   transform: translateY(-2px);
 }
 
@@ -647,7 +748,7 @@
   justify-content: space-between;
   gap: 0.75rem 1.5rem;
   padding-top: 1.5rem;
-  color: color-mix(in srgb, var(--night-ink) 46%, transparent);
+  color: rgba(121, 13, 22, 0.75);
   font-size: 0.72rem;
 }
 
@@ -660,12 +761,14 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  color: var(--night-muted);
+  color: #790D16;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .footer-top-link:hover {
-  color: var(--night-ink);
+  color: #790D16;
+  text-decoration: underline;
 }
 
 .footer-top-link i {
@@ -677,23 +780,20 @@
 }
 
 /* --------------------------------------------------------------------------
-   Call-to-action band
+   Call-to-action band (#790D16 bg, #FCF0DA text/elements)
    -------------------------------------------------------------------------- */
 
 .cta-band {
   position: relative;
   padding-block: clamp(3.5rem, 7vw, 6rem);
   overflow: hidden;
-  background: var(--night-2);
-  color: var(--night-ink);
+  background: #790D16;
+  color: #FCF0DA;
+  border-top: 2px solid rgba(252, 240, 218, 0.25);
 }
 
 .cta-band::before {
-  position: absolute;
-  inset: 0;
-  background: var(--gradient-cta);
-  content: "";
-  pointer-events: none;
+  display: none;
 }
 
 .cta-inner {
@@ -707,19 +807,20 @@
 }
 
 .cta-band .eyebrow {
-  color: var(--primary-2);
+  color: #FCF0DA;
+  font-weight: 700;
 }
 
 .cta-title {
   max-width: 16ch;
   margin-bottom: 0.5rem;
-  color: var(--night-ink);
+  color: #FCF0DA;
 }
 
 .cta-text {
   max-width: 52ch;
   margin: 0;
-  color: var(--night-muted);
+  color: rgba(252, 240, 218, 0.9);
 }
 
 .cta-actions {
@@ -729,25 +830,30 @@
 }
 
 .cta-band .btn-primary {
-  background: var(--night-ink);
-  color: var(--night-2);
+  background: #FCF0DA;
+  color: #790D16;
+  border: 1.5px solid #FCF0DA;
+  font-weight: 700;
   box-shadow: none;
 }
 
 .cta-band .btn-primary:hover {
-  background: var(--sand-50);
-  color: var(--night-2);
+  background: #ffffff;
+  color: #790D16;
+  border-color: #ffffff;
 }
 
 .cta-band .btn-ghost {
-  border-color: color-mix(in srgb, var(--night-ink) 30%, transparent);
-  color: var(--night-ink);
+  border: 1.5px solid rgba(252, 240, 218, 0.5);
+  color: #FCF0DA;
+  background: transparent;
+  font-weight: 600;
 }
 
 .cta-band .btn-ghost:hover {
-  border-color: var(--night-ink);
-  background: color-mix(in srgb, var(--night-ink) 8%, transparent);
-  color: var(--night-ink);
+  border-color: #FCF0DA;
+  background: #FCF0DA;
+  color: #790D16;
 }
 
 /* --------------------------------------------------------------------------
@@ -767,7 +873,6 @@
   letter-spacing: 0.08em;
   line-height: 1;
   text-transform: uppercase;
-  backdrop-filter: blur(6px);
 }
 
 .badge-demo {

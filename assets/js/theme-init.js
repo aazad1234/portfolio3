@@ -11,14 +11,12 @@
     stored = null;
   }
 
-  var systemDark =
-    window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  var theme = stored === 'light' || stored === 'dark' ? stored : systemDark ? 'dark' : 'light';
+  var theme = stored === 'light' || stored === 'dark' ? stored : 'light';
 
   root.setAttribute('data-theme', theme);
 
   var themeColor = document.querySelector('meta[name="theme-color"]');
   if (themeColor) {
-    themeColor.setAttribute('content', theme === 'dark' ? '#0c0e15' : '#4f46e5');
+    themeColor.setAttribute('content', '#FCF0DA');
   }
 })();

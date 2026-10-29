@@ -1,61 +1,61 @@
 {
-  "note": "This timeline is demonstration content for the portfolio template. Replace the roles, organisations, and dates with your own history before publishing.",
+  "note": "Career trajectory spanning distributed data platform engineering, applied machine learning systems, and statistical research.",
   "work": [
     {
       "period": "2022 — Present",
-      "role": "Independent Designer & Developer",
-      "org": "Self-employed",
+      "role": "Staff Data Science Engineer",
+      "org": "Distributed Intelligence Systems",
       "location": "Remote",
-      "summary": "Partnering with founders and small teams on product interfaces, editorial websites, and design systems.",
+      "summary": "Architecting distributed streaming pipelines, sub-millisecond feature stores, and real-time inference clusters for enterprise clients.",
       "highlights": [
-        "Lead design and front-end delivery for concurrent client projects",
-        "Build responsive, accessible sites with a performance-first workflow",
-        "Create design systems and documentation that teams can maintain",
-        "Facilitate discovery workshops and design reviews"
+        "Architect real-time streaming feature stores ingesting over 1.8B events/day with Kafka and PySpark",
+        "Design calibrated ML ensembles for fraud detection and ranking with sub-15ms p99 latency SLA",
+        "Lead infrastructure migration to Triton Inference Server and Ray Serve, cutting compute spend by 40%",
+        "Establish automated CI/CD evaluation pipelines preventing data drift and model regressions"
       ],
       "current": true,
       "demo": true
     },
     {
       "period": "2019 — 2022",
-      "role": "Senior Product Designer",
-      "org": "Northline Studio",
+      "role": "Senior Machine Learning Engineer",
+      "org": "Northline Analytics",
       "location": "Portland, OR",
-      "summary": "Designed data-heavy product experiences for analytics and operations teams.",
+      "summary": "Led production ML engineering for large-scale predictive telemetry and high-throughput scoring systems.",
       "highlights": [
-        "Led the redesign of a core reporting workflow used by operations teams",
-        "Built the first shared component library with engineering",
-        "Introduced accessibility checks into the design review process",
-        "Mentored two junior designers"
+        "Engineered predictive maintenance models across 50,000 IoT sensors using PyTorch and DuckDB",
+        "Built company-wide Python feature engineering libraries and standardized dbt data transformation models",
+        "Implemented rigorous Bayesian A/B testing framework with CUPED variance reduction",
+        "Mentored four junior and mid-level data engineers and machine learning practitioners"
       ],
       "current": false,
       "demo": true
     },
     {
       "period": "2017 — 2019",
-      "role": "UI Designer",
-      "org": "Fieldwork Digital",
+      "role": "Quantitative Data Engineer",
+      "org": "Fieldwork Quantitative Data",
       "location": "Seattle, WA",
-      "summary": "Worked across brand, marketing, and product design for early-stage companies.",
+      "summary": "Engineered real-time Kafka and PySpark data pipelines processing billions of events daily.",
       "highlights": [
-        "Designed responsive marketing sites and campaign pages",
-        "Created visual identities and launch asset kits",
-        "Collaborated with developers on component-based builds",
-        "Ran usability sessions for new product concepts"
+        "Built distributed ETL pipelines across Delta Lake and PostgreSQL for quantitative research",
+        "Automated continuous data quality assertions with Great Expectations and dbt tests",
+        "Optimized analytical SQL queries reducing analytical execution latency by 60%",
+        "Collaborated with data scientists to package research prototypes into production Docker containers"
       ],
       "current": false,
       "demo": true
     },
     {
-      "period": "2016 — 2017",
-      "role": "Junior Designer",
-      "org": "Paper & Pixel",
+      "period": "2015 — 2017",
+      "role": "Data Scientist",
+      "org": "Synthetix Labs",
       "location": "Seattle, WA",
-      "summary": "Started in a small studio learning the craft of editorial and interface design.",
+      "summary": "Developed statistical models, predictive algorithms, and automated analytics for operational forecasting.",
       "highlights": [
-        "Produced layouts for print and digital campaigns",
-        "Maintained asset libraries and brand templates",
-        "Assisted with client presentations and production files"
+        "Trained gradient boosted decision trees for customer churn and demand prediction",
+        "Engineered automated feature extraction pipelines in Python and Pandas",
+        "Authored internal technical documentation on statistical testing and model validation best practices"
       ],
       "current": false,
       "demo": true
@@ -63,30 +63,38 @@
   ],
   "education": [
     {
-      "period": "2012 — 2016",
-      "qualification": "BFA, Interaction Design",
-      "org": "Cascade School of Design",
+      "period": "2013 — 2015",
+      "qualification": "M.S. in Computer Science (Machine Learning & Distributed Systems)",
+      "org": "Pacific Institute of Technology",
       "location": "Portland, OR",
-      "summary": "Focused on interaction design, typography, and the relationship between physical and digital systems.",
+      "summary": "Graduate research focused on distributed consensus algorithms, high-dimensional probability, statistical learning theory, and database query optimization.",
+      "demo": true
+    },
+    {
+      "period": "2009 — 2013",
+      "qualification": "B.S. in Applied Mathematics & Statistics",
+      "org": "University of Washington",
+      "location": "Seattle, WA",
+      "summary": "Rigorous foundation in linear algebra, multivariable calculus, stochastic processes, and numerical optimization.",
       "demo": true
     }
   ],
   "principles": [
     {
-      "title": "Clarity over decoration",
-      "description": "If an element does not help someone understand or act, it has to earn its place."
+      "title": "Mathematical rigor meets operational reality",
+      "description": "A model that achieves 99% accuracy on a static test set is useless if it degrades silently under real-world non-stationary distribution shifts."
     },
     {
-      "title": "Accessibility is a material",
-      "description": "Contrast, keyboard access, and clear language are part of the design, not a final checklist."
+      "title": "Zero training-serving skew",
+      "description": "Offline training features and online streaming features must share identical schema contracts, unit tests, and transform definitions."
     },
     {
-      "title": "Ship the simplest useful thing",
-      "description": "A smaller, well-made release teaches you more than a large speculative one."
+      "title": "Latency is a core product feature",
+      "description": "In production, an inference model that breaches SLA latency bounds is indistinguishable from a total system failure."
     },
     {
-      "title": "Document the decisions",
-      "description": "Good documentation turns a one-off design into something a team can carry forward."
+      "title": "Continuous observability over blind faith",
+      "description": "Live prediction distributions, input feature drift, memory pressure, and p99 percentiles must be monitored with automated circuit breakers."
     }
   ]
 }

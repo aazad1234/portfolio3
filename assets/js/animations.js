@@ -26,7 +26,7 @@ function createObservers() {
         observer.unobserve(entry.target);
       });
     },
-    { rootMargin: '0px 0px -8% 0px', threshold: 0.12 }
+    { rootMargin: '120px 0px 40px 0px', threshold: 0.01 }
   );
 
   skillObserver = new IntersectionObserver(
@@ -37,7 +37,7 @@ function createObservers() {
         observer.unobserve(entry.target);
       });
     },
-    { threshold: 0.35 }
+    { threshold: 0.2 }
   );
 
   return true;
@@ -47,7 +47,7 @@ function observeContent(root = document) {
   root.querySelectorAll('[data-reveal]:not(.is-revealed)').forEach((element) => {
     const delay = Number(element.dataset.revealDelay || 0);
     if (delay > 0) {
-      element.style.setProperty('--reveal-delay', `${delay}ms`);
+      element.style.setProperty('--reveal-delay', `${Math.min(delay, 120)}ms`);
     }
 
     if (revealObserver) {
@@ -71,15 +71,33 @@ function initScrollUI() {
   const progress = document.querySelector('[data-scroll-progress]');
   const topButton = document.querySelector('[data-scroll-top]');
   let ticking = false;
+  let isScrolled = false;
+  let isTopVisible = false;
+
+  let scrollable = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
+  const updateScrollable = () => {
+    scrollable = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
+  };
 
   const update = () => {
     const scrollTop = window.scrollY || document.documentElement.scrollTop || 0;
-    const scrollable = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
-    const ratio = Math.min(Math.max(scrollTop / scrollable, 0), 1);
 
-    if (header) header.classList.toggle('is-scrolled', scrollTop > 8);
-    if (progress) progress.style.width = `${ratio * 100}%`;
-    if (topButton) topButton.classList.toggle('is-visible', scrollTop > 600);
+    const nextScrolled = scrollTop > 12;
+    if (header && nextScrolled !== isScrolled) {
+      isScrolled = nextScrolled;
+      header.classList.toggle('is-scrolled', isScrolled);
+    }
+
+    if (progress) {
+      const ratio = Math.min(Math.max(scrollTop / scrollable, 0), 1);
+      progress.style.transform = `scaleX(${ratio})`;
+    }
+
+    const nextTopVisible = scrollTop > 500;
+    if (topButton && nextTopVisible !== isTopVisible) {
+      isTopVisible = nextTopVisible;
+      topButton.classList.toggle('is-visible', isTopVisible);
+    }
 
     ticking = false;
   };
@@ -92,7 +110,10 @@ function initScrollUI() {
 
   if (!scrollListenersAttached) {
     window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll, { passive: true });
+    window.addEventListener('resize', () => {
+      updateScrollable();
+      onScroll();
+    }, { passive: true });
     scrollListenersAttached = true;
   }
 

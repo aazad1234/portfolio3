@@ -1,120 +1,157 @@
 {
-  "note": "Proficiency levels are self-assessed sample content for this demo portfolio. Replace them with your own honest assessment.",
+  "note": "Proficiency assessments reflect production engineering benchmarks and applied research experience across large-scale data systems.",
   "groups": [
     {
-      "id": "design",
-      "label": "Design",
-      "icon": "ri-pen-nib-line",
-      "description": "The craft of making complex information feel simple, useful, and human.",
+      "id": "machine-learning",
+      "label": "Machine Learning & Modeling",
+      "icon": "ri-cpu-line",
+      "description": "Statistical learning, deep neural architectures, and calibrated inference engines built for mission-critical decisions.",
       "skills": [
         {
-          "name": "UI/UX design",
+          "name": "Machine Learning & PyTorch",
+          "level": 95,
+          "featured": true
+        },
+        {
+          "name": "Statistical Inference & A/B",
           "level": 92,
           "featured": true
         },
         {
-          "name": "Interaction design",
+          "name": "Gradient Boosted Trees (XGBoost/LightGBM)",
+          "level": 94
+        },
+        {
+          "name": "Feature Engineering & Drift Calibration",
+          "level": 90
+        },
+        {
+          "name": "Vector Search & Retrieval (RAG)",
           "level": 88
         },
         {
-          "name": "Design systems",
-          "level": 90,
-          "featured": true
-        },
-        {
-          "name": "Brand identity",
-          "level": 82
-        },
-        {
-          "name": "Prototyping",
-          "level": 86
-        },
-        {
-          "name": "Visual design",
-          "level": 90
+          "name": "Scikit-Learn & Predictive Modeling",
+          "level": 96
         }
       ]
     },
     {
-      "id": "development",
-      "label": "Development",
-      "icon": "ri-code-s-slash-line",
-      "description": "Front-end implementation with a bias for clarity, accessibility, and speed.",
+      "id": "data-engineering",
+      "label": "Distributed Systems & Data",
+      "icon": "ri-database-2-line",
+      "description": "High-throughput streaming, lakehouse storage layers, and sub-millisecond retrieval architectures.",
       "skills": [
         {
-          "name": "Semantic HTML & CSS",
+          "name": "Distributed Systems & Spark",
           "level": 94,
           "featured": true
         },
         {
-          "name": "JavaScript (ES2023)",
-          "level": 86
+          "name": "Kafka & Streaming Pipelines",
+          "level": 90
         },
         {
-          "name": "React",
-          "level": 80
+          "name": "SQL & Query Optimization",
+          "level": 96
         },
         {
-          "name": "Accessibility",
-          "level": 88,
+          "name": "DuckDB & In-Process Analytics",
+          "level": 88
+        },
+        {
+          "name": "dbt & Semantic Data Modeling",
+          "level": 89
+        },
+        {
+          "name": "Delta Lake & Iceberg Tables",
+          "level": 87
+        }
+      ]
+    },
+    {
+      "id": "mlops-serving",
+      "label": "MLOps & Production Serving",
+      "icon": "ri-server-line",
+      "description": "Low-latency model serving, container orchestration, and continuous telemetry monitoring.",
+      "skills": [
+        {
+          "name": "MLOps & Triton Serving",
+          "level": 91,
           "featured": true
         },
         {
-          "name": "Performance",
-          "level": 82
+          "name": "Docker & Kubernetes Orchestration",
+          "level": 90
         },
         {
-          "name": "Git & tooling",
-          "level": 85
+          "name": "MLflow & Experiment Tracking",
+          "level": 89
+        },
+        {
+          "name": "Ray & Distributed Compute",
+          "level": 88
+        },
+        {
+          "name": "Model Observability & Telemetry",
+          "level": 92
+        },
+        {
+          "name": "Python & High-Performance C++ Bindings",
+          "level": 89
         }
       ]
     }
   ],
   "tools": [
-    "Figma",
-    "Adobe Illustrator",
-    "Adobe Photoshop",
-    "After Effects",
-    "Storybook",
-    "VS Code",
-    "Git",
-    "Vite",
-    "Astro",
-    "Notion",
-    "Framer"
+    "Python",
+    "PyTorch",
+    "Apache Spark",
+    "Apache Kafka",
+    "DuckDB",
+    "PostgreSQL",
+    "SQL",
+    "dbt",
+    "Docker",
+    "Kubernetes",
+    "Ray",
+    "MLflow",
+    "Triton",
+    "Delta Lake",
+    "FastAPI",
+    "Git"
   ],
   "workflow": [
     {
       "step": "01",
-      "title": "Understand",
-      "description": "Talk to the people who use the thing, read the content, and map the constraints."
+      "title": "Formulate & Validate",
+      "description": "Frame business challenges as formal statistical objectives with measurable baseline benchmarks, guardrail metrics, and loss surfaces."
     },
     {
       "step": "02",
-      "title": "Frame",
-      "description": "Write the brief, define the information architecture, and choose the smallest useful scope."
+      "title": "Engineer Foundations",
+      "description": "Design reproducible data pipelines with strict schema contracts, deterministic feature transforms, and zero training-serving skew."
     },
     {
       "step": "03",
-      "title": "Explore",
-      "description": "Sketch broadly, prototype early, and test the interaction model before polishing pixels."
+      "title": "Model & Calibrate",
+      "description": "Train candidate architectures, apply Bayesian hyperparameter optimization, and evaluate calibration curves against non-stationary distributions."
     },
     {
       "step": "04",
-      "title": "Refine",
-      "description": "Build the system, check the edge cases, and make accessibility part of the definition of done."
+      "title": "Optimize & Benchmark",
+      "description": "Quantize weights, compile via ONNX / TensorRT, stress-test p99 latencies under heavy concurrent loads, and profile memory bounds."
     },
     {
       "step": "05",
-      "title": "Ship",
-      "description": "Launch with documentation, a performance check, and a clear plan for what happens next."
+      "title": "Deploy & Observe",
+      "description": "Launch shadow-mode or canary deployments with real-time drift telemetry, automated circuit breakers, and reproducible rollback plans."
     }
   ],
   "focusAreas": [
-    "Accessible interfaces",
-    "Design systems",
-    "Editorial web experiences",
-    "Front-end performance",
-    "Content-first product design"
+    "Production Machine Learning Systems",
+    "Distributed Streaming Architectures",
+    "Sub-Millisecond Feature Stores",
+    "Statistical Inference & Experimentation",
+    "Model Observability & Drift Detection"
   ]
 }
