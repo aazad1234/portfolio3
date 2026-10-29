@@ -1,12 +1,12 @@
 {
-  "name": "Ashley Miller — Creative Designer & Developer",
+  "name": "Ashley Miller — Data Science Engineer",
   "short_name": "Ashley Miller",
-  "description": "A multi-page portfolio for a designer and front-end developer.",
+  "description": "Distributed data engines, streaming feature stores, and production machine learning.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f7f5f0",
-  "theme_color": "#4f46e5",
+  "background_color": "#FCF0DA",
+  "theme_color": "#790D16",
   "icons": [
     {
       "src": "assets/images/icon-192.png",
