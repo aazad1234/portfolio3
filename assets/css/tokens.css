@@ -1,6 +1,6 @@
 /* ==========================================================================
    Ashley Miller portfolio — design tokens (Data Science Engineer)
-   Strict Palette: #790D16 (Burgundy) & #FCF0DA (Cream)
+   Strict Palette: #1A2F6B (Navy) & #F5F6FA (Off-White)
    ========================================================================== */
 
 :root {
@@ -24,61 +24,61 @@
   --text-6xl: 3.75rem;
   --text-7xl: 4.5rem;
 
-  /* Strict Two-Tone Palette */
-  --c-burgundy: #790D16;
-  --c-cream: #FCF0DA;
+  /* Two-Tone Palette */
+  --c-navy: #1A2F6B;
+  --c-offwhite: #F5F6FA;
 
   /* Semantic colour */
-  --bg: #FCF0DA;
-  --bg-alt: #790D16;
-  --surface: #FCF0DA;
-  --surface-2: #FCF0DA;
-  --surface-3: #FCF0DA;
-  --ink: #790D16;
-  --ink-2: #790D16;
-  --muted: rgba(121, 13, 22, 0.78);
-  --line: rgba(121, 13, 22, 0.22);
-  --line-strong: #790D16;
+  --bg: #F5F6FA;
+  --bg-alt: #1A2F6B;
+  --surface: #F5F6FA;
+  --surface-2: #ECEEF5;
+  --surface-3: #FAFBFD;
+  --ink: #0A0F1E;
+  --ink-2: #1A2F6B;
+  --muted: rgba(26, 47, 107, 0.78);
+  --line: rgba(26, 47, 107, 0.22);
+  --line-strong: #1A2F6B;
 
-  --primary: #790D16;
-  --primary-2: #54080E;
-  --primary-soft: rgba(121, 13, 22, 0.1);
-  --primary-ink: #FCF0DA;
-  --brand: #790D16;
+  --primary: #1A2F6B;
+  --primary-2: #122050;
+  --primary-soft: rgba(26, 47, 107, 0.1);
+  --primary-ink: #F5F6FA;
+  --brand: #1A2F6B;
 
-  --secondary: #790D16;
-  --secondary-2: #54080E;
-  --secondary-strong: #790D16;
-  --secondary-soft: rgba(121, 13, 22, 0.1);
-  --secondary-ink: #FCF0DA;
+  --secondary: #1A2F6B;
+  --secondary-2: #122050;
+  --secondary-strong: #1A2F6B;
+  --secondary-soft: rgba(26, 47, 107, 0.1);
+  --secondary-ink: #F5F6FA;
 
-  --accent: #790D16;
-  --accent-2: #54080E;
-  --accent-soft: rgba(121, 13, 22, 0.1);
+  --accent: #1A2F6B;
+  --accent-2: #122050;
+  --accent-soft: rgba(26, 47, 107, 0.1);
 
-  --teal-300: #790D16;
-  --teal-400: #790D16;
-  --teal-500: #790D16;
+  --teal-300: #4A7FD4;
+  --teal-400: #2D5FC4;
+  --teal-500: #1A2F6B;
 
-  --success: #790D16;
-  --success-soft: rgba(121, 13, 22, 0.1);
-  --danger: #790D16;
-  --danger-soft: rgba(121, 13, 22, 0.1);
+  --success: #1A5C36;
+  --success-soft: rgba(26, 92, 54, 0.1);
+  --danger: #8B1A1A;
+  --danger-soft: rgba(139, 26, 26, 0.1);
 
-  --night: #790D16;
-  --night-2: #790D16;
-  --night-3: #790D16;
-  --night-ink: #FCF0DA;
-  --night-muted: rgba(252, 240, 218, 0.8);
-  --night-line: rgba(252, 240, 218, 0.24);
-  --night-glass: rgba(121, 13, 22, 0.92);
+  --night: #0A0F1E;
+  --night-2: #0F1830;
+  --night-3: #1A2F6B;
+  --night-ink: #F5F6FA;
+  --night-muted: rgba(245, 246, 250, 0.8);
+  --night-line: rgba(245, 246, 250, 0.24);
+  --night-glass: rgba(26, 47, 107, 0.92);
 
   /* Gradients */
-  --gradient-brand: linear-gradient(135deg, #790D16 0%, #790D16 100%);
-  --gradient-brand-soft: linear-gradient(135deg, rgba(121, 13, 22, 0.12) 0%, rgba(121, 13, 22, 0.04) 100%);
-  --gradient-warm: linear-gradient(135deg, #FCF0DA 0%, #FCF0DA 100%);
-  --gradient-hero: linear-gradient(180deg, #790D16 0%, #790D16 100%);
-  --gradient-cta: linear-gradient(135deg, #790D16 0%, #790D16 100%);
+  --gradient-brand: linear-gradient(135deg, #1A2F6B 0%, #122050 100%);
+  --gradient-brand-soft: linear-gradient(135deg, rgba(26, 47, 107, 0.12) 0%, rgba(26, 47, 107, 0.04) 100%);
+  --gradient-warm: linear-gradient(135deg, #F5F6FA 0%, #ECEEF5 100%);
+  --gradient-hero: linear-gradient(180deg, #1A2F6B 0%, #122050 100%);
+  --gradient-cta: linear-gradient(135deg, #1A2F6B 0%, #122050 100%);
 
   /* Spacing scale */
   --space-1: 0.25rem;
@@ -133,54 +133,54 @@
 
 [data-theme="dark"] {
   color-scheme: light;
-  --bg: #FCF0DA;
-  --bg-alt: #790D16;
-  --surface: #FCF0DA;
-  --surface-2: #FCF0DA;
-  --ink: #790D16;
-  --ink-2: #790D16;
-  --muted: rgba(121, 13, 22, 0.78);
-  --line: rgba(121, 13, 22, 0.22);
-  --line-strong: #790D16;
+  --bg: #F5F6FA;
+  --bg-alt: #1A2F6B;
+  --surface: #F5F6FA;
+  --surface-2: #ECEEF5;
+  --ink: #0A0F1E;
+  --ink-2: #1A2F6B;
+  --muted: rgba(26, 47, 107, 0.78);
+  --line: rgba(26, 47, 107, 0.22);
+  --line-strong: #1A2F6B;
 
-  --primary: #790D16;
-  --primary-2: #54080E;
-  --primary-soft: rgba(121, 13, 22, 0.1);
-  --primary-ink: #FCF0DA;
+  --primary: #1A2F6B;
+  --primary-2: #122050;
+  --primary-soft: rgba(26, 47, 107, 0.1);
+  --primary-ink: #F5F6FA;
 
-  --secondary: #790D16;
-  --secondary-2: #54080E;
-  --secondary-strong: #790D16;
-  --secondary-soft: rgba(121, 13, 22, 0.1);
-  --secondary-ink: #FCF0DA;
+  --secondary: #1A2F6B;
+  --secondary-2: #122050;
+  --secondary-strong: #1A2F6B;
+  --secondary-soft: rgba(26, 47, 107, 0.1);
+  --secondary-ink: #F5F6FA;
 
-  --accent: #790D16;
-  --accent-2: #54080E;
-  --accent-soft: rgba(121, 13, 22, 0.1);
+  --accent: #1A2F6B;
+  --accent-2: #122050;
+  --accent-soft: rgba(26, 47, 107, 0.1);
 
-  --teal-300: #790D16;
-  --teal-400: #790D16;
-  --teal-500: #790D16;
+  --teal-300: #4A7FD4;
+  --teal-400: #2D5FC4;
+  --teal-500: #1A2F6B;
 
-  --success: #790D16;
-  --success-soft: rgba(121, 13, 22, 0.1);
-  --danger: #790D16;
-  --danger-soft: rgba(121, 13, 22, 0.1);
+  --success: #1A5C36;
+  --success-soft: rgba(26, 92, 54, 0.1);
+  --danger: #8B1A1A;
+  --danger-soft: rgba(139, 26, 26, 0.1);
 
   --gradient-brand-soft: linear-gradient(
     135deg,
-    rgba(121, 13, 22, 0.12) 0%,
-    rgba(121, 13, 22, 0.04) 100%
+    rgba(26, 47, 107, 0.12) 0%,
+    rgba(26, 47, 107, 0.04) 100%
   );
   --gradient-warm: linear-gradient(
     135deg,
-    #FCF0DA 0%,
-    #FCF0DA 100%
+    #F5F6FA 0%,
+    #ECEEF5 100%
   );
 
-  --shadow-sm: 0 1px 2px rgba(121, 13, 22, 0.06);
-  --shadow-md: 0 18px 44px -28px rgba(121, 13, 22, 0.25);
-  --shadow-lg: 0 40px 90px -48px rgba(121, 13, 22, 0.35);
+  --shadow-sm: 0 1px 2px rgba(26, 47, 107, 0.06);
+  --shadow-md: 0 18px 44px -28px rgba(26, 47, 107, 0.25);
+  --shadow-lg: 0 40px 90px -48px rgba(26, 47, 107, 0.35);
 }
 
 @media print {
