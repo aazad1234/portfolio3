@@ -34,13 +34,16 @@ body[data-page="home"] .site-header:not(.is-scrolled) .brand-dot {
   color: #F5F6FA;
 }
 
-body[data-page="home"] .site-header:not(.is-scrolled) .nav-link:hover {
-  background: rgba(56, 189, 248, 0.18);
-  color: #38BDF8;
+body[data-page="home"] .site-header:not(.is-scrolled) .nav-link:hover,
+body[data-page="home"] .site-header:not(.is-scrolled) .nav-dropdown-toggle:hover {
+  background: rgba(56, 189, 248, 0.18) !important;
+  color: #38BDF8 !important;
 }
 
-body[data-page="home"] .site-header:not(.is-scrolled) .nav-link.is-active {
-  color: #F5F6FA;
+body[data-page="home"] .site-header:not(.is-scrolled) .nav-link.is-active,
+body[data-page="home"] .site-header:not(.is-scrolled) .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.16) !important;
   font-weight: 700;
 }
 
@@ -74,9 +77,17 @@ body[data-page="home"] .site-header.is-scrolled .nav-link {
   color: #1A2F6B;
 }
 
-body[data-page="home"] .site-header.is-scrolled .nav-link:hover {
+body[data-page="home"] .site-header.is-scrolled .nav-link:hover,
+body[data-page="home"] .site-header.is-scrolled .nav-dropdown-toggle:hover {
   background: rgba(2, 132, 199, 0.12);
   color: #0284C7;
+}
+
+body[data-page="home"] .site-header.is-scrolled .nav-link.is-active,
+body[data-page="home"] .site-header.is-scrolled .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
+  color: #0284C7;
+  font-weight: 700;
+  background: rgba(2, 132, 199, 0.12);
 }
 
 body[data-page="home"] .site-header.is-scrolled .brand-dot {

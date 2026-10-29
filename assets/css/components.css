@@ -72,13 +72,16 @@
   background: rgba(245, 246, 250, 0.1);
 }
 
-.site-header:not(.is-scrolled) .nav-link:hover {
-  background: rgba(56, 189, 248, 0.18);
-  color: #38BDF8;
+.site-header:not(.is-scrolled) .nav-link:hover,
+.site-header:not(.is-scrolled) .nav-dropdown-toggle:hover {
+  background: rgba(56, 189, 248, 0.18) !important;
+  color: #38BDF8 !important;
 }
 
-.site-header:not(.is-scrolled) .nav-link.is-active {
-  color: #F5F6FA;
+.site-header:not(.is-scrolled) .nav-link.is-active,
+.site-header:not(.is-scrolled) .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.16) !important;
   font-weight: 700;
 }
 
@@ -117,8 +120,16 @@
   color: #1A2F6B;
 }
 
-.site-header.is-scrolled .nav-link:hover {
+.site-header.is-scrolled .nav-link:hover,
+.site-header.is-scrolled .nav-dropdown-toggle:hover {
   color: #0284C7;
+  background: rgba(2, 132, 199, 0.12);
+}
+
+.site-header.is-scrolled .nav-link.is-active,
+.site-header.is-scrolled .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
+  color: #0284C7;
+  font-weight: 700;
   background: rgba(2, 132, 199, 0.12);
 }
 
@@ -293,7 +304,17 @@ body.menu-open .site-header .icon-btn {
 }
 
 .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
-  color: var(--primary);
+  color: #0284C7;
+}
+
+.site-header:not(.is-scrolled) .nav-item.has-dropdown.is-active > .nav-dropdown-toggle {
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+}
+
+.site-header:not(.is-scrolled) .nav-item.has-dropdown.is-active > .nav-dropdown-toggle:hover {
+  color: #38BDF8 !important;
+  background: rgba(56, 189, 248, 0.18) !important;
 }
 
 .nav-dropdown {
@@ -611,6 +632,37 @@ body.menu-open .site-header .icon-btn {
   font-weight: 500;
 }
 
+.page-hero .breadcrumbs ol,
+.page-hero .breadcrumbs a,
+.page-hero .breadcrumbs li,
+.article-hero .breadcrumbs ol,
+.article-hero .breadcrumbs a,
+.article-hero .breadcrumbs li,
+.detail-hero .breadcrumbs ol,
+.detail-hero .breadcrumbs a,
+.detail-hero .breadcrumbs li {
+  color: rgba(245, 246, 250, 0.88);
+}
+
+.page-hero .breadcrumbs li + li::before,
+.article-hero .breadcrumbs li + li::before,
+.detail-hero .breadcrumbs li + li::before {
+  color: rgba(245, 246, 250, 0.45);
+}
+
+.page-hero .breadcrumbs a:hover,
+.article-hero .breadcrumbs a:hover,
+.detail-hero .breadcrumbs a:hover {
+  color: #FFFFFF;
+}
+
+.page-hero .breadcrumbs [aria-current="page"],
+.article-hero .breadcrumbs [aria-current="page"],
+.detail-hero .breadcrumbs [aria-current="page"] {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
 /* --------------------------------------------------------------------------
    Footer (#F5F6FA bg, #1A2F6B text/elements)
    -------------------------------------------------------------------------- */
@@ -926,7 +978,7 @@ body.menu-open .site-header .icon-btn {
   color: var(--ink-2);
   font-size: 0.72rem;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.35;
   text-decoration: none;
 }
 
@@ -934,12 +986,14 @@ body.menu-open .site-header .icon-btn {
   border-color: transparent;
   background: var(--accent-soft);
   color: var(--accent);
+  font-weight: 600;
 }
 
 .tag--primary {
   border-color: transparent;
   background: var(--primary-soft);
   color: var(--primary);
+  font-weight: 600;
 }
 
 .tool-cloud {

@@ -30,7 +30,7 @@
 
   /* Semantic colour */
   --bg: #F5F6FA;
-  --bg-alt: #1A2F6B;
+  --bg-alt: #ECEEF5;
   --surface: #F5F6FA;
   --surface-2: #ECEEF5;
   --surface-3: #FAFBFD;
@@ -134,7 +134,7 @@
 [data-theme="dark"] {
   color-scheme: light;
   --bg: #F5F6FA;
-  --bg-alt: #1A2F6B;
+  --bg-alt: #ECEEF5;
   --surface: #F5F6FA;
   --surface-2: #ECEEF5;
   --ink: #0A0F1E;
