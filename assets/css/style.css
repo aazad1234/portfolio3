@@ -807,6 +807,12 @@ em {
   margin-bottom: clamp(2rem, 4vw, 3.5rem);
 }
 
+.section-head .eyebrow {
+  display: flex;
+  width: fit-content;
+  margin-bottom: 1.15rem;
+}
+
 .section-head-row {
   display: flex;
   flex-wrap: wrap;
@@ -816,20 +822,45 @@ em {
 }
 
 .section-title {
-  color: #F5F6FA;
+  display: block;
   max-width: 18ch;
+  margin-top: 0;
   margin-bottom: 0;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: clamp(2.1rem, 4.2vw, 3.4rem);
+  font-weight: 400;
+  line-height: 1.34;
+  letter-spacing: -0.015em;
+  color: #1A2F6B;
+}
+
+.section-title > span,
+.section-title:not(:has(span)) {
+  display: inline;
+  background-color: #1A2F6B;
+  color: #FFFFFF !important;
+  padding: 0.08em 0.38em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-shadow: none;
 }
 
 .section-lede {
+  display: block;
   max-width: 62ch;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 .section-head--center {
   margin-inline: auto;
   text-align: center;
+}
+
+.section-head--center .eyebrow {
+  margin-inline: auto;
 }
 
 .section-head--center .eyebrow::before {

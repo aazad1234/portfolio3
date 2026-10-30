@@ -683,8 +683,13 @@ html:not(.js) .skill-ring .ring-value {
   font-weight: 700;
 }
 
-.home-work .section-title {
-  color: #F5F6FA;
+.home-work .section-title,
+.home-work .section-title > span {
+  background-color: transparent;
+  color: #F5F6FA !important;
+  padding: 0;
+  box-decoration-break: none;
+  -webkit-box-decoration-break: none;
 }
 
 .home-work .section-subtitle {
@@ -912,8 +917,14 @@ html:not(.js) .skill-ring .ring-value {
   font-weight: 700;
 }
 
-.home-services .section-title {
-  color: #1A2F6B;
+.home-services .section-title > span,
+.home-services .section-title:not(:has(span)) {
+  display: inline;
+  background-color: #1A2F6B;
+  color: #FFFFFF !important;
+  padding: 0.08em 0.38em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .home-services .section-subtitle {
@@ -1073,8 +1084,14 @@ html:not(.js) .skill-ring .ring-value {
   font-weight: 700;
 }
 
-.home-journal .section-title {
-  color: #1A2F6B;
+.home-journal .section-title > span,
+.home-journal .section-title:not(:has(span)) {
+  display: inline;
+  background-color: #1A2F6B;
+  color: #FFFFFF !important;
+  padding: 0.08em 0.38em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .home-journal .text-link {

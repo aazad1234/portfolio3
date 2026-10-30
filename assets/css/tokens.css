@@ -8,7 +8,7 @@
 
   /* Typography */
   --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-display: "Bricolage Grotesque", Georgia, serif;
+  --font-display: Georgia, "Times New Roman", serif;
   --font-script: "Pacifico", "Brush Script MT", cursive;
   --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 

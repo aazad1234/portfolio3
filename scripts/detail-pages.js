@@ -209,7 +209,7 @@ function renderBlogDetail(post, allPosts, entry) {
           <div class="section-head section-head-row">
             <div>
               <p class="eyebrow">Keep reading</p>
-              <h2 class="section-title">Related notes.</h2>
+              <h2 class="section-title"><span>Related notes.</span></h2>
             </div>
             <a class="text-link" href="../blog.html">All articles <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
           </div>
