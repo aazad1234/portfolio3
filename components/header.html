@@ -22,7 +22,30 @@
     </a>
 
     <nav class="primary-nav" aria-label="Primary">
-      <ul class="nav-list" data-nav-list></ul>
+      <ul class="nav-list" data-nav-list>
+        <li class="nav-item"><a class="nav-link" href="{{root}}/index.html">Home</a></li>
+        <li class="nav-item has-dropdown">
+          <button class="nav-link nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-about">About<i class="ri-arrow-down-s-line" aria-hidden="true"></i></button>
+          <div class="nav-dropdown" id="nav-dropdown-about">
+            <ul>
+              <li><a href="{{root}}/about.html">About me</a></li>
+              <li><a href="{{root}}/skills.html">Skills &amp; expertise</a></li>
+              <li><a href="{{root}}/experience.html">Experience</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item has-dropdown">
+          <button class="nav-link nav-dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="nav-dropdown-work">Work<i class="ri-arrow-down-s-line" aria-hidden="true"></i></button>
+          <div class="nav-dropdown" id="nav-dropdown-work">
+            <ul>
+              <li><a href="{{root}}/projects.html">Projects</a></li>
+              <li><a href="{{root}}/services.html">Services</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="{{root}}/blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{root}}/contact.html">Contact</a></li>
+      </ul>
     </nav>
 
     <div class="header-actions">
@@ -42,7 +65,16 @@
 <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
   <div class="mobile-menu-inner">
     <nav aria-label="Mobile">
-      <ul class="mobile-nav-list" data-mobile-nav-list></ul>
+      <ul class="mobile-nav-list" data-mobile-nav-list>
+        <li><a class="mobile-nav-link" href="{{root}}/index.html">Home</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/about.html">About me</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/skills.html">Skills &amp; expertise</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/experience.html">Experience</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/projects.html">Projects</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/services.html">Services</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/blog.html">Blog</a></li>
+        <li><a class="mobile-nav-link" href="{{root}}/contact.html">Contact</a></li>
+      </ul>
     </nav>
     <div class="mobile-menu-footer">
       <a class="btn btn-primary" href="{{root}}/contact.html">Start a project <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
